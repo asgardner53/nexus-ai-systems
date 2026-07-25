@@ -19,7 +19,7 @@ This register records the approved status, classification, ownership and authori
 | LinkedIn Thought Leadership Studio | NEX-AI-LTL-001 | Controlled | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/linkedin-thought-leadership-studio-v1.0.md` |
 | Nexus Ebook Studio | NEX-AI-EBS-001 | Controlled | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` with dedicated title repositories or controlled folders as approved | `studio-control-records/nexus-ebook-studio-v1.0.md` |
 | Nexus Masterclass Studio | NEX-AI-MCS-001 | Professional | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/Nexus-BMG-masterclass-studio` with governance record in `asgardner53/nexus-ai-systems` | `studio-control-records/nexus-masterclass-studio-v1.0.md` |
-| ChatGPT Studio Development Guide | NEX-AI-CSD-001 | Professional | Alec Gardner | Awaiting control record | Pending | Pending | `asgardner53/nexus-ai-systems` | Pending |
+| ChatGPT Studio Development Guide | NEX-AI-CSD-001 | Professional | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/chatgpt-studio-development-guide-v1.0.md` |
 
 ## Register rules
 
