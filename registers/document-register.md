@@ -24,6 +24,7 @@ GitHub repository history provides the detailed technical version trail. This re
 | NEX-TMP-001 | Nexus AI Studio Control Record Template | 1.0 | Approved | Alec Gardner | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `templates/studio-control-record-template.md` |
 | NEX-SCR-001 | Assessment Review Studio Control Record | 1.0 | Approved | Alec Gardner | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/assessment-review-studio-v1.0.md` |
 | NEX-SCR-002 | AIRBOK Development Studio Control Record | 1.0 | Approved | Alec Gardner | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/airbok-development-studio-v1.0.md` |
+| NEX-SCR-003 | LinkedIn Thought Leadership Studio Control Record | 1.0 | Approved | Alec Gardner | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/linkedin-thought-leadership-studio-v1.0.md` |
 | NEX-REG-001 | Nexus AI Studio Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/studio-register.md` |
 | NEX-REG-002 | Nexus Plugin and Connector Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/plugin-and-connector-register.md` |
 | NEX-REG-003 | Nexus Controlled Document Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/document-register.md` |
