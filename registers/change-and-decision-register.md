@@ -29,6 +29,8 @@ Routine drafting edits do not require an entry. Decisions that change authority,
 | NEX-DEC-008 | 26 July 2026 | Privacy | Prohibit student submissions, videos and assessment records from public GitHub repositories | Protects restricted student information and RTO records | Alec Gardner | Assessment Review Studio | Implemented |
 | NEX-DEC-009 | 26 July 2026 | Connectors | Approve Plugin and Connector Register v1.0 with stated restrictions | Ensures technical availability does not become uncontrolled authority | Alec Gardner | All governed Studios | Implemented |
 | NEX-DEC-010 | 26 July 2026 | Operating principle | Adopt `AI assists. Humans decide. GitHub records.` | Clarifies the relationship between AI support, human accountability and formal records | Alec Gardner | All governed Studios | Implemented |
+| NEX-DEC-011 | 26 July 2026 | Classification | Classify LinkedIn Thought Leadership Studio as Controlled | External publication under Alec Gardner and Nexus BMG creates reputational, legal and evidentiary risk | Alec Gardner | LinkedIn Thought Leadership Studio | Implemented |
+| NEX-DEC-012 | 26 July 2026 | Studio approval | Approve LinkedIn Thought Leadership Studio Control Record v1.0 | Establishes evidence, voice, publication, brand and human-approval controls | Alec Gardner | LinkedIn Thought Leadership Studio | Implemented |
 
 ## Decision entry requirements
 
