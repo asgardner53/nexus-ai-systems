@@ -33,6 +33,8 @@ Routine drafting edits do not require an entry. Decisions that change authority,
 | NEX-DEC-012 | 26 July 2026 | Studio approval | Approve LinkedIn Thought Leadership Studio Control Record v1.0 | Establishes evidence, voice, publication, brand and human-approval controls | Alec Gardner | LinkedIn Thought Leadership Studio | Implemented |
 | NEX-DEC-013 | 26 July 2026 | Classification | Classify Nexus Ebook Studio as Controlled | Ebook development and publication involve manuscript, evidence, rights, production and release risks | Alec Gardner | Nexus Ebook Studio | Implemented |
 | NEX-DEC-014 | 26 July 2026 | Studio approval | Approve Nexus Ebook Studio Control Record v1.0 | Establishes manuscript authority, research, editorial, EPUB, rights and publication-release controls | Alec Gardner | Nexus Ebook Studio | Implemented |
+| NEX-DEC-015 | 26 July 2026 | Classification | Classify Nexus Masterclass Studio as Professional | Produces professional learning assets without default competency, accreditation or regulated-decision authority | Alec Gardner | Nexus Masterclass Studio | Implemented |
+| NEX-DEC-016 | 26 July 2026 | Studio approval | Approve Nexus Masterclass Studio Control Record v1.0 | Establishes learning design, evidence, participant safety, confidentiality, delivery and credential-boundary controls | Alec Gardner | Nexus Masterclass Studio | Implemented |
 
 ## Decision entry requirements
 
