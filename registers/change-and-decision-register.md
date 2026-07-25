@@ -35,6 +35,8 @@ Routine drafting edits do not require an entry. Decisions that change authority,
 | NEX-DEC-014 | 26 July 2026 | Studio approval | Approve Nexus Ebook Studio Control Record v1.0 | Establishes manuscript authority, research, editorial, EPUB, rights and publication-release controls | Alec Gardner | Nexus Ebook Studio | Implemented |
 | NEX-DEC-015 | 26 July 2026 | Classification | Classify Nexus Masterclass Studio as Professional | Produces professional learning assets without default competency, accreditation or regulated-decision authority | Alec Gardner | Nexus Masterclass Studio | Implemented |
 | NEX-DEC-016 | 26 July 2026 | Studio approval | Approve Nexus Masterclass Studio Control Record v1.0 | Establishes learning design, evidence, participant safety, confidentiality, delivery and credential-boundary controls | Alec Gardner | Nexus Masterclass Studio | Implemented |
+| NEX-DEC-017 | 26 July 2026 | Classification | Classify ChatGPT Studio Development Guide as Professional | Supports professional Studio design while preserving separate approval for deployment, connectors and consequential uses | Alec Gardner | ChatGPT Studio Development Guide | Implemented |
+| NEX-DEC-018 | 26 July 2026 | Studio approval | Approve ChatGPT Studio Development Guide Control Record v1.0 | Establishes beginner accessibility, source, permission, testing, privacy, launch and version-control requirements | Alec Gardner | ChatGPT Studio Development Guide | Implemented |
 
 ## Decision entry requirements
 
