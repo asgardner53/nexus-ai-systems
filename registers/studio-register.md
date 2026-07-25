@@ -15,7 +15,7 @@ This register records the approved status, classification, ownership and authori
 | Studio | Identifier | Classification | Owner | Status | Effective date | Next review | Authoritative repository | Control record |
 |---|---|---|---|---|---|---|---|---|
 | Assessment Review Studio | NEX-AI-ARS-001 | Restricted | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/assessment-review-studio-v1.0.md` |
-| AIRBOK Development Studio | NEX-AI-AIR-001 | Controlled | Alec Gardner | Control record in development | Pending | Pending | `asgardner53/airbok-foundational-edition` with governance record in `asgardner53/nexus-ai-systems` | Pending |
+| AIRBOK Development Studio | NEX-AI-AIRBOK-001 | Controlled | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/airbok-foundational-edition` with governance record in `asgardner53/nexus-ai-systems` | `studio-control-records/airbok-development-studio-v1.0.md` |
 | LinkedIn Thought Leadership Studio | NEX-AI-LTL-001 | Professional / Controlled review required | Alec Gardner | Awaiting control record | Pending | Pending | To be confirmed | Pending |
 | Nexus Ebook Studio | NEX-AI-EBS-001 | Professional / Controlled review required | Alec Gardner | Awaiting control record | Pending | Pending | To be confirmed | Pending |
 | Nexus Masterclass Studio | NEX-AI-MCS-001 | Professional | Alec Gardner | Awaiting control record | Pending | Pending | `asgardner53/Nexus-BMG-masterclass-studio` | Pending |
