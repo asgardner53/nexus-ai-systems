@@ -28,6 +28,7 @@ GitHub repository history provides the detailed technical version trail. This re
 | NEX-REG-002 | Nexus Plugin and Connector Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/plugin-and-connector-register.md` |
 | NEX-REG-003 | Nexus Controlled Document Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/document-register.md` |
 | NEX-REG-004 | Nexus Change and Decision Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/change-and-decision-register.md` |
+| NEX-REG-005 | Nexus AI Incident Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/incident-register.md` |
 
 ## Document status definitions
 
