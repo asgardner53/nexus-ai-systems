@@ -38,6 +38,8 @@ Routine drafting edits do not require an entry. Decisions that change authority,
 | NEX-DEC-017 | 26 July 2026 | Classification | Classify ChatGPT Studio Development Guide as Professional | Supports professional Studio design while preserving separate approval for deployment, connectors and consequential uses | Alec Gardner | ChatGPT Studio Development Guide | Implemented |
 | NEX-DEC-018 | 26 July 2026 | Studio approval | Approve ChatGPT Studio Development Guide Control Record v1.0 | Establishes beginner accessibility, source, permission, testing, privacy, launch and version-control requirements | Alec Gardner | ChatGPT Studio Development Guide | Implemented |
 
+| NEX-DEC-GAS-20260922-001 | 22 September 2026 | Repository and document control | Record the user-authorised preparation and GitHub storage of Grants Access Studio Charter v0.1; Charter approval remains pending | Establish a reviewable design covering users, scope, workflow, evidence and approval gates | Alec Gardner — drafting and GitHub storage only | Grants Access Studio; GAS-CH-001; review branch `grants-access-charter-v0.1` | Draft prepared for review; no operational approval |
+
 ## Decision entry requirements
 
 Each future entry should record:

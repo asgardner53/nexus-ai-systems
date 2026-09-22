@@ -21,6 +21,8 @@ This register records the approved status, classification, ownership and authori
 | Nexus Masterclass Studio | NEX-AI-MCS-001 | Professional | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/Nexus-BMG-masterclass-studio` with governance record in `asgardner53/nexus-ai-systems` | `studio-control-records/nexus-masterclass-studio-v1.0.md` |
 | ChatGPT Studio Development Guide | NEX-AI-CSD-001 | Professional | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/chatgpt-studio-development-guide-v1.0.md` |
 
+| Grants Access Studio | NEX-AI-GAS-001 | Pending owner classification | Alec Gardner | Draft — not operationally approved | Pending approval | Before pilot release | `asgardner53/nexus-ai-systems` | `studio-control-records/grants-access-studio-charter-v0.1-draft.md` |
+
 ## Register rules
 
 1. A Studio must not be described as governed or approved unless its control record is approved and linked here.

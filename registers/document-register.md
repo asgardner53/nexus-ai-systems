@@ -34,6 +34,8 @@ GitHub repository history provides the detailed technical version trail. This re
 | NEX-REG-004 | Nexus Change and Decision Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/change-and-decision-register.md` |
 | NEX-REG-005 | Nexus AI Incident Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/incident-register.md` |
 
+| GAS-CH-001 | Grants Access Studio Charter | 0.1 | Draft | Alec Gardner | Pending approval | At owner review and before pilot release | `asgardner53/nexus-ai-systems` | `studio-control-records/grants-access-studio-charter-v0.1-draft.md` |
+
 ## Document status definitions
 
 - **Draft:** under development and not approved for reliance.
