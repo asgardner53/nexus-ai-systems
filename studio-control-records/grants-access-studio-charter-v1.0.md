@@ -1,15 +1,15 @@
 # Grants Access Studio Charter
 
 **Document ID:** GAS-CH-001  
-**Version:** 0.1  
+**Version:** 1.0  
 **Date:** 22 September 2026  
-**Status:** Superseded — historical draft; replaced by approved Charter v1.0 on 22 September 2026  
-**Proposed owner:** Alec Gardner, Nexus BMG Pty Ltd  
+**Status:** Approved — design baseline; operational release remains subject to pilot validation  
+**Owner:** Alec Gardner, Nexus BMG Pty Ltd  
 **Approval authority:** Alec Gardner  
-**Effective date:** Not effective; pending approval  
-**Next review:** At owner review and before pilot release  
+**Effective date:** 22 September 2026  
+**Next review:** Before pilot release, after the pilot, or on a material change  
 **Repository:** asgardner53/nexus-ai-systems  
-**Repository path:** studio-control-records/grants-access-studio-charter-v0.1-draft.md  
+**Repository path:** studio-control-records/grants-access-studio-charter-v1.0.md  
 **Research foundation:** Australian grant guidance reviewed on 22 September 2026  
 **Operating principle:** AI assists. Humans decide. Institutions remain accountable.
 
@@ -19,13 +19,13 @@ Grants Access Studio will help Australian applicants identify suitable grants, m
 
 The Studio’s purpose is to improve application quality, suitability and efficiency. It cannot guarantee funding or determine a funder’s decision. A well-written application cannot compensate for ineligibility, unsupported claims or an undeliverable project.
 
-This Charter defines a proposed operating design. It does not establish a live application portal, connect databases, schedule searches or authorise submissions. Those implementation activities will be recorded separately.
+This Charter defines the approved operating design. It does not establish a live application portal, connect databases, schedule searches or authorise submissions. Those implementation activities will be recorded separately.
 
 ## 2. Users and decision rights
 
 | User or role | Responsibility and authority |
 |---|---|
-| Studio owner — proposed: Alec Gardner | Approves the Charter, operating scope, significant changes and release readiness; appoints responsible people for each application. |
+| Studio owner — Alec Gardner | Approves the Charter, operating scope, significant changes and release readiness; appoints responsible people for each application. |
 | Applicant owner | Confirms the applicant’s identity, organisational facts, project intent, evidence permissions and decision to pursue an opportunity. |
 | Project lead | Owns project design, delivery feasibility, milestones, outcomes, resources and risk responses. |
 | Application coordinator | Maintains the opportunity record, requirements matrix, deadlines, drafts, attachments and review actions. |
@@ -38,7 +38,7 @@ One person may hold several roles where proportionate. Each role must still have
 
 ## 3. Scope and applicant pathways
 
-The proposed national scope covers Commonwealth, state and territory, local government and suitable philanthropic grants. Discovery may use aggregators, but opportunity requirements must be verified against the funder’s current materials.
+The approved national scope covers Commonwealth, state and territory, local government and suitable philanthropic grants. Discovery may use aggregators, but opportunity requirements must be verified against the funder’s current materials.
 
 | Pathway | Distinct checks |
 |---|---|
@@ -46,7 +46,7 @@ The proposed national scope covers Commonwealth, state and territory, local gove
 | Charity and community | Legal entity, charitable or not-for-profit status, DGR status where required, beneficiaries, community participation and any permitted auspice arrangement. |
 | Research and collaboration | Eligible administering organisation, partners, research requirements, intellectual property, ethics and scheme-specific AI rules. Specialist review is required before use. |
 
-Nexus BMG’s own applications and authorised client applications are proposed users of the same workflow. Their records, permissions and evidence remain separate. No applicant’s eligibility is assumed from a familiar business name or an earlier application.
+Nexus BMG’s own applications and authorised client applications are supported applicant groups within the approved design. Their records, permissions and evidence remain separate. No applicant’s eligibility is assumed from a familiar business name or an earlier application.
 
 In scope are readiness reviews, grant discovery, opportunity screening, funder-question drafts, project design, evidence research, budget preparation, application drafting, review, submission preparation, receipt capture, agreement-obligation tracking and learning from outcomes.
 
@@ -135,11 +135,11 @@ Before operational release, run one real or explicitly simulated application thr
 
 Measure preparation time, avoidable rework, evidence gaps, reviewer corrections, timely lodgement and completeness. Track funding outcomes with scheme and competition context; do not imply that funding success alone proves Studio effectiveness. Establish targets after the pilot provides a baseline.
 
-Review the Charter after the pilot and when a material process, funder, privacy or AI-policy change affects it. Recheck individual opportunity documents at intake and before submission. These are operating requirements for the proposed Studio, not an assertion that automated monitoring has been activated.
+Review the Charter after the pilot and when a material process, funder, privacy or AI-policy change affects it. Recheck individual opportunity documents at intake and before submission. These are operating requirements for the Studio design, not an assertion that automated monitoring has been activated.
 
 ## 9. Foundation source register
 
-These sources were reviewed in the preceding research stage on 22 September 2026. They support the practices below, not the eligibility of any particular applicant. The gate structure, role assignments and record design are proposed Studio controls rather than universal funder mandates.
+These sources were reviewed in the preceding research stage on 22 September 2026. They support the practices below, not the eligibility of any particular applicant. The gate structure, role assignments and record design are approved Studio controls rather than universal funder mandates.
 
 | ID | Source and supported practice | Authority and limitation |
 |---|---|---|
@@ -153,14 +153,16 @@ These sources were reviewed in the preceding research stage on 22 September 2026
 | GA-08 | [Philanthropy Australia: How to seek funding](https://www.philanthropy.org.au/seeking-funding/how-to-seek-funding/) — funder alignment and distinct philanthropic pathways. | Sector guidance; individual funder eligibility still needs verification. |
 | GA-09 | [ARC: Policy on Use of Generative AI, version 2026.1](https://www.arc.gov.au/system/files/2026-04/arc-ai-policy-2026.1-1.pdf) — applicant responsibility and requested transparency. | Primary ARC policy; effective 28 April 2026 with specified round applicability. Not a universal grants policy. |
 
-Evidence is adequate for this draft operating design. It is not a legal determination or evidence that an applicant qualifies for funding. No live grant has been screened or application submitted under this Charter.
+Evidence is adequate for this approved design baseline. It is not a legal determination or evidence that an applicant qualifies for funding. No live grant has been screened or application submitted under this Charter.
 
 ## 10. Approval and next implementation step
 
-**Approval sought:** Approve this Charter as the design baseline for Grants Access Studio, including its three applicant pathways, eight gates and shared Nexus evidence controls. Charter approval does not approve an individual grant application, expenditure or award agreement.
+**Approval scope:** This Charter is approved as the design baseline for Grants Access Studio, including its three applicant pathways, eight gates and shared Nexus evidence controls. Charter approval does not approve an individual grant application, expenditure or award agreement.
 
-**Approval record:** Pending Alec Gardner’s review. Record the decision, date, conditions and approved version before release as v1.0.
+**Approval record:** Alec Gardner approved the Charter in the Grants Access conversation on 22 September 2026 with the instruction “Approved”, following delivery of v0.1 and review PR #2. Released as v1.0 with administrative status and register updates; substantive controls are unchanged. This approves the design baseline, not operational readiness or an individual application.
 
 **Next implementation step:** Build the Applicant Readiness and Grant Eligibility Pack, comprising the applicant profile, opportunity record, eligibility matrix and apply/hold/decline decision sheet. Use one nominated applicant and project to pilot it.
 
 **Change log:** v0.1 — Initial Charter drafted from the Australian grant-guidance research and the Nexus Evidence Engine standard.
+
+**v1.0 — 22 September 2026:** Recorded Alec Gardner’s approval; released the design baseline; updated document-control metadata and supporting registers. Pilot validation remains outstanding.
