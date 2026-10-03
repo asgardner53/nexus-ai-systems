@@ -6,7 +6,7 @@
 - Question: Which documented OpenAI changes should inform Nexus routing, persistent work and the GPT-5.5 transition?
 - Agent: coordinating assistant; actual model/reasoning independently unobserved, Unknown.
 - Human decision owner: Alec Gardner.
-- Status: source facts verified within stated scope; Nexus operating policy and release Under Review.
+- Status: source facts verified within stated scope; Nexus v1.0 operating policy approved by Alec Gardner on 4 October 2026; pilot activation remains separately gated.
 - Method: current official web search and opened documentation, connector/file audit, contrary/limiting evidence checks. No Deep Research or independent agent review claimed.
 
 ## Source register
@@ -38,7 +38,7 @@ Intended use for every claim is internal governance and migration planning. Prod
 | MAO-C06 | Fact; verified | Dots support persistent responsibilities with separate app/computer permissions and stopping controls | S5 | Pausing one task stops every delegated and recurring task |
 | MAO-C07 | Fact; verified | Agents API hosted browser work requires origin/access and authentication handling plus outcome verification | S6 | Enabling network access authorises all sites/actions |
 | MAO-C08 | Fact; verified | Agents API currently has US-only residency and no ZDR support | S7 | Self-hosting makes this API ZDR-eligible |
-| MAO-C09 | Proposed policy; not an external fact | Use GPT-6.1 Sol as the proposed Nexus workhorse and test bounded persistent/parallel workflows | Derived recommendation from C01–C08 and existing Nexus controls | These routes are deployed, tested or approved by this document |
+| MAO-C09 | Approved Nexus policy; not an external fact | Use GPT-6.1 Sol as the approved Nexus preferred workhorse and test bounded persistent/parallel workflows | Derived recommendation from C01–C08 and existing Nexus controls | These routes are deployed, tested or approved by this document |
 | MAO-C10 | Local audit fact; verified within scope | No literal dependency found in 217 repository-file reads, 51 available Nexus skill files and 25 returned automation records | Companion audit; saved selectors and aliases remain unverified | All Nexus systems are free of GPT-5.5 dependencies |
 
 ## Challenge and contradiction log
@@ -62,5 +62,5 @@ Five-pass treatment: primary authority completed; academic and practitioner comp
 | C03 and migration audit | 12 October closure target and 14 October retirement | Alec/administrator; close only against settings and workload evidence |
 | C09 pilot outcomes | Any proposed pilot and failed acceptance scenario | Pilot owner; suspend or revert the affected route |
 
-Evidence adequate for documenting platform support: Yes, within scope. Evidence adequate for claiming Nexus deployment or migration completion: No. Reuse is limited to internal planning pending human policy release; refresh dynamic claims before implementation. This is a repository evidence record; it has not been inserted into the Supabase Evidence Register, whose connectivity and schema were outside this update.
+Evidence adequate for documenting platform support: Yes, within scope. Evidence adequate for claiming Nexus deployment or migration completion: No. Reuse is authorised for internal controlled use within the approved policy and source limitations; refresh dynamic claims before implementation. This is a repository evidence record; it has not been inserted into the Supabase Evidence Register, whose connectivity and schema were outside this update.
 

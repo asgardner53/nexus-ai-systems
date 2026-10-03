@@ -5,8 +5,9 @@
 - Audit ID: NEX-AUD-MAO-20261004-001.
 - Version: 1.0; completed scoped inspection, 4 October 2026, Australia/Sydney.
 - Owner: Alec Gardner. Migration completion target: 12 October 2026 at 17:00 Australia/Sydney.
+- Report approved for controlled release by Alec Gardner on 4 October 2026; approval does not close unverified settings.
 - Status: **No literal GPT-5.5 reference found in inspected content; whole-workspace migration clearance remains Open.**
-- Linked standard: NEX-GOV-MAO-001, 1.0-RC1, Under Review.
+- Linked standard: NEX-GOV-MAO-001, approved v1.0.
 
 This audit completed now, before 14 October, distinguishes accessible evidence from settings that cannot be observed. No model selector was changed because no inspected active dependency was identified. It does not certify all Nexus systems free of dependencies.
 

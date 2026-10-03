@@ -5,24 +5,22 @@
 | Field | Value |
 | --- | --- |
 | Document ID | NEX-GOV-MAO-001 |
-| Version | 1.0-RC1 — first repository-controlled edition |
-| Status | Superseded release candidate; replaced by approved v1.0 on 4 October 2026 |
+| Version | 1.0 — controlled release |
+| Status | Approved by Alec Gardner for controlled release |
 | Owner and approval authority | Alec Gardner |
 | Prepared | 4 October 2026, Australia/Sydney |
-| Effective date | Not effective — superseded release candidate |
+| Effective date | 4 October 2026, Australia/Sydney |
 | Next review | 12 October 2026; earlier on a material model, permission or product change |
 | Repository | `asgardner53/nexus-ai-systems` |
-| Path | `governance/nexus-model-agent-orchestration-standard-v1.0-rc1.md` |
+| Path | `governance/nexus-model-agent-orchestration-standard-v1.0.md` |
 
-This edition formalises and updates the standing Nexus orchestration instructions supplied in the session. No standalone predecessor was resolved in the governance repository or Library searches. It does not assert an invented earlier document version or supersede an unidentified approved file. Existing approved Studio controls remain controlling until this revision is released.
-
-Approved replacement: [NEX-GOV-MAO-001 v1.0](nexus-model-agent-orchestration-standard-v1.0.md). The remaining text preserves the reviewed candidate and its original proposal wording.
+This edition formalises and updates the standing Nexus orchestration instructions supplied in the session. No standalone predecessor was resolved in the governance repository or Library searches. It does not assert an invented earlier document version or supersede an unidentified approved file. This v1.0 release replaces the 1.0-RC1 release candidate. Existing approved Studio data-handling rules and decision rights remain controlling.
 
 ## 1. Purpose and scope
 
 Provide one shared layer for selecting models, reasoning, execution surfaces and tools across Nexus BMG Studios and AIRBOK. Studios reference this standard and specify their domain requirements rather than duplicating model rules.
 
-**AI assists. Humans decide. Institutions remain accountable.** Technical capability never expands decision rights. This document proposes operating controls; it does not activate a Dot, create an API deployment, change account settings or authorise new connector access.
+**AI assists. Humans decide. Institutions remain accountable.** Technical capability never expands decision rights. This document establishes approved operating controls. Individual Dot/API activation, account-setting changes and new connector access require their applicable implementation gates.
 
 ## 2. Required operating sequence
 
@@ -40,7 +38,7 @@ Human approval concerns the final reviewable result or a genuinely required acce
 
 ## 3. Model and reasoning routing
 
-The following is Nexus's proposed routing policy, not a vendor guarantee of comparative performance.
+The following is Nexus's approved routing policy, not a vendor guarantee of comparative performance.
 
 | Work | Preferred route when available | Reasoning and escalation |
 | --- | --- | --- |
@@ -122,7 +120,9 @@ The companion evidence register records claim scope, limitations and monitoring.
 
 | Date | Change | Authority/status |
 | --- | --- | --- |
-| 4 October 2026 | Formalise standing routing; add GPT-6.1 Sol, runtime-specific Multi-agent controls, Dots, hosted browser controls and scoped retirement audit | Alec Gardner authorised preparation/update; final controlled release remains Under Review |
+| 4 October 2026 | Formalise standing routing; add GPT-6.1 Sol, runtime-specific Multi-agent controls, Dots, hosted browser controls and scoped retirement audit | Alec Gardner authorised preparation/update; release candidate preserved for history |
+
+| 4 October 2026 | Promote reviewed 1.0-RC1 to approved v1.0 and authorise PR #3 merge | Alec Gardner instructed “review and approve PR #3 for controlled release”; decision NEX-DEC-MAO-20261004-002 |
 
 Source locators, checked 4 October 2026:
 
@@ -134,4 +134,4 @@ Source locators, checked 4 October 2026:
 - S6: [Agents API computer use](https://developers.openai.com/api/docs/guides/agents-api/tools/computer-use).
 - S7: [Agents API overview](https://developers.openai.com/api/docs/guides/agents-api/overview).
 
-© 2026 Nexus BMG Pty Ltd. Prepared through human–AI collaboration for Alec Gardner's controlled review.
+© 2026 Nexus BMG Pty Ltd. Prepared through human–AI collaboration; approved for controlled release by Alec Gardner.

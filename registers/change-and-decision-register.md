@@ -45,6 +45,7 @@ Routine drafting edits do not require an entry. Decisions that change authority,
 | Decision ID | Date | Category | Instruction and result | Authority | Status |
 | --- | --- | --- | --- | --- | --- |
 | NEX-DEC-MAO-20261004-001 | 4 October 2026 | Governance standard and model lifecycle | Update the standing orchestration standard for GPT-6.1 Sol, Multi-agent, Dots and Agents API computer use; audit GPT-5.5 before 14 October. Prepared NEX-GOV-MAO-001 1.0-RC1 and linked source/audit records. Accessible literal scans are clear; settings-level closure is Open. | Alec Gardner authorised update and audit in the current request | Prepared for controlled review; no pilot activation, new connector authority or final release approval recorded |
+| NEX-DEC-MAO-20261004-002 | 4 October 2026 | Governance standard approval and controlled release | Approve NEX-GOV-MAO-001 v1.0 and merge PR #3 after AI-assisted internal review of the prepared standard, evidence and audit scope. Supersede RC1; retain settings-level migration clearance as Open and separate runtime pilot gates. | Alec Gardner — explicit instruction “review and approve PR #3 for controlled release” | Approved for merge and effective on main; review record `governance/orchestration-release-review-2026-10-04.md` |
 
 ## Decision entry requirements
 
