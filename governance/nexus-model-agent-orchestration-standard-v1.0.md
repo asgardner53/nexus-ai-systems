@@ -121,7 +121,6 @@ The companion evidence register records claim scope, limitations and monitoring.
 | Date | Change | Authority/status |
 | --- | --- | --- |
 | 4 October 2026 | Formalise standing routing; add GPT-6.1 Sol, runtime-specific Multi-agent controls, Dots, hosted browser controls and scoped retirement audit | Alec Gardner authorised preparation/update; release candidate preserved for history |
-
 | 4 October 2026 | Promote reviewed 1.0-RC1 to approved v1.0 and authorise PR #3 merge | Alec Gardner instructed “review and approve PR #3 for controlled release”; decision NEX-DEC-MAO-20261004-002 |
 
 Source locators, checked 4 October 2026:

@@ -46,7 +46,6 @@ The standard below is approved for controlled use from 4 October 2026. Its runti
 | NEX-GOV-MAO-001 | Nexus Model & Agent Orchestration Standard | 1.0 | Approved | Alec Gardner | 4 October 2026 | 12 October 2026 | `governance/nexus-model-agent-orchestration-standard-v1.0.md` |
 | NEX-AUD-MAO-20261004-001 | GPT-5.5 dependency audit | 1.0 | Approved | Alec Gardner | 4 October 2026 | 12 October 2026, 17:00 Australia/Sydney | `registers/gpt-5.5-dependency-audit-2026-10-04.md` |
 | NEE-MAO-20261004-001 | Orchestration evidence register | 1.0 | Approved | Alec Gardner | 4 October 2026 | Before implementation / 12 October 2026 | `registers/orchestration-evidence-register-2026-10-04.md` |
-
 | NEX-REV-MAO-20261004-001 | Orchestration controlled release review | 1.0 | Approved | Alec Gardner | 4 October 2026 | With next standard review | `governance/orchestration-release-review-2026-10-04.md` |
 
 ## Document status definitions
