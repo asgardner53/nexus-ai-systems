@@ -36,6 +36,18 @@ GitHub repository history provides the detailed technical version trail. This re
 | GAS-CH-001 | Grants Access Studio Charter | 0.1 | Superseded | Alec Gardner | Not effective — historical draft | Replaced by v1.0 | `asgardner53/nexus-ai-systems` | `studio-control-records/grants-access-studio-charter-v0.1-draft.md` |
 | GAS-CH-001 | Grants Access Studio Charter | 1.0 | Approved | Alec Gardner | 22 September 2026 | Before pilot release and after pilot | `asgardner53/nexus-ai-systems` | `studio-control-records/grants-access-studio-charter-v1.0.md` |
 
+## Orchestration controlled release
+
+The standard below is approved for controlled use from 4 October 2026. Its runtime pilots and the remaining migration settings checks retain their stated gates. Approval of the audit report accepts its scoped findings; migration clearance remains Open. The release candidate is preserved as superseded.
+
+| Document ID | Title | Version | Status | Owner | Prepared | Review / target | Repository path |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| NEX-GOV-MAO-001 | Nexus Model & Agent Orchestration Standard | 1.0-RC1 | Superseded release candidate | Alec Gardner | 4 October 2026 | 12 October 2026 | `governance/nexus-model-agent-orchestration-standard-v1.0-rc1.md` |
+| NEX-GOV-MAO-001 | Nexus Model & Agent Orchestration Standard | 1.0 | Approved | Alec Gardner | 4 October 2026 | 12 October 2026 | `governance/nexus-model-agent-orchestration-standard-v1.0.md` |
+| NEX-AUD-MAO-20261004-001 | GPT-5.5 dependency audit | 1.0 | Approved | Alec Gardner | 4 October 2026 | 12 October 2026, 17:00 Australia/Sydney | `registers/gpt-5.5-dependency-audit-2026-10-04.md` |
+| NEE-MAO-20261004-001 | Orchestration evidence register | 1.0 | Approved | Alec Gardner | 4 October 2026 | Before implementation / 12 October 2026 | `registers/orchestration-evidence-register-2026-10-04.md` |
+| NEX-REV-MAO-20261004-001 | Orchestration controlled release review | 1.0 | Approved | Alec Gardner | 4 October 2026 | With next standard review | `governance/orchestration-release-review-2026-10-04.md` |
+
 ## Document status definitions
 
 - **Draft:** under development and not approved for reliance.
@@ -61,3 +73,4 @@ GitHub repository history provides the detailed technical version trail. This re
 This register identifies the authoritative Nexus AI governance documents currently approved for use.
 
 **AI assists. Humans decide. GitHub records.**
+
