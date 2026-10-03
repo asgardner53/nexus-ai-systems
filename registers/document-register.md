@@ -36,6 +36,16 @@ GitHub repository history provides the detailed technical version trail. This re
 | GAS-CH-001 | Grants Access Studio Charter | 0.1 | Superseded | Alec Gardner | Not effective — historical draft | Replaced by v1.0 | `asgardner53/nexus-ai-systems` | `studio-control-records/grants-access-studio-charter-v0.1-draft.md` |
 | GAS-CH-001 | Grants Access Studio Charter | 1.0 | Approved | Alec Gardner | 22 September 2026 | Before pilot release and after pilot | `asgardner53/nexus-ai-systems` | `studio-control-records/grants-access-studio-charter-v1.0.md` |
 
+## Orchestration revision under review
+
+The following additions are preparation records, not approved operational releases. They do not supersede existing approved Studio controls.
+
+| Document ID | Title | Version | Status | Owner | Prepared | Review / target | Repository path |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| NEX-GOV-MAO-001 | Nexus Model & Agent Orchestration Standard | 1.0-RC1 | Under Review | Alec Gardner | 4 October 2026 | 12 October 2026 | `governance/nexus-model-agent-orchestration-standard-v1.0-rc1.md` |
+| NEX-AUD-MAO-20261004-001 | GPT-5.5 dependency audit | 1.0 | Completed scoped audit; migration clearance Open | Alec Gardner | 4 October 2026 | 12 October 2026, 17:00 Australia/Sydney | `registers/gpt-5.5-dependency-audit-2026-10-04.md` |
+| NEE-MAO-20261004-001 | Orchestration evidence register | 1.0 | Verified source facts; policy release Under Review | Alec Gardner | 4 October 2026 | Before implementation / 12 October 2026 | `registers/orchestration-evidence-register-2026-10-04.md` |
+
 ## Document status definitions
 
 - **Draft:** under development and not approved for reliance.
@@ -61,3 +71,4 @@ GitHub repository history provides the detailed technical version trail. This re
 This register identifies the authoritative Nexus AI governance documents currently approved for use.
 
 **AI assists. Humans decide. GitHub records.**
+

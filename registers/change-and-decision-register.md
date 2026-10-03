@@ -40,6 +40,12 @@ Routine drafting edits do not require an entry. Decisions that change authority,
 | NEX-DEC-GAS-20260922-001 | 22 September 2026 | Repository and document control | Record the user-authorised preparation and GitHub storage of Grants Access Studio Charter v0.1; Charter approval was pending at this stage; see NEX-DEC-GAS-20260922-002 | Establish a reviewable design covering users, scope, workflow, evidence and approval gates | Alec Gardner — drafting and GitHub storage only | Grants Access Studio; GAS-CH-001; review branch `grants-access-charter-v0.1` | Draft prepared for review; no operational approval |
 | NEX-DEC-GAS-20260922-002 | 22 September 2026 | Studio approval | Approve GAS-CH-001 as the Grants Access Studio design baseline and release v1.0 | Alec Gardner replied “Approved” following delivery of v0.1 and PR #2 | Alec Gardner | Grants Access Studio; `studio-control-records/grants-access-studio-charter-v1.0.md`; PR #2 | Charter approved; pilot and operational release remain outstanding |
 
+## Orchestration revision preparation record
+
+| Decision ID | Date | Category | Instruction and result | Authority | Status |
+| --- | --- | --- | --- | --- | --- |
+| NEX-DEC-MAO-20261004-001 | 4 October 2026 | Governance standard and model lifecycle | Update the standing orchestration standard for GPT-6.1 Sol, Multi-agent, Dots and Agents API computer use; audit GPT-5.5 before 14 October. Prepared NEX-GOV-MAO-001 1.0-RC1 and linked source/audit records. Accessible literal scans are clear; settings-level closure is Open. | Alec Gardner authorised update and audit in the current request | Prepared for controlled review; no pilot activation, new connector authority or final release approval recorded |
+
 ## Decision entry requirements
 
 Each future entry should record:
@@ -81,3 +87,4 @@ Use one of the following where practical:
 This register is the authoritative governance record of material Nexus AI Studio decisions.
 
 **AI assists. Humans decide. GitHub records.**
+
