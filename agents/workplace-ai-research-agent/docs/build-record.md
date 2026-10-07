@@ -16,13 +16,14 @@ Use a branch and draft pull request. Retain main and existing approvals.
 
 Draft 7 configuration schema, safe example, dependency-free Node validator,
 in-process resource/permission guard, tool contracts, instructions, architecture,
-pilot tests and CI checks. All 21 local tests pass.
+pilot tests and CI checks. All 36 local tests pass after adapter implementation.
 
 ## Open build gates
 
 - Completed: eve 0.72.1 init, relevant installed-documentation verification and dependency lock.
 - Open: map application contracts into live eve tools and durable controller.
-- Live source adapters and retrieval security.
+- Completed: public-source transport and provider-neutral public-search adapter; see research-adapters.md.
+- Open: deployment-accessible search provider connection and live network smoke test.
 - Durable record store, shared Evidence Register mapping and idempotency/leases.
 - Model selection, secrets, pricing and paid reservations.
 - Human review authentication and report/citation validation.
@@ -30,3 +31,10 @@ pilot tests and CI checks. All 21 local tests pass.
 - Full integration tests and three supervised reports.
 
 These are development gaps, not failed production checks. No live agent or schedule exists.
+
+## Adapter stage
+
+Alec authorised implementation of public search and source-verification adapters.
+Delivered bounded retrieval, DNS pinning, redirect safety, provenance extraction,
+exact-passage checks and 15 additional deterministic tests. Semantic claim/date
+verification and live search connection remain open. No paid execution or schedule enabled.

@@ -46,9 +46,9 @@ Production payment requires versioned pricing, token/output limits, FX policy, c
 pre-call reservations and reconciliation. Unknown costs must prevent paid execution.
 
 Public retrieval must enforce HTTP(S), DNS/IP checks including redirects, private-network
-blocking, response-size/time limits and content sanitisation. These controls are planned,
-not implemented by the contract descriptors. Retrieved text cannot update permissions.
+blocking, response-size/time limits and content sanitisation. Transport controls are implemented in src/adapters/public-source.mjs; see
+research-adapters.md for tested boundaries and remaining integration gaps. Retrieved text cannot update permissions.
 Human approval authentication must exist outside the agent tool namespace.
 
 The scheduler stays disabled. An eve 0.72.1 generated scaffold is retained in `runtime/`, gated before model calls.
-No adapter, database, review UI or operational eve integration is implemented. Verify installed eve documentation before mapping tools and durable sessions.
+Research adapter code exists; live search provider, database, review UI and operational eve integration remain pending. Verify installed eve documentation before mapping tools and durable sessions.
