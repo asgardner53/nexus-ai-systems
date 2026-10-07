@@ -89,3 +89,9 @@ This register is the authoritative governance record of material Nexus AI Studio
 
 **AI assists. Humans decide. GitHub records.**
 
+
+## Workplace AI Research Agent preparation
+
+| Decision ID | Date | Category | Instruction and result | Authority | Status |
+| --- | --- | --- | --- | --- | --- |
+| NEX-DEC-WAIR-20261007-001 | 7 October 2026 | Repository and document control | Create the Workplace AI Research Agent project skeleton and configuration schema; prepare under `agents/workplace-ai-research-agent/` on review branch `workplace-ai-research-agent-v0.1` | Alec Gardner — creation and GitHub storage instruction | Draft prepared; no operational release, paid execution, schedule activation or publication authority |

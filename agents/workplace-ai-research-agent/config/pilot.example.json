@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1.0",
+  "agent_id": "workplace-ai-research-agent",
+  "owner": "Alec Gardner",
+  "status": "Draft",
+  "runtime": {
+    "framework": "eve",
+    "integration_status": "pending",
+    "model_ref": null
+  },
+  "schedule": {
+    "enabled": false,
+    "timezone": "Australia/Sydney",
+    "weekday": "Friday",
+    "local_time": "09:00",
+    "first_run_lookback_days": 7
+  },
+  "scope": {
+    "materiality": "M2",
+    "categories": [
+      "workplace_examples",
+      "agents_and_workflows",
+      "products_and_tools",
+      "research_and_evidence",
+      "people_and_skills",
+      "implementation_lessons"
+    ],
+    "prioritise_australia": true,
+    "public_sources_only": true
+  },
+  "limits": {
+    "timeout_seconds": 1200,
+    "research_calls": 60,
+    "retries_per_failure": 2,
+    "budget_aud_cents": 500,
+    "paid_execution_enabled": false,
+    "require_known_pricing": true
+  },
+  "permissions": {
+    "allowed_tools": [
+      "search_public_web",
+      "fetch_public_source",
+      "find_previous_coverage",
+      "append_evidence",
+      "save_checkpoint",
+      "save_report_draft",
+      "record_monitoring_item"
+    ],
+    "external_publication": false,
+    "external_messaging": false,
+    "purchases": false,
+    "arbitrary_code_execution": false,
+    "human_approval_required": true
+  },
+  "report": {
+    "language": "en-AU",
+    "target_min_words": 800,
+    "target_max_words": 1200,
+    "target_min_items": 5,
+    "max_items": 8,
+    "max_events": 3,
+    "allow_fewer_when_evidence_insufficient": true,
+    "draft_label": "Draft for Alec Gardner’s review"
+  },
+  "storage": {
+    "adapter": "unconfigured",
+    "evidence_register_mapping": "pending",
+    "operational_data_in_git": false
+  },
+  "pilot": {
+    "required_consecutive_passes": 3,
+    "critical_failures_allowed": 0
+  }
+}
