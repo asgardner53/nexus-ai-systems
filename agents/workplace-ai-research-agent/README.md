@@ -51,3 +51,16 @@ AI assists. Humans decide. GitHub records.
 
 Read `docs/report-drafting-review.md` for report validation and review wiring.
 Operational human sign-in and evidence-attestation adapters remain unconfigured.
+
+### Current supervised pilot
+
+The expanded 8 October pilot produced a five-item report (1,129 words), passed
+validation, and verified live Nexus Evidence Register delivery and replay. Read
+[pilot2-report.md](pilot-output/pilot2-report.md) and
+[the pilot record](docs/supervised-pilot-2026-10-08.md).
+
+`createConnectedReview` and `npm run review` connect browser sign-in, owner
+verification, evidence review and exact-version decisions. Configure the variables
+in `.env.example` for an existing app user and a single-host HTTPS deployment.
+Live owner sign-in and Alec's decision remain unverified; no report is approved
+or published. The successful research run is host-supervised, not autonomous.

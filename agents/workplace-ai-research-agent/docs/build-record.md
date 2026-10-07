@@ -77,3 +77,14 @@ HTTP interface implemented. 18 new tests pass. Agent actors cannot approve;
 revisions need fresh review. Production authentication and evidence attestation
 adapters are not connected; no real report or approval was fabricated.
 See report-drafting-review.md for integration and remaining pilot gates.
+
+## Connected review controls and expanded pilot
+
+8 October 2026: browser sign-in and short-lived server sessions connected to
+Supabase owner validation through a shared factory and startup command. Evidence
+review snapshot mutation protected; quiet-week exception now requires completed
+five-pass search coverage. The original one-item pilot is superseded as the
+current report by a five-item, 1,129-word host-supervised draft that passed
+validation and live register delivery/replay. Direct counts confirm five sources,
+five claims, five links and one receipt. All 95 tests pass. Live owner mapping,
+HTTPS hosting and human approval remain open. See supervised-pilot-2026-10-08.md.

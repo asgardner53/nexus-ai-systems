@@ -11,7 +11,7 @@ It does not invent research, complete a missing search or invoke a paid model.
 A host orchestrator supplies the researched selection and editorial assessments.
 
 Validation checks run/window identity, draft label, category/item/event limits,
-quiet-week justification, dates/exceptions, source/claim relationships, semantic
+quiet-week justification and five-pass search coverage, dates/exceptions, source/claim relationships, semantic
 wording review, source retrieval/hash/link checks, Australia and challenge passes,
 event details, word count and snapshot consistency. A quiet week can justify a
 shorter report rather than filling it with unsupported material.
@@ -40,7 +40,7 @@ matching Origin for decisions. Approval does not publish, message or distribute.
 
 Authentication is dependency-injected and fails closed: a trusted host verifier
 must identify an authenticated human with Alec's owner identity and review scope.
-No production identity provider is connected in this build. The test-only identity
+Supabase Auth and browser sessions are connected through createConnectedReview, but a live owner account mapping and hosted HTTPS origin remain unconfigured. The test-only identity
 header exists only in the endpoint test; never use it in a deployed verifier.
 
 ## Wiring contract
@@ -68,18 +68,15 @@ sourceChecks keyed by source ID (contentHash, linkResolved, checkedAt), and
 optional eventChecks keyed by event ID (eventHash, verified).
 
 These attestations are trusted host inputs, not independent automated proof.
-Real source-check and identity adapters, autonomous model wiring and deployment
-remain pilot dependencies. Deterministic drafting and tested interfaces are
-implemented; this is not a claim that an autonomous weekly report was generated
-or that Alec approved a real report.
+The host evidence-review adapter binds a stored reviewed snapshot to the report and evidence hashes. It accepts AI-assisted evidence checks; it grants no human approval authority. The expanded supervised pilot passed these checks and live register delivery. Live owner sign-in, hosting and autonomous model wiring remain dependencies. Alec has not approved a report.
 
 ## Verification
 
-All 88 tests pass. New coverage includes quiet-week output, unsupported and
+All 95 tests pass. New coverage includes quiet-week output, unsupported and
 unresolved claims, changed wording, stale link checks, date exceptions, events,
 missing Australian/challenge passes, agent denial, hash-bound human decisions,
 revisions, expired validation, request-changes comments, HTML escaping and actual
 HTTP endpoint denial. Controller integration tests save a validated Draft and
 advance the successful research cutoff without treating it as publication approval.
 Report fixtures and authentication in these tests are synthetic, not live research
-or real human decisions. Three supervised report pilot gates remain outstanding.
+or real human decisions. The first expanded host-supervised report is ready for review. Live sign-in and human decision gates remain open; this does not close all supervised acceptance gates. See supervised-pilot-2026-10-08.md.

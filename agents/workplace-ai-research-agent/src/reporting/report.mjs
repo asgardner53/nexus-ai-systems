@@ -29,7 +29,10 @@ export function validateReport(report,{run,evidence,attestation,now=Date.now()})
  check(report.status==='Draft for Alec Gardner’s review','draft_label_required');
  const cfg=run.config.report,start=Date.parse(run.start),end=Date.parse(run.end);
  check(Array.isArray(report.items)&&report.items.length>0&&report.items.length<=cfg.max_items,'item_count');
- if(report.items.length<cfg.target_min_items)check(cfg.allow_fewer_when_evidence_insufficient&&text(report.quietWeekReason),'quiet_week_reason_required');
+ if(report.items.length<cfg.target_min_items){
+  check(cfg.allow_fewer_when_evidence_insufficient&&text(report.quietWeekReason),'quiet_week_reason_required');
+  check(attestation?.coverage?.completed===true&&Array.isArray(attestation.coverage.searchPasses)&&['primary','academic','practitioner','challenge','currency'].every(p=>attestation.coverage.searchPasses.includes(p)),'shortlist_search_coverage_required');
+ }
  check(Array.isArray(report.events)&&report.events.length<=cfg.max_events,'event_count');
  check(text(report.practicalAction),'practical_action_required');
  const claims=new Map(evidence.claims.map(c=>[c.id,c])),sources=new Map(evidence.sources.map(s=>[s.id,s]));
