@@ -16,7 +16,7 @@ Use a branch and draft pull request. Retain main and existing approvals.
 
 Draft 7 configuration schema, safe example, dependency-free Node validator,
 in-process resource/permission guard, tool contracts, instructions, architecture,
-pilot tests and CI checks. All 70 local tests pass after register-connection implementation.
+pilot tests and CI checks. All 88 local tests pass after report/review implementation.
 
 ## Open build gates
 
@@ -68,3 +68,12 @@ one source, claim, link and receipt. Approval and payload-conflict rejection tes
 passed. No restart performed by the agent; underlying recovery cause unknown.
 The earlier BLOCKED status is superseded for host SQL connectivity and registration.
 See register-connection-verified.md for access boundaries and remaining deployment gates.
+
+## Report drafting, validation and review stage
+
+8 October 2026: deterministic evidence-based drafting, structured validation,
+immutable report versions, human decision audit and authenticated-host review
+HTTP interface implemented. 18 new tests pass. Agent actors cannot approve;
+revisions need fresh review. Production authentication and evidence attestation
+adapters are not connected; no real report or approval was fabricated.
+See report-drafting-review.md for integration and remaining pilot gates.

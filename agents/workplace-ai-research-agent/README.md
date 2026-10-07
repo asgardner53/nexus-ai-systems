@@ -7,7 +7,8 @@ Repository path: `agents/workplace-ai-research-agent/`.
 
 Prepare an evidence-backed Friday workplace AI report for human review.
 Includes configuration validation, public research adapters, a supervised host
-search connection and a SQLite durable controller with an evidence-delivery queue.
+search connection a SQLite durable controller with an evidence-delivery queue, and report
+drafting/validation with a versioned human-review interface.
 The live Nexus Evidence Register host connection is verified; independent
 deployment credentials and runtime wiring remain pending. No
 autonomous deployment or Friday schedule is active.
@@ -47,3 +48,6 @@ register connection, alongside the architecture, pilot tests and build record.
 Operational reports, evidence, logs and secrets belong outside this public repository.
 
 AI assists. Humans decide. GitHub records.
+
+Read `docs/report-drafting-review.md` for report validation and review wiring.
+Operational human sign-in and evidence-attestation adapters remain unconfigured.
