@@ -1,6 +1,6 @@
 # Durable run controller and Nexus Evidence Register interface
 
-Status: Draft implementation, 8 October 2026. Owner: Alec Gardner.
+Status: Draft implementation, 8 October 2026. Update: live host register connection now verified; see register-connection-verified.md. Owner: Alec Gardner.
 
 ## Controller delivered
 

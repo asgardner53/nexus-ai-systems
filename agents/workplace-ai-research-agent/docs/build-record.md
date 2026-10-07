@@ -16,7 +16,7 @@ Use a branch and draft pull request. Retain main and existing approvals.
 
 Draft 7 configuration schema, safe example, dependency-free Node validator,
 in-process resource/permission guard, tool contracts, instructions, architecture,
-pilot tests and CI checks. All 63 local tests pass after durable-controller implementation.
+pilot tests and CI checks. All 70 local tests pass after register-connection implementation.
 
 ## Open build gates
 
@@ -58,3 +58,13 @@ Live Nexus register connection BLOCKED: SQL inspection and table listing timed
 out despite ACTIVE_HEALTHY project status. No Supabase writes or schema changes.
 Concrete shared-schema mapping and live delivery verification remain open.
 See durable-controller.md for boundaries and recovery dependency.
+
+## Register connection recovery and verification
+
+8 October 2026: dashboard and connector SELECT 1 passed; actual shared evidence
+schema inspected. Additive append/receipt migration applied. Concrete host mapper
+and durable outbox delivery passed live append/replay tests; direct counts prove
+one source, claim, link and receipt. Approval and payload-conflict rejection tests
+passed. No restart performed by the agent; underlying recovery cause unknown.
+The earlier BLOCKED status is superseded for host SQL connectivity and registration.
+See register-connection-verified.md for access boundaries and remaining deployment gates.
