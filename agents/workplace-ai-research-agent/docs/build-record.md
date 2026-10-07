@@ -16,7 +16,7 @@ Use a branch and draft pull request. Retain main and existing approvals.
 
 Draft 7 configuration schema, safe example, dependency-free Node validator,
 in-process resource/permission guard, tool contracts, instructions, architecture,
-pilot tests and CI checks. All 36 local tests pass after adapter implementation.
+pilot tests and CI checks. All 44 local tests pass after hosted-connection implementation.
 
 ## Open build gates
 
@@ -38,3 +38,12 @@ Alec authorised implementation of public search and source-verification adapters
 Delivered bounded retrieval, DNS pinning, redirect safety, provenance extraction,
 exact-passage checks and 15 additional deterministic tests. Semantic claim/date
 verification and live search connection remain open. No paid execution or schedule enabled.
+
+## Hosted search connection stage
+
+Alec authorised connecting live search and an end-to-end research test.
+Completed: host connector adapter and real search/source/passage smoke test.
+Diagnostics: native DNS unavailable; NBER source returned 403, correctly
+classified after parser remediation. See host-search-connection.md and the
+saved run result. This is supervised host execution, not independent deployment
+or the full Friday-report acceptance gate.

@@ -50,7 +50,7 @@ The in-process guard alone cannot cancel a request already in progress.
 
 36 deterministic tests pass, including private redirects, mixed DNS answers,
 duplicates, missing originals, unsupported PDFs, size caps, cancelled runs and
-passage mismatch. No live provider or deployed network smoke test was performed.
+passage mismatch. A subsequent supervised host connector smoke test passed; see host-search-connection.md. Native deployment connectivity remains unvalidated.
 HTML metadata extraction is deliberately limited; missing or conflicting dates
 need review. Durable controller, Evidence Register integration, eve tool wiring,
 semantic claim review and supervised reports remain pending.
