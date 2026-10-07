@@ -1,18 +1,19 @@
 # Workplace AI Research Agent
 
 Version: 0.1.0 · Status: Draft · Owner / approval authority: Alec Gardner.
-Prepared: 7 October 2026. Effective date: not effective; development skeleton only.
+Prepared: 7 October 2026. Effective date: not effective; development implementation; operational release pending.
 Next review: before adapter integration or pilot activation.
 Repository path: `agents/workplace-ai-research-agent/`.
 
 Prepare an evidence-backed Friday workplace AI report for human review.
-This skeleton provides an executable configuration validator, permission/resource guard,
-tool contracts, agent instructions and pilot test plan. It does not run research,
-connect to services, enforce a production spending cap, or schedule reports yet.
+Includes configuration validation, public research adapters, a supervised host
+search connection and a SQLite durable controller with an evidence-delivery queue.
+The live Nexus Evidence Register connection is blocked by SQL timeouts. No
+autonomous deployment or Friday schedule is active.
 
 ## Local checks
 
-From this directory, with Node.js 22 or later:
+From this directory, with Node.js 24 or later:
 
 ```sh
 npm run check
@@ -35,12 +36,13 @@ This profile must be revised through review before activation.
 
 Target runtime: eve. An eve 0.72.1 scaffold is included under `runtime/`, with its dependency lockfile.
 Its dynamic model resolver deliberately throws before provider calls; optional default
-tools and the built-in agent tool are disabled. Provider adapters remain pending.
+tools and the built-in agent tool are disabled. Adapters exist; operational eve wiring and independent deployment remain pending.
 Install/init eve in a separate temporary directory, inspect its shipped versioned docs,
 then map these contracts into actual framework tools. The generated framework scaffold is not ready for deployment.
 Run `npm ci` and `npm run typecheck` inside `runtime/` to check it.
 
-Read `docs/architecture.md`, `docs/pilot-tests.md` and `docs/build-record.md`.
+Read `docs/durable-controller.md` for durability boundaries and the blocked
+register connection, alongside the architecture, pilot tests and build record.
 Operational reports, evidence, logs and secrets belong outside this public repository.
 
 AI assists. Humans decide. GitHub records.

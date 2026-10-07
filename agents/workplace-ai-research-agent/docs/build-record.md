@@ -16,7 +16,7 @@ Use a branch and draft pull request. Retain main and existing approvals.
 
 Draft 7 configuration schema, safe example, dependency-free Node validator,
 in-process resource/permission guard, tool contracts, instructions, architecture,
-pilot tests and CI checks. All 44 local tests pass after hosted-connection implementation.
+pilot tests and CI checks. All 63 local tests pass after durable-controller implementation.
 
 ## Open build gates
 
@@ -47,3 +47,14 @@ Diagnostics: native DNS unavailable; NBER source returned 403, correctly
 classified after parser remediation. See host-search-connection.md and the
 saved run result. This is supervised host execution, not independent deployment
 or the full Friday-report acceptance gate.
+
+## Durable controller stage
+
+Alec authorised the durable run controller and shared Evidence Register connection.
+Delivered SQLite transactional run store, leases/fencing, checkpoints, action
+idempotency, cancellation/deadline checks, delivery outbox and atomic draft/cutoff
+save. 19 additional tests include SIGKILL recovery.
+Live Nexus register connection BLOCKED: SQL inspection and table listing timed
+out despite ACTIVE_HEALTHY project status. No Supabase writes or schema changes.
+Concrete shared-schema mapping and live delivery verification remain open.
+See durable-controller.md for boundaries and recovery dependency.

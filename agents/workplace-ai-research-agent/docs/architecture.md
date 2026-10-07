@@ -40,7 +40,7 @@ independent authoritative evidence register. Storage adapters and migrations are
 
 ## Integration boundaries
 
-The bundled guard is an in-process prototype, not a distributed controller. Persist counters,
+The original guard is an in-process prototype. A single-host SQLite durable controller now persists counters, leases, cancellation, checkpoints and delivery state; see durable-controller.md. It is not a multi-host controller. Persist counters,
 leases, reservations and cancellation before production. It currently blocks all paid calls.
 Production payment requires versioned pricing, token/output limits, FX policy, conservative
 pre-call reservations and reconciliation. Unknown costs must prevent paid execution.
