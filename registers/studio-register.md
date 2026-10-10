@@ -14,7 +14,7 @@ This register records the approved status, classification, ownership and authori
 
 | Studio | Identifier | Classification | Owner | Status | Effective date | Next review | Authoritative repository | Control record |
 |---|---|---|---|---|---|---|---|---|
-| Assessment Review Studio | NEX-AI-ARS-001 | Restricted | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/assessment-review-studio-v1.0.md` |
+| Assessment Review Studio | NEX-AI-ARS-001 | Restricted | Alec Gardner | Approved | 10 October 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/assessment-review-studio-v1.1.md` |
 | AIRBOK Development Studio | NEX-AI-AIRBOK-001 | Controlled | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/airbok-foundational-edition` with governance record in `asgardner53/nexus-ai-systems` | `studio-control-records/airbok-development-studio-v1.0.md` |
 | LinkedIn Thought Leadership Studio | NEX-AI-LTL-001 | Controlled | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/linkedin-thought-leadership-studio-v1.0.md` |
 | Nexus Ebook Studio | NEX-AI-EBS-001 | Controlled | Alec Gardner | Approved | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` with dedicated title repositories or controlled folders as approved | `studio-control-records/nexus-ebook-studio-v1.0.md` |
@@ -30,3 +30,14 @@ This register records the approved status, classification, ownership and authori
 4. Student evidence, client confidential material and other restricted operational records must not be added to this register.
 
 **AI assists. Humans decide. GitHub records.**
+
+
+## Shared Audio Evidence Integration — 10 October 2026
+
+NEX-GOV-AUD-001 Nexus Audio Evidence Standard v1.0 applies to:
+- Assessment Review Studio / VET-ASQA workflows;
+- PD Studio workflows;
+- Governance / Client Assurance workflows;
+- Research Interview workflows.
+
+Where a workflow does not yet have a standalone Studio control record in this register, the shared Audio Evidence Standard applies without changing that workflow's existing approval status, classification or decision authority.
