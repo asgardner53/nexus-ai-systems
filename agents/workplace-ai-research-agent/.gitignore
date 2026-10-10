@@ -1,0 +1,14 @@
+node_modules
+.env
+.env.*
+!.env.example
+.runtime/
+reports/
+evidence/
+*.log
+
+# Operational state must never enter this public repository.
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db

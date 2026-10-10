@@ -81,3 +81,11 @@ This register identifies the authoritative Nexus AI governance documents current
 
 **AI assists. Humans decide. GitHub records.**
 
+
+## Workplace AI Research Agent development pack
+
+| Document ID | Title | Version | Status | Owner | Prepared | Next review | Repository path |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| NEX-AG-WAIR-001 | Workplace AI Research Agent skeleton and configuration | 0.1.0 | Draft | Alec Gardner | 7 October 2026 | Before integration or pilot activation | `agents/workplace-ai-research-agent/README.md` |
+
+Development storage is authorised. Operational release, scheduling, paid execution and external publication remain disabled.
