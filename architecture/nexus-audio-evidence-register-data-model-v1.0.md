@@ -6,7 +6,7 @@
 | --- | --- |
 | Document ID | NEX-DM-AUD-001 |
 | Version | 1.0 |
-| Status | Approved design baseline — not yet deployed |
+| Status | Approved and deployed baseline |
 | Owner | Alec Gardner |
 | Effective date | 10 October 2026 |
 | Target platform | Supabase / PostgreSQL |
@@ -31,7 +31,7 @@ The model supports:
 - links to Nexus Evidence Engine claims;
 - retention, reuse and release status.
 
-This document is a design baseline only. It does not deploy or alter the Supabase database.
+This document is the approved design baseline. The seven-table private `audio` schema was deployed to the NEXUS BMG Supabase project on 10 October 2026 and passed synthetic validation tests T01–T14 before any real audio evidence was introduced.
 
 ## 2. Architecture decision
 
@@ -681,11 +681,13 @@ No change to the existing Evidence Engine tables is required for the initial imp
 
 Recommended approach:
 
-**Approve this seven-table private-schema design as the implementation baseline, then deploy it in two controlled steps:**
+**Deployment completed 10 October 2026.**
 
-1. **Schema deployment:** tables, constraints, foreign keys, indexes, RLS, least-privilege grants.
-2. **Synthetic validation:** T01–T14 before any real audio/student/client data is introduced.
+1. **Schema deployment:** complete — seven tables, constraints, foreign keys, indexes, RLS, least-privilege grants and M3 release gate are live.
+2. **Synthetic validation:** complete — T01–T14 all passed.
+3. **Synthetic cleanup:** complete — all seven `audio` tables returned zero rows after validation.
+4. **Advisor review:** complete — deployment-specific missing foreign-key indexes were corrected. Remaining advisor findings are pre-existing project-wide items outside this deployment.
 
-Do not introduce real audio evidence until the synthetic test pack passes and the storage/access model is separately approved.
+Real audio evidence must still not be introduced until the storage/access model for raw media is separately approved.
 
 **AI assists. Humans decide. Institutions remain accountable.**
