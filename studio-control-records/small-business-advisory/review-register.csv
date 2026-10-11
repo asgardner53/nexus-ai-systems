@@ -1,0 +1,8 @@
+id,stream,action_or_claim,evidence_locator,source_authority,effective_date,verification_status,risk,required_action,owner,independent_reviewer,decision_status
+SBA-001,Governance,Public repository classification,REPOSITORY-GOVERNANCE.md,Internal governance,2026-07-26,Verified repository text,High,Keep sensitive evidence out of public repository,Alec Gardner,TBD,Open
+SBA-002,Development,RC1-RC4 workbook provenance,Secure source TBD,Original files and commit history,,Unverified,High,Inventory originals and compute SHA-256,Alec Gardner,TBD,Open
+SBA-003,Payroll,RC4 formula execution,Secure source TBD,Executed spreadsheet tests,,Unverified,Critical,Run actual spreadsheet-engine integration tests,Alec Gardner,TBD,Open
+SBA-004,Fair Work,General Retail Industry Award rule coverage,Official award MA000004,FWC published award,,Unresolved,Critical,Clause-by-clause effective-date and classification verification,Alec Gardner,TBD,Open
+SBA-005,RTO-ASQA,Training regulation applicability,Service scope TBD,Applicable RTO legislation and standards,,Unresolved,High,Determine regulated activities and obligations,Alec Gardner,TBD,Open
+SBA-006,Professional boundaries,Legal and BAS services,Service scope TBD,Applicable legislation and TPB guidance,,Unresolved,Critical,Independent legal and registered practitioner review,Alec Gardner,TBD,Open
+SBA-007,Case law,Relevant court and regulator precedents,Case register TBD,Primary judgments and enforcement notices,,Not started,High,Conduct jurisdiction-specific precedent review,Alec Gardner,TBD,Open
