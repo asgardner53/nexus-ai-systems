@@ -41,3 +41,15 @@ NEX-GOV-AUD-001 Nexus Audio Evidence Standard v1.0 applies to:
 - Research Interview workflows.
 
 Where a workflow does not yet have a standalone Studio control record in this register, the shared Audio Evidence Standard applies without changing that workflow's existing approval status, classification or decision authority.
+
+## Small Business Advisory Studio - proposed supplement (PR #5)
+
+Supplement version: 0.2. Status: Under Review. Prepared: 11 October 2026. Owner and approval authority: Alec Gardner. Effective date: Not effective - approval pending. Next review: 18 October 2026 or earlier on material change.
+
+The existing approved records above are preserved. This draft supplement does not approve the Studio, alter those decisions, activate restricted evidence processing or authorise client use. Related proposal: https://github.com/asgardner53/nexus-ai-systems/pull/5 . Settings changes require a separate decision in Issue #6.
+
+| Studio | Identifier | Proposed classification | Owner | Status | Effective date | Next review | Repository | Control record |
+|---|---|---|---|---|---|---|---|---|
+| Small Business Advisory Studio | NEX-AI-SBA-001 | Controlled for public governance only; Restricted client workflow requires separate approval | Alec Gardner | Under Review | Not effective - approval pending | 18 October 2026 | `asgardner53/nexus-ai-systems` | `studio-control-records/small-business-advisory/studio-control-record.md` |
+
+Research materiality M3 is separate from Studio classification. Classification, independent governance acceptance and Gates A-D remain pending. No client records or operational evidence are stored by this supplement.
