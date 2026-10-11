@@ -1,35 +1,44 @@
-# Forensic evidence baseline — v0.1
+# Forensic evidence baseline
 
-- Status: Draft / Unverified for regulatory conclusions
+- Document ID: SBA-DOC-002
+- Version: 0.2
+- Status: Under Review
 - Owner: Alec Gardner
 - Approval authority: Alec Gardner
-- Date: 11 October 2026
-- Next review: 11 November 2026 or earlier on material change
+- Prepared: 11 October 2026
+- Effective date: Not effective - approval pending
+- Next review: 18 October 2026, or earlier on material change
 - Repository path: studio-control-records/small-business-advisory/forensic-evidence-baseline.md
-- Materiality: M3; Australian jurisdiction
+- Independent reviewer: Not appointed
+- Professional review: Not commenced
 
-## Evidence boundaries
-GitHub repository `asgardner53/nexus-ai-systems` is selected as the authoritative **governance** location. Presence of actual Small Business Advisory Studio operational files or previous RC1–RC4 workbook commits has NOT been established. A chat summary is a discovery lead, not independently verified historical evidence.
+## Pinned examination scope
+- Repository: asgardner53/nexus-ai-systems; public according to the inspected repository metadata and governance text.
+- PR: https://github.com/asgardner53/nexus-ai-systems/pull/5 .
+- Base commit examined: `a853fa344b45aacc5aba4aa029b961a5212359de`.
+- Original head examined: `1925f435fc4a374d8a2f6f6bda338072f606b59d`.
+- Original head tree: `4192a349ffb1a2564cb47b79cbd1f98b25ac37af`.
+- Original review: https://github.com/asgardner53/nexus-ai-systems/pull/5#pullrequestreview-5482444711 .
+- Acquisition method: connected GitHub reads of pinned file contents/patches and Git object metadata. See baseline-register.json for file-specific objects and limitations.
+- The revised head must be recorded in the subsequent PR review after commit creation. A file cannot embed its own final commit hash without changing it.
 
-## Baseline inventory
-| ID | Item or claim | Provenance / locator | Evidence status | Required next verification |
-|---|---|---|---|---|
-| SBA-001 | GitHub repository is public and restricts sensitive data | REPOSITORY-GOVERNANCE.md | Verified from repository text | Confirm ongoing visibility and access controls |
-| SBA-002 | Nexus GitHub document control requires status, version, approval and history | governance/github-document-control-standard.md | Verified from repository text | Check current register and any superseding rule |
-| SBA-003 | Retail Compliance Module RC1–RC4 reportedly developed | Prior project conversation; operational files not in this repository | Unverified in GitHub | Securely inventory original workbooks, hashes, dates and custody |
-| SBA-004 | RC4 reportedly contains 19 sheets and 15/15 Python reference tests passed | Prior project report; not an Excel-engine validation | Unverified independently | Run spreadsheet engine tests and inspect test artifacts |
-| SBA-005 | Two formula defects reportedly corrected | Prior project report | Unverified independently | Reproduce defects and compare revisions |
-| SBA-006 | Independent specialist review pack reportedly prepared | Prior project report | Unverified in GitHub | Locate controlled original and specialist engagement scope |
-| SBA-007 | Fair Work / award applicability and rate interpretation | Fair Work Act 2009; General Retail Industry Award 2020 (MA000004), official sources | Not yet assessed clause-by-clause | Establish time-specific rule matrix and source snapshots |
-| SBA-008 | RTO/ASQA regulatory applicability | 2025 Standards for RTOs and actual service scope | Unresolved | Determine whether any regulated training or assessment is provided |
-| SBA-009 | Tax/BAS and legal professional service boundaries | TPB guidance; applicable state and federal legislation | Unresolved | Qualified practitioner/legal review |
-| SBA-010 | Relevant enforcement and litigation precedents | Official courts, FWC, FWO, ASQA and other regulator decisions | Not yet searched systematically | Search, validate jurisdiction, facts, holdings and dates |
+## What has and has not been acquired
+The acquisition record covers the public governance documents read in this run, not a forensic image of GitHub, a complete repository-history search or any original payroll workbook. Git blob identifiers identify repository content; they are not SHA-256 hashes of workbook originals. SHA-256 is left empty where raw bytes were not acquired. Connector UTF-8 text and metadata are not represented as a raw disk acquisition.
 
-## Explicit limitations
-No court judgment, award clause, rate, or specialist approval is treated as established merely because a working document mentions it. The Fair Work Ombudsman (FWO) and Fair Work Commission (FWC) have distinct functions. Any reference to 'FWA' must be disambiguated before legal conclusions.
+Operational artefacts have not been located in the inspected four-file PR scope. Historical and other-branch presence has not been established. Workbooks available in a conversation are not thereby acquired into an approved forensic custody system. Their examination and independent verification remain open under Gate B and Gate C.
 
-## Preservation and evidence integrity
-Do not rewrite or delete source evidence. Capture original filename, source system, custodian, acquisition date, SHA-256, version, access restrictions, and review chain before analysis. Preserve separate working copies and record each correction.
+## Claims and traceability
+`baseline-register.json` holds SBA-EVD evidence records and SBA-CLM claims. `review-register.csv` holds SBA-ACT actions with explicit claim/evidence relationships. `legacy-id-map.csv` preserves all ten inventory IDs and seven original action IDs using their original file as part of the key; no historical ID has been silently overwritten.
 
-## Human gate
-No client deployment, definitive legal advice, assurance certification or representation of compliance until qualified independent reviewers sign off and Alec Gardner authorises release.
+Claims about RC1-RC4 development, 19 worksheets, 15 passing reference tests and two repaired defects are **reported only**. The source is the original baseline's attribution to a prior project report, not the test harness or workbook. A regulator name or an award title is a research lead, not verified legal evidence.
+
+## Observation limits and contrary evidence
+Repository-setting observations are time-bound: main was reported unprotected, rulesets were empty and no reviewed-head CI success was evidenced. Issue #6 requests a separate decision. A metadata refresh may supersede these observations; retain both records and explain the difference.
+
+The original baseline's assertion that operational files were 'not in this repository' was broader than the inspected scope. The statement above replaces that overstatement without asserting either presence or absence elsewhere. The original 'under independent review' wording is withdrawn: no independent reviewer is appointed.
+
+## Evidence retention and custody
+Preserve original repository versions and review comments. For later approved acquisition, record original source/custodian, exact version, acquisition date/time/timezone, method, byte length, SHA-256, transformations and transfers in restricted custody. Separate original and working copies. No backdating, invented hashes, deletion schedule or public release of restricted material is authorised here.
+
+## Change history
+0.2 narrows unsupported absence claims, pins sources and separates evidence status from document approval. Original 0.1 remains recoverable from the original head above.
