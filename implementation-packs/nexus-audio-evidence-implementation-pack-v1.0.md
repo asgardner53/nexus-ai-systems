@@ -492,6 +492,7 @@ The package does not expand recording authority, privacy permissions, assessment
 The human/institutional authority defined in each workflow remains controlling.
 
 **AI assists. Humans decide. Institutions remain accountable.**
+
 ## 19. Storage validation and production-readiness decision — 11 October 2026
 
 The Nexus Audio Media Storage & Access implementation was validated using synthetic evidence only. No real student, client, governance or research media was used.
