@@ -26,8 +26,8 @@ GitHub repository history provides the detailed technical version trail. This re
 | NEX-SCR-001 | Assessment Review Studio Control Record | 1.0 | Superseded | Alec Gardner | 26 July 2026 | Replaced by v1.1 | `asgardner53/nexus-ai-systems` | `studio-control-records/assessment-review-studio-v1.0.md` |
 | NEX-SCR-001 | Assessment Review Studio Control Record | 1.1 | Approved | Alec Gardner | 10 October 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/assessment-review-studio-v1.1.md` |
 | NEX-GOV-AUD-001 | Nexus Audio Evidence Standard | 1.0 | Approved | Alec Gardner | 10 October 2026 | On material platform, privacy, records or transcription change | `asgardner53/nexus-ai-systems` | `governance/nexus-audio-evidence-standard-v1.0.md` |
-| NEX-GOV-AMS-001 | Nexus Audio Media Storage & Access Standard | 1.0 | Approved | Alec Gardner | 10 October 2026 | On material Storage/Auth/privacy/records change | `asgardner53/nexus-ai-systems` | `governance/nexus-audio-media-storage-access-standard-v1.0.md` |
-| NEX-IMP-AUD-001 | Nexus Audio Evidence Implementation Pack | 1.0 | Approved | Alec Gardner | 10 October 2026 | With NEX-GOV-AUD-001 review | `asgardner53/nexus-ai-systems` | `implementation-packs/nexus-audio-evidence-implementation-pack-v1.0.md` |
+| NEX-GOV-AMS-001 | Nexus Audio Media Storage & Access Standard | 1.0 | Approved — production gate passed 11 October 2026 | Alec Gardner | 10 October 2026 | On material Storage/Auth/privacy/records change | `asgardner53/nexus-ai-systems` | `governance/nexus-audio-media-storage-access-standard-v1.0.md` |
+| NEX-IMP-AUD-001 | Nexus Audio Evidence Implementation Pack | 1.0 | Approved — storage validation S01–S18 passed; controlled production use authorised 11 October 2026 | Alec Gardner | 10 October 2026 | With NEX-GOV-AUD-001 review or earlier on material storage/security change | `asgardner53/nexus-ai-systems` | `implementation-packs/nexus-audio-evidence-implementation-pack-v1.0.md` |
 | NEX-DM-AUD-001 | Nexus Audio Evidence Register Supabase Data Model | 1.0 | Approved and deployed baseline | Alec Gardner | 10 October 2026 | With NEX-GOV-AUD-001 review or earlier on material schema/security change | `asgardner53/nexus-ai-systems` | `architecture/nexus-audio-evidence-register-data-model-v1.0.md` |
 | NEX-SCR-002 | AIRBOK Development Studio Control Record | 1.0 | Approved | Alec Gardner | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/airbok-development-studio-v1.0.md` |
 | NEX-SCR-003 | LinkedIn Thought Leadership Studio Control Record | 1.0 | Approved | Alec Gardner | 26 July 2026 | 26 July 2027 | `asgardner53/nexus-ai-systems` | `studio-control-records/linkedin-thought-leadership-studio-v1.0.md` |
@@ -81,3 +81,10 @@ This register identifies the authoritative Nexus AI governance documents current
 
 **AI assists. Humans decide. GitHub records.**
 
+
+
+## Audio Evidence production-readiness record — 11 October 2026
+
+NEX-IMP-AUD-001 and NEX-GOV-AMS-001 remain the authoritative v1.0 controlled documents. Their production gate was closed on 11 October 2026 after successful S01–S18 synthetic validation and human approval recorded as NEX-DEC-AUD-20261011-004.
+
+This status authorises controlled production use only within the authority, privacy, retention, least-privilege, verification and human-decision boundaries of the governing standards. It does not close unrelated project-wide security or performance advisories.
