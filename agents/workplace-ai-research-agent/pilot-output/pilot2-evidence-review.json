@@ -1,0 +1,134 @@
+{
+  "reviewCompleted": true,
+  "reviewerSubject": "supervised-host-evidence-review-20261008",
+  "reviewerType": "AI-assisted host review; not human approval",
+  "australianSearchCompleted": true,
+  "challengeCompleted": true,
+  "coverage": {
+    "completed": true,
+    "searchPasses": [
+      "primary",
+      "academic",
+      "practitioner",
+      "challenge",
+      "currency"
+    ]
+  },
+  "searchLog": [
+    {
+      "pass": "primary",
+      "query": "site.nist.gov OR site.oecd.org OR site.csiro.au workplace artificial intelligence October 2026",
+      "finding": "No verified in-window primary authority item shortlisted."
+    },
+    {
+      "pass": "academic",
+      "query": "AI workplace productivity study October 2026 randomized trial",
+      "finding": "arXiv candidate not retrievable; excluded."
+    },
+    {
+      "pass": "practitioner",
+      "query": "site.aris.com 2026 Process Context October",
+      "finding": "Opened original ARIS release; self-report and commercial conflicts retained."
+    },
+    {
+      "pass": "challenge",
+      "query": "AI agents workplace implementation failures October 2026; Hackett ARIS methodology correlation limitations",
+      "finding": "No independent evaluation of selected product outcomes established; causality and readiness claims limited."
+    },
+    {
+      "pass": "currency",
+      "query": "site.microsoft.com OR site.openai.com October 2026 workplace agents announcement",
+      "finding": "Opened dated original pages; separated existing guidance from new launch and future features."
+    },
+    {
+      "pass": "Australia",
+      "query": "Australia workplace AI skills events October 2026 2 7 conference webinar",
+      "finding": "Older PwC release excluded; event not fully verified."
+    }
+  ],
+  "claimRationales": {
+    "NEE-AI-RA-CLM-20261008-pilot2-mxc": "Wording attributes only the opened publisher statement. Vendor technical description, not an independent security assessment. Containment backends have different properties; some management and agent identity features are described as coming soon. General availability does not prove suitability for your workload.",
+    "NEE-AI-RA-CLM-20261008-pilot2-gitlab": "Wording attributes only the opened publisher statement. A commercial announcement describes intended capabilities rather than independently established outcomes. The release mixes available, beta, early-access and future features. Do not assume every named component is production-ready or count vendor savings claims as realised benefits.",
+    "NEE-AI-RA-CLM-20261008-pilot2-employee": "Wording attributes only the opened publisher statement. This is Microsoft’s account of its own implementation, not a controlled comparison or a new product launch. Its policies, scale and permissions differ from Australian workplaces. Reported architecture and benefits need checking against the organisation’s actual service design.",
+    "NEE-AI-RA-CLM-20261008-pilot2-aris": "Wording attributes only the opened publisher statement. The release reports a commercially partnered, self-reported executive survey. The complete instrument and analysis were not examined. Associations do not establish causation; the headline multiplier is not a guaranteed productivity gain, and large-company results may not transfer to Australian SMEs.",
+    "NEE-AI-RA-CLM-20261008-pilot2-atlassian": "Wording attributes only the opened publisher statement. This is a partner announcement with commercial interests, not an independent effectiveness study. Deeper Jira integrations are described as being explored. Access and release availability require separate checks; enterprise context can still be incomplete, stale or over-permissioned."
+  },
+  "reportHash": "d856255322b459020c2e1f042b64f52be38e67a6f4a419dafaa74745b381d43c",
+  "evidenceHash": "1bc9041168aaa4094950d77dec863620e59f8c74538a69f4433c62bbaeafbf94",
+  "itemChecks": {
+    "mxc": {
+      "itemHash": "3e3fc9ec123b5da9ef327574fac0c6370e9798948c1f08c1be065713d34c7084",
+      "datesChecked": true,
+      "editorialWordingReviewed": true
+    },
+    "gitlab": {
+      "itemHash": "938a05b5bd14d4f2543b1715e31e134414751d387222b17bb6ff1ae23b34f2fd",
+      "datesChecked": true,
+      "editorialWordingReviewed": true
+    },
+    "employee": {
+      "itemHash": "83a303f057ba17fff394330d686b93aafaa55a1074cc81c764caa08ba1e810b2",
+      "datesChecked": true,
+      "editorialWordingReviewed": true
+    },
+    "aris": {
+      "itemHash": "cf3fd2f09cd38658d5b7e785ddba3385f56a2e8f9359687bf6c95602f610385b",
+      "datesChecked": true,
+      "editorialWordingReviewed": true
+    },
+    "atlassian": {
+      "itemHash": "8a2e193d7fd2f3040ff7df3fe631e321e39d32281dac35263e78987ab7ee6862",
+      "datesChecked": true,
+      "editorialWordingReviewed": true
+    }
+  },
+  "claimChecks": {
+    "NEE-AI-RA-CLM-20261008-pilot2-mxc": {
+      "claimHash": "c864d4aacce1b73fc45eb81b4a51c8fc3eafae02957f0650841b6d82c98c9eb5",
+      "supportsWording": true
+    },
+    "NEE-AI-RA-CLM-20261008-pilot2-gitlab": {
+      "claimHash": "546a99543941971bb14b3b0fc99dc6a92b1e0a7f7bfb788e87bf2036e8675637",
+      "supportsWording": true
+    },
+    "NEE-AI-RA-CLM-20261008-pilot2-employee": {
+      "claimHash": "a37781a0bf2560d49b598f93dc5e1bc50459eb926ca32488d944adfdd2ce9220",
+      "supportsWording": true
+    },
+    "NEE-AI-RA-CLM-20261008-pilot2-aris": {
+      "claimHash": "3bf20bbc8b69df7381879c57f9a307ca7bbe13d99adc8bb9fd3ffec1d719cfab",
+      "supportsWording": true
+    },
+    "NEE-AI-RA-CLM-20261008-pilot2-atlassian": {
+      "claimHash": "a88c4e90830e0be0329f9446d57ccea3c72066aa98cef879815670f4e1de8bfa",
+      "supportsWording": true
+    }
+  },
+  "sourceChecks": {
+    "NEE-AI-RA-SRC-20261008-pilot2-mxc": {
+      "contentHash": "d82a84b8e13d4b833d6b71e5ff9fb36810345169c9c2b9547160ba2f41bbdb31",
+      "linkResolved": true,
+      "checkedAt": "2026-10-07T22:51:00.387246Z"
+    },
+    "NEE-AI-RA-SRC-20261008-pilot2-gitlab": {
+      "contentHash": "12f829dd7245c95762fcb192ce46f4e063f80e35f6df887986ac50c0a0a9df49",
+      "linkResolved": true,
+      "checkedAt": "2026-10-07T22:51:00.387246Z"
+    },
+    "NEE-AI-RA-SRC-20261008-pilot2-employee": {
+      "contentHash": "0e5e5246b1c55a5bdff12f06e0e6f9c1b2882ab788741d1ba5e2dea477a45d19",
+      "linkResolved": true,
+      "checkedAt": "2026-10-07T22:51:00.387246Z"
+    },
+    "NEE-AI-RA-SRC-20261008-pilot2-aris": {
+      "contentHash": "a2836a4375b8f04e0f157f5728963c77e0427d46371b1bba6eb93ba52c7ed108",
+      "linkResolved": true,
+      "checkedAt": "2026-10-07T22:51:00.387246Z"
+    },
+    "NEE-AI-RA-SRC-20261008-pilot2-atlassian": {
+      "contentHash": "9907c4b3368f779cebceb0e498e9b57c7237208c95496014c186d46e7819a7f2",
+      "linkResolved": true,
+      "checkedAt": "2026-10-07T22:51:00.387246Z"
+    }
+  }
+}

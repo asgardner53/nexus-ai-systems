@@ -1,0 +1,318 @@
+{
+  "windowStart": "2026-10-01T00:00:00Z",
+  "windowEnd": "2026-10-07T22:51:00.387246Z",
+  "checkedAt": "2026-10-07T22:51:00.387246Z",
+  "evidence": {
+    "materiality": "M2",
+    "status": "Draft",
+    "humanDecisionOwner": "Alec Gardner",
+    "sources": [
+      {
+        "id": "NEE-AI-RA-SRC-20261008-pilot2-mxc",
+        "title": "Microsoft Execution Containers: Policy-driven containment for AI agents",
+        "authorIssuingBody": "Microsoft — Logan Iyer",
+        "sourceType": "TECH_VENDOR",
+        "provenance": "PRIMARY",
+        "sourceQuality": "C",
+        "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+        "publicationDate": "2026-10-07",
+        "retrievedAt": "2026-10-07T22:51:00.387246Z",
+        "contentHash": "d82a84b8e13d4b833d6b71e5ff9fb36810345169c9c2b9547160ba2f41bbdb31",
+        "retrievalStatus": "retrieved",
+        "contentExcerpt": "Microsoft Execution Containers (MXC), now generally available, provides the containment layer.",
+        "notes": "SHA-256 covers the stored short source excerpt, not full HTML. Primary article lines 8,16,26–39,60–74"
+      },
+      {
+        "id": "NEE-AI-RA-SRC-20261008-pilot2-gitlab",
+        "title": "GitLab Announces the Foundation for the Governed Software Factory",
+        "authorIssuingBody": "GitLab",
+        "sourceType": "TECH_VENDOR",
+        "provenance": "PRIMARY",
+        "sourceQuality": "C",
+        "url": "https://about.gitlab.com/press/releases/2026-10-06-gitlab-announces-the-foundation-for-the-governed-software-factory/",
+        "publicationDate": "2026-10-06",
+        "retrievedAt": "2026-10-07T22:51:00.387246Z",
+        "contentHash": "12f829dd7245c95762fcb192ce46f4e063f80e35f6df887986ac50c0a0a9df49",
+        "retrievalStatus": "retrieved",
+        "contentExcerpt": "Custom Flows and flow triggers automate multi-step work under the same identity, policy, and evidence chain.",
+        "notes": "SHA-256 covers the stored short source excerpt, not full HTML. Primary release lines 24,34–35,39,44,46,52–53"
+      },
+      {
+        "id": "NEE-AI-RA-SRC-20261008-pilot2-employee",
+        "title": "Choosing the right AI experience for employee productivity and support",
+        "authorIssuingBody": "Microsoft — Laura Oxford",
+        "sourceType": "TECH_VENDOR",
+        "provenance": "PRIMARY",
+        "sourceQuality": "C",
+        "url": "https://www.microsoft.com/insidetrack/blog/choosing-the-right-ai-experience-for-employee-productivity-and-support/",
+        "publicationDate": "2026-10-01",
+        "retrievedAt": "2026-10-07T22:51:00.387246Z",
+        "contentHash": "0e5e5246b1c55a5bdff12f06e0e6f9c1b2882ab788741d1ba5e2dea477a45d19",
+        "retrievalStatus": "retrieved",
+        "contentExcerpt": "Use the Employee Self-Service Agent for workplace support involving human resources, IT help, facilities, and related employee-service actions.",
+        "notes": "SHA-256 covers the stored short source excerpt, not full HTML. Primary article lines 5,9,13–19,64–68,79–85"
+      },
+      {
+        "id": "NEE-AI-RA-SRC-20261008-pilot2-aris",
+        "title": "Organizations with Strong Process Context 5x More Likely to Deliver Successful AI Outcomes",
+        "authorIssuingBody": "ARIS and The Hackett Group",
+        "sourceType": "TECH_VENDOR",
+        "provenance": "PRIMARY",
+        "sourceQuality": "C",
+        "url": "https://aris.com/newsroom/organizations-with-strong-process-context-5x-more-likely-to-deliver-successful-ai-outcomes/",
+        "publicationDate": "2026-10-01",
+        "retrievedAt": "2026-10-07T22:51:00.387246Z",
+        "contentHash": "a2836a4375b8f04e0f157f5728963c77e0427d46371b1bba6eb93ba52c7ed108",
+        "retrievalStatus": "retrieved",
+        "contentExcerpt": "surveyed more than 200 Global 2000 senior business leaders",
+        "notes": "SHA-256 covers the stored short source excerpt, not full HTML. Primary release lines 4,7–10,29,34–36"
+      },
+      {
+        "id": "NEE-AI-RA-SRC-20261008-pilot2-atlassian",
+        "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+        "authorIssuingBody": "OpenAI and Atlassian",
+        "sourceType": "TECH_VENDOR",
+        "provenance": "PRIMARY",
+        "sourceQuality": "C",
+        "url": "https://openai.com/index/atlassian-partnership/",
+        "publicationDate": "2026-10-06",
+        "retrievedAt": "2026-10-07T22:51:00.387246Z",
+        "contentHash": "9907c4b3368f779cebceb0e498e9b57c7237208c95496014c186d46e7819a7f2",
+        "retrievalStatus": "retrieved",
+        "contentExcerpt": "Under a new agreement, OpenAI frontier models will power agents across Atlassian’s platform and Rovo.",
+        "notes": "SHA-256 covers the stored short source excerpt, not full HTML. Primary announcement lines 13,29–32,55–60"
+      }
+    ],
+    "claims": [
+      {
+        "id": "NEE-AI-RA-CLM-20261008-pilot2-mxc",
+        "text": "Microsoft describes Execution Containers as generally available and designed to enforce resource policies for agent workloads.",
+        "type": "attributed claim",
+        "verificationStatus": "provisionally supported",
+        "humanApprovalRequired": true,
+        "jurisdiction": "International source; Australian applicability requires local review",
+        "limitations": "Vendor technical description, not an independent security assessment. Containment backends have different properties; some management and agent identity features are described as coming soon. General availability does not prove suitability for your workload."
+      },
+      {
+        "id": "NEE-AI-RA-CLM-20261008-pilot2-gitlab",
+        "text": "GitLab announced custom flows and triggers for multi-step work under shared identity, policy and evidence controls.",
+        "type": "attributed claim",
+        "verificationStatus": "provisionally supported",
+        "humanApprovalRequired": true,
+        "jurisdiction": "International source; Australian applicability requires local review",
+        "limitations": "A commercial announcement describes intended capabilities rather than independently established outcomes. The release mixes available, beta, early-access and future features. Do not assume every named component is production-ready or count vendor savings claims as realised benefits."
+      },
+      {
+        "id": "NEE-AI-RA-CLM-20261008-pilot2-employee",
+        "text": "Microsoft describes routing general productivity work to Copilot Chat and workplace-service requests to its Employee Self-Service Agent.",
+        "type": "attributed claim",
+        "verificationStatus": "provisionally supported",
+        "humanApprovalRequired": true,
+        "jurisdiction": "International source; Australian applicability requires local review",
+        "limitations": "This is Microsoft’s account of its own implementation, not a controlled comparison or a new product launch. Its policies, scale and permissions differ from Australian workplaces. Reported architecture and benefits need checking against the organisation’s actual service design."
+      },
+      {
+        "id": "NEE-AI-RA-CLM-20261008-pilot2-aris",
+        "text": "ARIS and The Hackett Group describe a survey of more than 200 senior Global 2000 leaders about process context and AI readiness.",
+        "type": "attributed claim",
+        "verificationStatus": "provisionally supported",
+        "humanApprovalRequired": true,
+        "jurisdiction": "International source; Australian applicability requires local review",
+        "limitations": "The release reports a commercially partnered, self-reported executive survey. The complete instrument and analysis were not examined. Associations do not establish causation; the headline multiplier is not a guaranteed productivity gain, and large-company results may not transfer to Australian SMEs."
+      },
+      {
+        "id": "NEE-AI-RA-CLM-20261008-pilot2-atlassian",
+        "text": "OpenAI announced an expanded Atlassian agreement for models to power agents across Atlassian’s platform and Rovo.",
+        "type": "attributed claim",
+        "verificationStatus": "provisionally supported",
+        "humanApprovalRequired": true,
+        "jurisdiction": "International source; Australian applicability requires local review",
+        "limitations": "This is a partner announcement with commercial interests, not an independent effectiveness study. Deeper Jira integrations are described as being explored. Access and release availability require separate checks; enterprise context can still be incomplete, stale or over-permissioned."
+      }
+    ],
+    "links": [
+      {
+        "claimId": "NEE-AI-RA-CLM-20261008-pilot2-mxc",
+        "sourceId": "NEE-AI-RA-SRC-20261008-pilot2-mxc",
+        "role": "supporting",
+        "locator": "Primary article lines 8,16,26–39,60–74"
+      },
+      {
+        "claimId": "NEE-AI-RA-CLM-20261008-pilot2-gitlab",
+        "sourceId": "NEE-AI-RA-SRC-20261008-pilot2-gitlab",
+        "role": "supporting",
+        "locator": "Primary release lines 24,34–35,39,44,46,52–53"
+      },
+      {
+        "claimId": "NEE-AI-RA-CLM-20261008-pilot2-employee",
+        "sourceId": "NEE-AI-RA-SRC-20261008-pilot2-employee",
+        "role": "supporting",
+        "locator": "Primary article lines 5,9,13–19,64–68,79–85"
+      },
+      {
+        "claimId": "NEE-AI-RA-CLM-20261008-pilot2-aris",
+        "sourceId": "NEE-AI-RA-SRC-20261008-pilot2-aris",
+        "role": "supporting",
+        "locator": "Primary release lines 4,7–10,29,34–36"
+      },
+      {
+        "claimId": "NEE-AI-RA-CLM-20261008-pilot2-atlassian",
+        "sourceId": "NEE-AI-RA-SRC-20261008-pilot2-atlassian",
+        "role": "supporting",
+        "locator": "Primary announcement lines 13,29–32,55–60"
+      }
+    ]
+  },
+  "selectedItems": [
+    {
+      "id": "mxc",
+      "title": "Contain agent access outside the model",
+      "organisation": "Microsoft — Logan Iyer",
+      "category": "products_and_tools",
+      "publicationDate": "2026-10-07",
+      "announcementDate": null,
+      "rankingRationale": "Highest priority because an enforceable permission boundary is immediately relevant to agent deployment.",
+      "workplaceRelevance": "For an internal pilot, write down the files, network destinations and tools the agent actually needs. Test a denied operation as well as a successful task, and keep the resulting evidence. Treat the containment setting as a management decision: permissive observation should not be confused with enforced restrictions. Ask the technical owner to demonstrate the chosen boundary before delegating a broader task.",
+      "limitations": "Vendor technical description, not an independent security assessment. Containment backends have different properties; some management and agent identity features are described as coming soon. General availability does not prove suitability for your workload.",
+      "claimIds": [
+        "NEE-AI-RA-CLM-20261008-pilot2-mxc"
+      ],
+      "sourceIds": [
+        "NEE-AI-RA-SRC-20261008-pilot2-mxc"
+      ]
+    },
+    {
+      "id": "gitlab",
+      "title": "Connect agent handoffs to identity and evidence",
+      "organisation": "GitLab",
+      "category": "agents_and_workflows",
+      "publicationDate": "2026-10-06",
+      "announcementDate": "2026-10-06",
+      "rankingRationale": "Second because cross-stage handoffs are a practical control problem for software teams.",
+      "workplaceRelevance": "A useful local trial is one change moving from request to review and testing. Define where the agent must stop, who can release the change and what evidence each handoff retains. Compare the agent-assisted route with the existing process for rework and completion quality. The value to test is clearer work progression with accountable decisions, rather than a larger volume of generated code or more agent activity.",
+      "limitations": "A commercial announcement describes intended capabilities rather than independently established outcomes. The release mixes available, beta, early-access and future features. Do not assume every named component is production-ready or count vendor savings claims as realised benefits.",
+      "claimIds": [
+        "NEE-AI-RA-CLM-20261008-pilot2-gitlab"
+      ],
+      "sourceIds": [
+        "NEE-AI-RA-SRC-20261008-pilot2-gitlab"
+      ]
+    },
+    {
+      "id": "employee",
+      "title": "Give productivity and employee support different jobs",
+      "organisation": "Microsoft — Laura Oxford",
+      "category": "workplace_examples",
+      "publicationDate": "2026-10-01",
+      "announcementDate": null,
+      "rankingRationale": "Third because the example helps HR and IT distinguish assistance from authoritative service actions.",
+      "workplaceRelevance": "Before adding another chatbot, sort common employee requests by the source and decision they require. Drafting a meeting summary and answering an entitlement question should have different knowledge boundaries. Assign a content owner for each service and an escalation path when the answer is uncertain. In a pilot, measure correct routing and resolved requests alongside satisfaction; a fluent response alone cannot show that the employee received the right service.",
+      "limitations": "This is Microsoft’s account of its own implementation, not a controlled comparison or a new product launch. Its policies, scale and permissions differ from Australian workplaces. Reported architecture and benefits need checking against the organisation’s actual service design.",
+      "claimIds": [
+        "NEE-AI-RA-CLM-20261008-pilot2-employee"
+      ],
+      "sourceIds": [
+        "NEE-AI-RA-SRC-20261008-pilot2-employee"
+      ]
+    },
+    {
+      "id": "aris",
+      "title": "Understand the process before scaling agents",
+      "organisation": "ARIS and The Hackett Group",
+      "category": "research_and_evidence",
+      "publicationDate": "2026-10-01",
+      "announcementDate": "2026-10-01",
+      "rankingRationale": "Fourth because the survey offers implementation questions, with substantial limits on causal interpretation.",
+      "workplaceRelevance": "Use the study as a diagnostic prompt, not a forecast of returns. Choose an onboarding, procurement or service workflow and map its exceptions, owners and system interactions. Identify what the agent would need to know when the normal path fails. Ask the business process owner to validate that map before considering automation. A clearly described exception or approval boundary is more useful evidence of readiness than a confident demonstration on a convenient example.",
+      "limitations": "The release reports a commercially partnered, self-reported executive survey. The complete instrument and analysis were not examined. Associations do not establish causation; the headline multiplier is not a guaranteed productivity gain, and large-company results may not transfer to Australian SMEs.",
+      "claimIds": [
+        "NEE-AI-RA-CLM-20261008-pilot2-aris"
+      ],
+      "sourceIds": [
+        "NEE-AI-RA-SRC-20261008-pilot2-aris"
+      ]
+    },
+    {
+      "id": "atlassian",
+      "title": "Connect enterprise context while keeping decisions visible",
+      "organisation": "OpenAI and Atlassian",
+      "category": "implementation_lessons",
+      "publicationDate": "2026-10-06",
+      "announcementDate": "2026-10-06",
+      "rankingRationale": "Fifth because it illustrates context integration, while parts of the roadmap remain exploratory.",
+      "workplaceRelevance": "For teams already using Jira and Confluence, review the quality and permissions of project records before connecting an agent. An assistant can surface a blocked task, but the accountable manager still needs to decide what changes. Design the pilot around one question, such as launch readiness, and check whether the answer links to current evidence and unresolved decisions. Keep agent actions distinguishable from recommendations so a helpful summary cannot silently become an approved change.",
+      "limitations": "This is a partner announcement with commercial interests, not an independent effectiveness study. Deeper Jira integrations are described as being explored. Access and release availability require separate checks; enterprise context can still be incomplete, stale or over-permissioned.",
+      "claimIds": [
+        "NEE-AI-RA-CLM-20261008-pilot2-atlassian"
+      ],
+      "sourceIds": [
+        "NEE-AI-RA-SRC-20261008-pilot2-atlassian"
+      ]
+    }
+  ],
+  "events": [],
+  "practicalAction": "Choose one bounded workflow and name its human decision owner. Record the approved sources, agent permissions, stop conditions and retained evidence. Run a supervised comparison with the existing process, measuring completed work, errors and human correction time. Expand only after reviewing those results. These are proposed pilot steps, not established outcomes from this week’s announcements.",
+  "evidenceGaps": [
+    "Australian sources were searched. PwC’s 30 September release and older government evidence were excluded from this October window. No verified new Australian workplace case passed this scan.",
+    "The academic search found a new arXiv candidate, but its original page could not be retrieved; no result from that paper enters the shortlist.",
+    "An Australian DJC webinar lists 15 October, noon AEDT, but the registration mechanism was not independently confirmed, so it is omitted from the events list.",
+    "All shortlisted claims remain attributed and provisional. No independent outcome validation or human publication approval is recorded."
+  ],
+  "quietWeekReason": null,
+  "reviewRecord": {
+    "reviewCompleted": true,
+    "reviewerSubject": "supervised-host-evidence-review-20261008",
+    "reviewerType": "AI-assisted host review; not human approval",
+    "australianSearchCompleted": true,
+    "challengeCompleted": true,
+    "coverage": {
+      "completed": true,
+      "searchPasses": [
+        "primary",
+        "academic",
+        "practitioner",
+        "challenge",
+        "currency"
+      ]
+    },
+    "searchLog": [
+      {
+        "pass": "primary",
+        "query": "site.nist.gov OR site.oecd.org OR site.csiro.au workplace artificial intelligence October 2026",
+        "finding": "No verified in-window primary authority item shortlisted."
+      },
+      {
+        "pass": "academic",
+        "query": "AI workplace productivity study October 2026 randomized trial",
+        "finding": "arXiv candidate not retrievable; excluded."
+      },
+      {
+        "pass": "practitioner",
+        "query": "site.aris.com 2026 Process Context October",
+        "finding": "Opened original ARIS release; self-report and commercial conflicts retained."
+      },
+      {
+        "pass": "challenge",
+        "query": "AI agents workplace implementation failures October 2026; Hackett ARIS methodology correlation limitations",
+        "finding": "No independent evaluation of selected product outcomes established; causality and readiness claims limited."
+      },
+      {
+        "pass": "currency",
+        "query": "site.microsoft.com OR site.openai.com October 2026 workplace agents announcement",
+        "finding": "Opened dated original pages; separated existing guidance from new launch and future features."
+      },
+      {
+        "pass": "Australia",
+        "query": "Australia workplace AI skills events October 2026 2 7 conference webinar",
+        "finding": "Older PwC release excluded; event not fully verified."
+      }
+    ],
+    "claimRationales": {
+      "NEE-AI-RA-CLM-20261008-pilot2-mxc": "Wording attributes only the opened publisher statement. Vendor technical description, not an independent security assessment. Containment backends have different properties; some management and agent identity features are described as coming soon. General availability does not prove suitability for your workload.",
+      "NEE-AI-RA-CLM-20261008-pilot2-gitlab": "Wording attributes only the opened publisher statement. A commercial announcement describes intended capabilities rather than independently established outcomes. The release mixes available, beta, early-access and future features. Do not assume every named component is production-ready or count vendor savings claims as realised benefits.",
+      "NEE-AI-RA-CLM-20261008-pilot2-employee": "Wording attributes only the opened publisher statement. This is Microsoft’s account of its own implementation, not a controlled comparison or a new product launch. Its policies, scale and permissions differ from Australian workplaces. Reported architecture and benefits need checking against the organisation’s actual service design.",
+      "NEE-AI-RA-CLM-20261008-pilot2-aris": "Wording attributes only the opened publisher statement. The release reports a commercially partnered, self-reported executive survey. The complete instrument and analysis were not examined. Associations do not establish causation; the headline multiplier is not a guaranteed productivity gain, and large-company results may not transfer to Australian SMEs.",
+      "NEE-AI-RA-CLM-20261008-pilot2-atlassian": "Wording attributes only the opened publisher statement. This is a partner announcement with commercial interests, not an independent effectiveness study. Deeper Jira integrations are described as being explored. Access and release availability require separate checks; enterprise context can still be incomplete, stale or over-permissioned."
+    }
+  }
+}
