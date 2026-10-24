@@ -2,13 +2,13 @@
 
 ## Document control
 - **Version:** 0.1
-- **Document status:** Draft
+- **Document status:** Approved
 - **Owner:** Alec Gardner
 - **Approval authority:** Alec Gardner
-- **Effective date:** Not effective — draft architecture
-- **Next review:** Before approval or on material architecture change
+- **Effective date:** 24 October 2026
+- **Next review:** 24 April 2027, or earlier on material architecture change
 - **Repository path:** `knowledge/README.md`
-- **Change history:** v0.1 establishes the draft knowledge architecture and governance boundaries.
+- **Change history:** v0.1 establishes and approves the knowledge architecture and governance boundaries.
 
 This directory is the reusable Nexus AI knowledge layer. It converts learning, research, implementation evidence and controlled source syntheses into reusable knowledge objects without treating any single course, vendor article or source as authoritative doctrine.
 
@@ -21,8 +21,8 @@ This directory is the reusable Nexus AI knowledge layer. It converts learning, r
 - `source-syntheses/` records what a particular source set or learning activity contributed.
 - `ai-agents/` contains reusable concept and implementation knowledge.
 - `indexes/` supports discovery and traceability.
-- `control-drafts/` contains draft control artefacts that are not yet authoritative.
-- `governance/` contains draft lifecycle/governance proposals for this knowledge layer until separately approved.
+- `governance/` contains the approved lifecycle and governance controls for this knowledge layer.
+- Authoritative reusable templates and registers are held in the repository-level `templates/` and `registers/` folders.
 
 Course materials may inform this knowledge base but must not be copied into it beyond what is permitted. Student submissions, assessment evidence and personal information are prohibited.
 
@@ -65,4 +65,4 @@ A knowledge object may be approved for a defined Nexus reuse scope while still r
 See:
 - `knowledge/governance/knowledge-lifecycle-v0.1.md`
 - `knowledge/indexes/ai-knowledge-index.md`
-- `knowledge/control-drafts/source-to-knowledge-register-v0.1.md`
+- `registers/source-to-knowledge-register-v0.1.md`
