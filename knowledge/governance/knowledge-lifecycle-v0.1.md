@@ -2,11 +2,11 @@
 
 ## Document control
 - **Version:** 0.1
-- **Document status:** Draft
+- **Document status:** Approved
 - **Owner:** Alec Gardner
 - **Approval authority:** Alec Gardner
-- **Effective date:** Not effective — draft for review
-- **Next review:** Before approval or on material governance change
+- **Effective date:** 24 October 2026
+- **Next review:** 24 April 2027, or earlier on material governance change
 - **Repository:** `asgardner53/nexus-ai-systems`
 - **Repository path:** `knowledge/governance/knowledge-lifecycle-v0.1.md`
 
@@ -85,4 +85,4 @@ AI may draft, map, challenge and recommend status changes. A human must approve:
 ## Change history
 | Version | Date | Change | Status |
 |---|---|---|---|
-| 0.1 | 24 October 2026 | Initial lifecycle and approval model | Draft |
+| 0.1 | 24 October 2026 | Initial lifecycle and approval model | Approved |
