@@ -1,10 +1,16 @@
 # Nexus AI Knowledge Base
 
-## Status
+## Document control
+- **Version:** 0.1
+- **Document status:** Draft
+- **Owner:** Alec Gardner
+- **Approval authority:** Alec Gardner
+- **Effective date:** Not effective — draft architecture
+- **Next review:** Before approval or on material architecture change
+- **Repository path:** `knowledge/README.md`
+- **Change history:** v0.1 establishes the draft knowledge architecture and governance boundaries.
 
-**Draft architecture — for human review.**
-
-This directory is the reusable Nexus AI knowledge layer. It converts verified learning, research, implementation evidence and controlled source syntheses into reusable knowledge objects without treating any single course, vendor article or source as authoritative doctrine.
+This directory is the reusable Nexus AI knowledge layer. It converts learning, research, implementation evidence and controlled source syntheses into reusable knowledge objects without treating any single course, vendor article or source as authoritative doctrine.
 
 ## Governing principle
 
@@ -15,7 +21,8 @@ This directory is the reusable Nexus AI knowledge layer. It converts verified le
 - `source-syntheses/` records what a particular source set or learning activity contributed.
 - `ai-agents/` contains reusable concept and implementation knowledge.
 - `indexes/` supports discovery and traceability.
-- `registers/source-to-knowledge-register-v0.1.md` records provenance links between sources and reusable knowledge entries.
+- `control-drafts/` contains draft control artefacts that are not yet authoritative.
+- `governance/` contains draft lifecycle/governance proposals for this knowledge layer until separately approved.
 
 Course materials may inform this knowledge base but must not be copied into it beyond what is permitted. Student submissions, assessment evidence and personal information are prohibited.
 
@@ -34,13 +41,18 @@ Course materials may inform this knowledge base but must not be copied into it b
 
 ## Evidence discipline
 
-Reusable entries should distinguish:
+Reusable entries distinguish claim status from document status.
 
+**Claim status:**
 - Verified fact
 - Supported interpretation
 - Attributed claim
 - Working hypothesis
 - Unresolved
+
+**Document status:** Draft, Under Review, Approved, Superseded, Suspended or Retired.
+
+**Knowledge maturity:** Candidate, Evidence-supported, Approved for defined reuse, Superseded or Retired.
 
 Before reuse in publications, client work, assessment design, governance or AIRBOK development, re-check currency, scope, source authority and context.
 
@@ -48,4 +60,9 @@ Before reuse in publications, client work, assessment design, governance or AIRB
 
 Nothing in this directory becomes AIRBOK doctrine, a regulatory conclusion, a credential requirement or an approved Nexus governance position merely because it is stored here.
 
-Material knowledge objects remain **Candidate** or **Under Review** until a human approval decision is recorded.
+A knowledge object may be approved for a defined Nexus reuse scope while still remaining unapproved for AIRBOK doctrine or any other separately governed use.
+
+See:
+- `knowledge/governance/knowledge-lifecycle-v0.1.md`
+- `knowledge/indexes/ai-knowledge-index.md`
+- `knowledge/control-drafts/source-to-knowledge-register-v0.1.md`
