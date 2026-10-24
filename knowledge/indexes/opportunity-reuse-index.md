@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|---|
 | NEX-OPP-001 | NEX-KNOW-001 AI Agent Foundations | Publishing | AI Edge / LinkedIn | Explainer on assistants vs agents and controlled autonomy | Candidate | Medium | Identified |
 | NEX-OPP-002 | NEX-KNOW-002 Selecting Suitable AI-Agent Opportunities | Commercial | Client advisory / small business | AI-agent opportunity diagnostic | Candidate | High | Identified |
-| NEX-OPP-003 | NEX-KNOW-002 Selecting Suitable AI-Agent Opportunities | Learning | Masterclass / VET / Udemy | Activity: identify workflows suitable for agentic support | Candidate | High | Identified |
+| NEX-OPP-003 | NEX-KNOW-002 Selecting Suitable AI-Agent Opportunities | Knowledge | Masterclass / VET / Udemy | Activity: identify workflows suitable for agentic support | Candidate | High | Identified |
 | NEX-OPP-004 | NEX-KNOW-003 Controlled Autonomy and Human Escalation | Publishing | AI Edge / Evolving Leader | Article on why autonomy requires escalation and ownership | Candidate | High | Identified |
 | NEX-OPP-005 | NEX-KNOW-003 Controlled Autonomy and Human Escalation | Commercial | Client advisory | Human-checkpoint and escalation design diagnostic | Candidate | High | Identified |
 | NEX-OPP-006 | NEX-KNOW-003 Controlled Autonomy and Human Escalation | Doctrine | AIRBOK research input | Research candidate: controlled autonomy, escalation and human decision rights | Candidate | Medium | Identified |
