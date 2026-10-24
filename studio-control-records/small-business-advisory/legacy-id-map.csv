@@ -1,0 +1,18 @@
+legacy_file,legacy_id,legacy_commit,new_id,relationship
+forensic-evidence-baseline.md,SBA-001,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-CLM-001,Same inventory subject; recast as qualified claim
+forensic-evidence-baseline.md,SBA-002,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-CLM-002,Same inventory subject; recast as qualified claim
+forensic-evidence-baseline.md,SBA-003,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-CLM-003,Same inventory subject; recast as qualified claim
+forensic-evidence-baseline.md,SBA-004,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-CLM-004,Same inventory subject; recast as qualified claim
+forensic-evidence-baseline.md,SBA-005,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-CLM-005,Same inventory subject; recast as qualified claim
+forensic-evidence-baseline.md,SBA-006,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-CLM-006,Same inventory subject; recast as qualified claim
+forensic-evidence-baseline.md,SBA-007,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-CLM-007,Same inventory subject; recast as qualified claim
+forensic-evidence-baseline.md,SBA-008,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-CLM-008,Same inventory subject; recast as qualified claim
+forensic-evidence-baseline.md,SBA-009,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-CLM-009,Same inventory subject; recast as qualified claim
+forensic-evidence-baseline.md,SBA-010,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-CLM-010,Same inventory subject; recast as qualified claim
+review-register.csv,SBA-001,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-ACT-001,Original review action retained
+review-register.csv,SBA-002,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-ACT-002,Original review action retained
+review-register.csv,SBA-003,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-ACT-003,Original review action retained
+review-register.csv,SBA-004,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-ACT-004,Original review action retained
+review-register.csv,SBA-005,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-ACT-005,Original review action retained
+review-register.csv,SBA-006,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-ACT-006,Original review action retained
+review-register.csv,SBA-007,1925f435fc4a374d8a2f6f6bda338072f606b59d,SBA-ACT-007,Original review action retained
