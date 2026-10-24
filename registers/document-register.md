@@ -39,6 +39,11 @@ GitHub repository history provides the detailed technical version trail. This re
 | NEX-REG-003 | Nexus Controlled Document Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/document-register.md` |
 | NEX-REG-004 | Nexus Change and Decision Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/change-and-decision-register.md` |
 | NEX-REG-005 | Nexus AI Incident Register | 1.0 | Approved live register | Alec Gardner | 26 July 2026 | 26 January 2027 | `asgardner53/nexus-ai-systems` | `registers/incident-register.md` |
+| NEX-KB-ARCH-001 | Nexus AI Knowledge Base Architecture | 0.2 | Approved | Alec Gardner | 24 October 2026 | 24 April 2027 | `asgardner53/nexus-ai-systems` | `knowledge/README.md` |
+| NEX-GOV-KB-OR-001 | Nexus AI Opportunity & Reuse Standard | 0.1 | Approved | Alec Gardner | 24 October 2026 | 24 April 2027 | `asgardner53/nexus-ai-systems` | `knowledge/governance/opportunity-reuse-standard-v0.1.md` |
+| NEX-IDX-KB-OR-001 | Nexus Opportunity & Reuse Index | 0.1 | Approved | Alec Gardner | 24 October 2026 | 24 April 2027 | `asgardner53/nexus-ai-systems` | `knowledge/indexes/opportunity-reuse-index.md` |
+| NEX-MAP-KB-OR-001 | Nexus Knowledge Channel Reuse Map | 0.1 | Approved | Alec Gardner | 24 October 2026 | 24 April 2027 | `asgardner53/nexus-ai-systems` | `knowledge/reuse-maps/channel-reuse-map-v0.1.md` |
+| NEX-TMP-KB-OR-001 | Nexus Opportunity & Reuse Record Template | 0.1 | Approved | Alec Gardner | 24 October 2026 | 24 April 2027 | `asgardner53/nexus-ai-systems` | `templates/opportunity-reuse-record-template-v0.1.md` |
 | GAS-CH-001 | Grants Access Studio Charter | 0.1 | Superseded | Alec Gardner | Not effective — historical draft | Replaced by v1.0 | `asgardner53/nexus-ai-systems` | `studio-control-records/grants-access-studio-charter-v0.1-draft.md` |
 | GAS-CH-001 | Grants Access Studio Charter | 1.0 | Approved | Alec Gardner | 22 September 2026 | Before pilot release and after pilot | `asgardner53/nexus-ai-systems` | `studio-control-records/grants-access-studio-charter-v1.0.md` |
 
