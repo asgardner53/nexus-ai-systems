@@ -2,7 +2,7 @@
 
 ## Document control
 - **Version:** 0.1
-- **Status:** Draft
+- **Document status:** Draft
 - **Owner:** Alec Gardner
 - **Approval authority:** Alec Gardner
 - **Effective date:** Not effective — draft for review
