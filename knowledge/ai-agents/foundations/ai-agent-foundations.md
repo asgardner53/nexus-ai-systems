@@ -1,12 +1,28 @@
 # AI Agent Foundations
 
-## Document status
-- **Status:** Candidate
+## Document control
+- **Version:** 0.1
+- **Document status:** Draft
+- **Knowledge maturity:** Candidate
 - **Owner:** Alec Gardner
-- **Knowledge domain:** AI agents / foundations
+- **Approval authority:** Alec Gardner
+- **Prepared:** 24 October 2026
+- **Effective date:** Not effective — draft candidate
+- **Next review:** Before promotion to evidence-supported status or on material source change
+- **Repository path:** `knowledge/ai-agents/foundations/ai-agent-foundations.md`
+- **Change history:** v0.1 establishes the initial reusable foundations entry.
 
 ## Knowledge statement
 An AI agent is best understood as a system that can pursue a defined goal across one or more steps, use relevant context, select actions and potentially interact with tools or connected systems within defined permissions.
+
+## Claim status
+**Supported interpretation.** This entry synthesises multiple practitioner/vendor sources and course material. It is not yet independently verified to M2 evidence standard.
+
+## Evidence base
+
+| Source synthesis | Source class | Date checked | Contribution | Limitation |
+|---|---|---|---|---|
+| `knowledge/source-syntheses/NAT11423006/lecture-01.md` | Mixed practitioner/vendor course source set | 23 Oct 2026 | Assistant/agent distinctions, Observe-Plan-Act, customisation, human oversight | Predominantly commercial/practitioner sources; independent verification pending |
 
 ## Supported interpretation
 A useful conceptual distinction is:
@@ -35,9 +51,18 @@ A custom agent should define:
 ## Boundary conditions
 Greater autonomy does not imply unlimited authority. Consequential decisions involving people, money, privacy, safety, legal obligations or material organisational risk require explicit human decision rights.
 
+## Risks and failure modes
+- treating marketing terminology as universal technical taxonomy;
+- giving an agent broader permissions than its task requires;
+- confusing autonomous action with organisational authority;
+- failing to define human review for consequential actions.
+
+## Human decision points
+Humans retain authority over consequential decisions and over any promotion of this entry to an approved reuse status.
+
 ## Provenance
-- NAT11423006 Lecture 1 source synthesis
+- `knowledge/source-syntheses/NAT11423006/lecture-01.md`
 - NEX-KMAP-001
 
 ## Reuse status
-Candidate for Nexus AI system design, learning design and research. Not approved AIRBOK doctrine.
+Draft candidate only. Suitable as a research input; not yet approved for controlled Nexus reuse or AIRBOK doctrine.
