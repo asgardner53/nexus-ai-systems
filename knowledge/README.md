@@ -2,13 +2,13 @@
 
 ## Document control
 - **Version:** 0.2
-- **Document status:** Under Review
+- **Document status:** Approved
 - **Owner:** Alec Gardner
 - **Approval authority:** Alec Gardner
-- **Effective date:** v0.1 remains effective; v0.2 proposed extension not yet effective
-- **Next review:** Before v0.2 approval or earlier on material architecture change
+- **Effective date:** 24 October 2026
+- **Next review:** 24 April 2027, or earlier on material architecture change
 - **Repository path:** `knowledge/README.md`
-- **Change history:** v0.1 established the approved knowledge architecture. v0.2 proposes an Opportunity & Reuse layer while preserving the v0.1 evidence and approval boundaries.
+- **Change history:** v0.1 established the approved knowledge architecture. v0.2 adds the approved Opportunity & Reuse layer while preserving the v0.1 evidence and approval boundaries.
 
 This directory is the reusable Nexus AI knowledge layer. It converts learning, research, implementation evidence and controlled source syntheses into reusable knowledge objects without treating any single course, vendor article or source as authoritative doctrine.
 
@@ -24,7 +24,6 @@ This directory is the reusable Nexus AI knowledge layer. It converts learning, r
 - `governance/` contains lifecycle and governance controls for this knowledge layer.
 - `reuse-maps/` maps knowledge into potential downstream channels and products without implying approval.
 - `indexes/` also includes an Opportunity & Reuse Index for triage and prioritisation.
-- `control-drafts/` may hold proposed reusable records until separately approved.
 - Authoritative reusable templates and registers remain governed by the repository-level `templates/` and `registers/` folders.
 
 Course materials may inform this knowledge base but must not be copied into it beyond what is permitted. Student submissions, assessment evidence and personal information are prohibited.
@@ -71,7 +70,7 @@ See:
 - `registers/source-to-knowledge-register-v0.1.md`
 
 
-## Opportunity & Reuse layer — v0.2 proposal
+## Opportunity & Reuse layer — v0.2
 
 The Opportunity & Reuse layer converts useful knowledge into candidate downstream uses while keeping opportunity value separate from evidence strength.
 
@@ -90,4 +89,15 @@ See:
 - `knowledge/governance/opportunity-reuse-standard-v0.1.md`
 - `knowledge/indexes/opportunity-reuse-index.md`
 - `knowledge/reuse-maps/channel-reuse-map-v0.1.md`
-- `knowledge/control-drafts/opportunity-reuse-record-template-v0.1.md`
+- `templates/opportunity-reuse-record-template-v0.1.md`
+
+
+## Standard three-output workflow from NAT11423006 Lecture 5 onward
+
+Each completed lecture/source review now produces:
+
+1. **Student Learning Output**
+2. **Nexus Knowledge Output**
+3. **Opportunity & Reuse Output**
+
+The third output records candidate Knowledge, Commercial, Publishing and Doctrine signals with evidence gates and proposed destinations. It does not itself authorise external reuse.
