@@ -42,6 +42,8 @@ Routine drafting edits do not require an entry. Decisions that change authority,
 
 | NEX-DEC-KB-20261024-001 | 24 October 2026 | Repository and document control | Authorise preparation and GitHub storage of a draft Nexus AI Knowledge Base architecture and seed candidate entries derived from NAT11423006 Lectures 1, 3 and 4; final knowledge approval remains pending human review | Preserve reusable AI learning with provenance, evidence status, source separation and human approval gates | Alec Gardner — drafting and GitHub storage only | Nexus AI Knowledge Base; review branch `nexus-ai-knowledge-base-v0.1` | Draft prepared for review; no knowledge object, doctrine or governance position approved |
 
+| NEX-DEC-KB-20261024-003 | 24 October 2026 | Repository and document control | Authorise preparation of a draft Opportunity & Reuse layer for the Nexus AI Knowledge Base, including signal taxonomy, reuse destinations, opportunity index and reuse record template; approval pending review | Extend the approved knowledge architecture so reusable insights can generate governed publishing, commercial, learning, product and AIRBOK research opportunities without changing evidence status | Alec Gardner — explicit instruction to add the layer; drafting and GitHub storage only | Nexus AI Knowledge Base v0.2 proposal; review branch `nexus-opportunity-reuse-layer-v0.1` | Draft prepared for review; no opportunity, publication, client action or doctrine approved |
+
 ## Orchestration revision preparation record
 
 | Decision ID | Date | Category | Instruction and result | Authority | Status |
