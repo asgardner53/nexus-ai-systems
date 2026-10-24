@@ -2,10 +2,12 @@
 
 ## Document control
 - **Version:** 0.1
-- **Document status:** Draft
+- **Document status:** Approved
 - **Owner:** Alec Gardner
 - **Approval authority:** Alec Gardner
-- **Effective date:** Not effective — draft for review
+- **Effective date:** 24 October 2026
+- **Next review:** 24 April 2027, or earlier on material channel/governance change
+- **Repository:** `asgardner53/nexus-ai-systems`
 - **Repository path:** `knowledge/reuse-maps/channel-reuse-map-v0.1.md`
 
 ## Purpose
@@ -36,4 +38,4 @@ A destination may be recorded while the originating knowledge remains **Candidat
 ## Change history
 | Version | Date | Change | Status |
 |---|---|---|---|
-| 0.1 | 24 October 2026 | Initial channel reuse map | Draft |
+| 0.1 | 24 October 2026 | Initial channel reuse map approved following PR #9 review | Approved |
