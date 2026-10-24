@@ -1,12 +1,28 @@
 # Controlled Autonomy and Human Escalation
 
-## Document status
-- **Status:** Candidate
+## Document control
+- **Version:** 0.1
+- **Document status:** Draft
+- **Knowledge maturity:** Candidate
 - **Owner:** Alec Gardner
-- **Knowledge domain:** AI agents / human-in-the-loop
+- **Approval authority:** Alec Gardner
+- **Prepared:** 24 October 2026
+- **Effective date:** Not effective — draft candidate
+- **Next review:** Before promotion to evidence-supported status or on material technical/legal change
+- **Repository path:** `knowledge/ai-agents/human-in-the-loop/controlled-autonomy-and-escalation.md`
+- **Change history:** v0.1 establishes the initial human-in-the-loop and escalation entry.
 
 ## Knowledge statement
 Organisational AI agents should be designed for controlled autonomy: enough authority to perform useful work, with explicit boundaries, escalation rules and human decision points proportionate to the consequence of the action.
+
+## Claim status
+**Supported interpretation.** The entry synthesises vendor, technical and legal-practitioner sources. It is not legal advice and is not yet independently verified to M2 evidence standard.
+
+## Evidence base
+
+| Source synthesis | Source class | Date checked | Contribution | Limitation |
+|---|---|---|---|---|
+| `knowledge/source-syntheses/NAT11423006/lecture-04.md` | Mixed vendor, technical documentation and legal-practitioner source set | 24 Oct 2026 | Human checkpoints, escalation, guardrails, no-code agents and evaluation | Commercial bias in several sources; legal commentary is context-specific; independent verification pending |
 
 ## Core distinctions
 
@@ -42,9 +58,18 @@ An agent should be evaluated not only on output quality but also on whether it:
 ## Boundary conditions
 Automated evaluation can assist testing, but consequential decisions should not rely solely on an AI system judging another AI system. Human review remains required where material risk or accountability demands it.
 
+## Risks and failure modes
+- escalation thresholds that are too loose or too strict;
+- guardrails that are described but not technically enforced;
+- hidden human-accountability gaps;
+- using automated evaluators as the sole assurance mechanism.
+
+## Human decision points
+Humans approve consequential actions, escalation policy, risk thresholds and any promotion of this entry to approved reuse status.
+
 ## Provenance
-- NAT11423006 Lecture 4 source synthesis
+- `knowledge/source-syntheses/NAT11423006/lecture-04.md`
 - NEX-KMAP-003
 
 ## Reuse status
-Candidate for Nexus AI system design, governance research, learning design and client advisory development. Not approved AIRBOK doctrine or legal advice.
+Draft candidate only. Suitable as a research input; not approved AIRBOK doctrine, legal advice or governance policy.
