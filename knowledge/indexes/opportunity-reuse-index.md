@@ -2,11 +2,11 @@
 
 ## Document control
 - **Version:** 0.1
-- **Document status:** Draft
+- **Document status:** Approved
 - **Owner:** Alec Gardner
 - **Approval authority:** Alec Gardner
-- **Effective date:** Not effective — draft for review
-- **Next review:** Before approval and whenever opportunity status materially changes
+- **Effective date:** 24 October 2026
+- **Next review:** 24 April 2027, and whenever opportunity status materially changes
 - **Repository:** `asgardner53/nexus-ai-systems`
 - **Repository path:** `knowledge/indexes/opportunity-reuse-index.md`
 
@@ -28,4 +28,4 @@ This index records possible reuse only. It does not approve the underlying knowl
 ## Change history
 | Version | Date | Change | Status |
 |---|---|---|---|
-| 0.1 | 24 October 2026 | Initial opportunity and reuse index | Draft |
+| 0.1 | 24 October 2026 | Initial opportunity and reuse index approved as a controlled discovery index; seed opportunities remain Identified | Approved |
