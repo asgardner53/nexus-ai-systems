@@ -2,11 +2,11 @@
 
 ## Document control
 - **Version:** 0.1
-- **Document status:** Draft
+- **Document status:** Approved
 - **Owner:** Alec Gardner
 - **Approval authority:** Alec Gardner
-- **Effective date:** Not effective — draft for review
-- **Next review:** Before approval or on material knowledge-governance change
+- **Effective date:** 24 October 2026
+- **Next review:** 24 April 2027, or earlier on material knowledge-governance or reuse-workflow change
 - **Repository:** `asgardner53/nexus-ai-systems`
 - **Repository path:** `knowledge/governance/opportunity-reuse-standard-v0.1.md`
 
@@ -112,6 +112,16 @@ Before an opportunity becomes an external publication, client recommendation, fo
 4. check contradictions and boundary conditions;
 5. apply the relevant human approval gate.
 
+## Standard learning-harvest output
+
+For **NAT11423006 from Lecture 5 onward**, every completed lecture/source review must produce three distinct outputs:
+
+1. **Student Learning Output** — plain-English learning, source map, assessment mapping, coverage gaps, readiness and five key takeaways.
+2. **Nexus Knowledge Output** — reusable concepts, evidence/provenance, implementation patterns, contradictions, boundary conditions and candidate knowledge entries.
+3. **Opportunity & Reuse Output** — identified Knowledge, Commercial, Publishing and Doctrine signals, candidate destinations, evidence gates and next-action status.
+
+The third output is an opportunity-identification layer only. It does not authorise publication, client use, commercial execution or AIRBOK doctrine.
+
 ## AIRBOK boundary
 
 An AIRBOK opportunity signal means only:
@@ -129,4 +139,4 @@ Those require the AIRBOK repository and its separate governance process.
 ## Change history
 | Version | Date | Change | Status |
 |---|---|---|---|
-| 0.1 | 24 October 2026 | Initial Opportunity & Reuse layer | Draft |
+| 0.1 | 24 October 2026 | Initial Opportunity & Reuse layer approved following PR #9 governance and architecture review | Approved |
