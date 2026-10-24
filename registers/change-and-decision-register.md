@@ -40,6 +40,8 @@ Routine drafting edits do not require an entry. Decisions that change authority,
 | NEX-DEC-GAS-20260922-001 | 22 September 2026 | Repository and document control | Record the user-authorised preparation and GitHub storage of Grants Access Studio Charter v0.1; Charter approval was pending at this stage; see NEX-DEC-GAS-20260922-002 | Establish a reviewable design covering users, scope, workflow, evidence and approval gates | Alec Gardner — drafting and GitHub storage only | Grants Access Studio; GAS-CH-001; review branch `grants-access-charter-v0.1` | Draft prepared for review; no operational approval |
 | NEX-DEC-GAS-20260922-002 | 22 September 2026 | Studio approval | Approve GAS-CH-001 as the Grants Access Studio design baseline and release v1.0 | Alec Gardner replied “Approved” following delivery of v0.1 and PR #2 | Alec Gardner | Grants Access Studio; `studio-control-records/grants-access-studio-charter-v1.0.md`; PR #2 | Charter approved; pilot and operational release remain outstanding |
 
+| NEX-DEC-KB-20261024-001 | 24 October 2026 | Repository and document control | Authorise preparation and GitHub storage of a draft Nexus AI Knowledge Base architecture and seed candidate entries derived from NAT11423006 Lectures 1, 3 and 4; final knowledge approval remains pending human review | Preserve reusable AI learning with provenance, evidence status, source separation and human approval gates | Alec Gardner — drafting and GitHub storage only | Nexus AI Knowledge Base; review branch `nexus-ai-knowledge-base-v0.1` | Draft prepared for review; no knowledge object, doctrine or governance position approved |
+
 ## Orchestration revision preparation record
 
 | Decision ID | Date | Category | Instruction and result | Authority | Status |
