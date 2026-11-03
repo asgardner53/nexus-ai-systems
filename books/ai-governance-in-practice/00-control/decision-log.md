@@ -1,0 +1,9 @@
+# Decision Log
+
+| Decision ID | Date | Decision | Rationale | Evidence/input | Consequence | Revisit trigger | Alec approval/status |
+|---|---|---|---|---|---|---|---|
+| D-001 | 2026-11-01 | Treat AI Governance in Practice as a separate live Nexus BMG ebook project | Prevent assessment work from becoming the commercial manuscript | NAT11423007 handoff | Independent evidence spine and original synthesis required | Only revisit if publishing scope changes | APPROVED |
+| D-002 | 2026-11-01 | NAT11423007 materials are research input, not manuscript source | Protect originality and publishing integrity | Project handoff | All publishable concepts require independent verification | None unless rights/source position changes | APPROVED |
+| D-003 | 2026-11-01 | Use AI governance as organisational operating system as the governing proposition | Stronger and more distinctive than a generic ethics/compliance guide | Proposition testing | Architecture and evidence must support this reframe | Provenance review finds material prior construct conflict | APPROVED WORKING PROPOSITION |
+| D-004 | 2026-11-01 | Build one reusable Nexus Book Intelligence Engine rather than a separate engine per title | Reduces duplication and creates a repeatable Nexus BMG publishing control layer | System architecture discussion | Future books can use the same control method | Engine proves too rigid for materially different book modes | APPROVED |
+| D-005 | 2026-11-01 | Use nexus-ai-systems as the initial GitHub home for the Engine and controlled live-title namespace | Existing repository already contains architecture, governance, registers and templates | GitHub repository inspection | Engine and first title are version-controlled immediately | Title becomes large/sensitive enough to require dedicated repo | APPROVED PROVISIONAL |

@@ -1,0 +1,13 @@
+# Research & Evidence Spine v0.2
+
+| Domain | Book purpose | Anchor evidence | Counterevidence / boundary questions | Chapters | Status |
+|---|---|---|---|---|---|
+| AI use visibility & embedded adoption | Establish where governance actually begins | ISO/IEC 42001; NIST Map/Govern; Australian AI adoption guidance; organisational adoption/shadow-AI research | When does inventory become bureaucracy? Which low-risk uses can rely on generic controls? | 1 | PRIORITY |
+| Governance foundations & implementation | Distinguish policy from enacted governance | ISO/IEC 42001; NIST AI RMF; OECD; implementation/maturity research | Can policy itself materially change behaviour? How much structure is proportionate? | 2 | OPEN |
+| Accountability & control | Establish mismatch risks between responsibility and real control | Elish; Endsley & Kiris; meaningful-human-control literature; OECD/Australian human-control guidance | When is distributed responsibility legitimate? When does automation not weaken control? | 3–4 | ACTIVE |
+| Decision rights & delegated authority | Determine how humans and AI should share framing, acting and learning | MIT CISR 2026; decision-rights theory; NIST/OECD | Avoid duplicating existing matrices; test reversibility, ambiguity, consequence and scope | 5, 10 | ACTIVE |
+| Data, security & operational controls | Show where governance becomes executable | NIST; ISO; ASD/Cyber guidance; IAM/data governance/vendor risk | Which controls are AI-specific? When does technical control create false assurance? | 6, 10 | OPEN |
+| Capability, reliance & judgement | Establish conditions for meaningful oversight | automation bias; trust calibration; expertise; out-of-loop performance; Australian guidance | AI can improve novice performance; human review can worsen outcomes | 4, 7 | ACTIVE |
+| Enabling versus constraining governance | Test Governance as Permission | Adler & Borys; Weill & Ross; risk appetite; high-reliability organisations; responsible innovation | Governance can add friction and bureaucracy; causality to ROI/speed is unresolved | 8 | OPEN |
+| Assurance, traceability & monitoring | Establish evidence needed to prove governance operated | OECD traceability; NIST documentation/monitoring; ISO continual improvement; audit/internal control | Evidence burden, privacy/security trade-offs, proportionality | 9 | OPEN |
+| Agentic/autonomous AI | Extend governance from outputs to delegated action | NIST agent work; ASD agentic guidance; Australian agentic AI standard; Nature 2026 agentic profiles | “Agentic” is multidimensional; many risks are conventional IAM/cyber risks | 10 | CURRENT / MONITOR |
