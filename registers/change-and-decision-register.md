@@ -100,3 +100,17 @@ This register is the authoritative governance record of material Nexus AI Studio
 
 **AI assists. Humans decide. GitHub records.**
 
+
+## Small Business Advisory Studio - proposed supplement (PR #5)
+
+Supplement version: 0.2. Status: Under Review. Prepared: 11 October 2026. Owner and approval authority: Alec Gardner. Effective date: Not effective - approval pending. Next review: 18 October 2026 or earlier on material change.
+
+The existing approved records above are preserved. This draft supplement does not approve the Studio, alter those decisions, activate restricted evidence processing or authorise client use. Related proposal: https://github.com/asgardner53/nexus-ai-systems/pull/5 . Settings changes require a separate decision in Issue #6.
+
+| Decision record | Instruction date | Scope actually authorised | Authority / provenance | Current result and limits |
+|---|---|---|---|---|
+| NEX-DEC-SBA-20261011-001 | 11 October 2026 | Establish the dedicated public governance directory on a review branch and open a draft PR | Alec Gardner instruction in the Small Business Advisory conversation; recorded here for review, not independent identity verification | Four-file proposal recorded at `1925f435fc4a374d8a2f6f6bda338072f606b59d`; PR #5; no merge, settings change or operational release |
+| NEX-DEC-SBA-20261011-002 | 11 October 2026 | Correct findings on the existing review branch, submit settings proposals separately and re-review the revised commit | Alec Gardner's current instruction; limited to preparation and internal review | Remediation prepared in PR #5; actual revised commit and tests recorded in the subsequent PR review; no human approval inferred |
+| NEX-DEC-SBA-20261011-003 | Not decided | Proposed main-branch protections or a time-bounded manual arrangement | Owner decision requested in https://github.com/asgardner53/nexus-ai-systems/issues/6 | Pending; no settings applied, reviewer access granted or temporary risk waiver accepted |
+
+These are limited drafting-authority records and a pending proposal, not Studio approval decisions. Human governance acceptance and a specific merge instruction must identify the reviewed commit. Restricted acquisition, professional assurance and client-use release require their own separate gate records.

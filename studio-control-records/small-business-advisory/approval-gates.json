@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "document_id": "SBA-GAT-001",
+    "version": "0.2",
+    "status": "Under Review",
+    "owner": "Alec Gardner",
+    "approval_authority": "Alec Gardner",
+    "effective_date": "Not effective - approval pending",
+    "next_review": "2026-10-18",
+    "path": "studio-control-records/small-business-advisory/approval-gates.json",
+    "independent_reviewer": "Not appointed"
+  },
+  "gates": [
+    {
+      "id": "SBA-GATE-A",
+      "purpose": "Governance-only acceptance and separate merge permission",
+      "required_evidence": [
+        "Corrected baseline",
+        "Settings disposition in Issue #6",
+        "Independent human governance review",
+        "Alec exact-commit merge instruction"
+      ],
+      "accountable_owner": "Alec Gardner",
+      "independent_reviewer": "Not appointed",
+      "reviewer_role": "",
+      "competence_or_registration": "",
+      "conflict_declaration": "",
+      "reviewed_commit": "",
+      "scope": "",
+      "evidence_refs": [],
+      "conditions": "",
+      "decision": "Pending",
+      "decision_maker": "",
+      "decision_at": "",
+      "invalidation": "Material version rule scope access or evidence change"
+    },
+    {
+      "id": "SBA-GATE-B",
+      "purpose": "Restricted evidence custody and acquisition",
+      "required_evidence": [
+        "Approved storage and access",
+        "Defined scope and source consent/authority",
+        "Custodian retention and confidentiality controls"
+      ],
+      "accountable_owner": "Alec Gardner",
+      "independent_reviewer": "Not appointed",
+      "reviewer_role": "",
+      "competence_or_registration": "",
+      "conflict_declaration": "",
+      "reviewed_commit": "",
+      "scope": "",
+      "evidence_refs": [],
+      "conditions": "",
+      "decision": "Pending",
+      "decision_maker": "",
+      "decision_at": "",
+      "invalidation": "Material version rule scope access or evidence change"
+    },
+    {
+      "id": "SBA-GATE-C",
+      "purpose": "Substantive specialist assurance",
+      "required_evidence": [
+        "Verified original artefacts",
+        "Period-specific rules",
+        "Executed spreadsheet application tests",
+        "Qualified independent scope findings"
+      ],
+      "accountable_owner": "Alec Gardner",
+      "independent_reviewer": "Not appointed",
+      "reviewer_role": "",
+      "competence_or_registration": "",
+      "conflict_declaration": "",
+      "reviewed_commit": "",
+      "scope": "",
+      "evidence_refs": [],
+      "conditions": "",
+      "decision": "Pending",
+      "decision_maker": "",
+      "decision_at": "",
+      "invalidation": "Material version rule scope access or evidence change"
+    },
+    {
+      "id": "SBA-GATE-D",
+      "purpose": "Defined client-use release",
+      "required_evidence": [
+        "Applicable Gates A-C",
+        "Closed critical defects",
+        "Service and marketing boundaries",
+        "Dated human release decision"
+      ],
+      "accountable_owner": "Alec Gardner",
+      "independent_reviewer": "Not appointed",
+      "reviewer_role": "",
+      "competence_or_registration": "",
+      "conflict_declaration": "",
+      "reviewed_commit": "",
+      "scope": "",
+      "evidence_refs": [],
+      "conditions": "",
+      "decision": "Pending",
+      "decision_maker": "",
+      "decision_at": "",
+      "invalidation": "Material version rule scope access or evidence change"
+    }
+  ]
+}
