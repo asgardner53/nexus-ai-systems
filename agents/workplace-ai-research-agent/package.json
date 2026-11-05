@@ -1,0 +1,15 @@
+{
+  "name": "@nexus-bmg/workplace-ai-research-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "validate": "node src/config.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run validate && npm test",
+    "review": "node --env-file=.env scripts/start-review.mjs"
+  }
+}

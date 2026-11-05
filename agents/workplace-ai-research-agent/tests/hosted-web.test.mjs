@@ -1,0 +1,17 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {RunGuard} from '../src/guard.mjs';
+import {createHostedWeb,parseSearchResponse} from '../src/adapters/hosted-web.mjs';
+const config=JSON.parse(readFileSync(new URL('../config/pilot.example.json',import.meta.url)));
+const guard=()=>new RunGuard(config);
+const response=text=>({content:[{type:'text',text}]});
+const query={query:'workplace AI',windowStart:'2023-01-01',windowEnd:'2025-01-01'};
+test('parse service result headings with provenance marker',()=>{const r=parseSearchResponse(response('Study (https://example.com/study)\n【ref123】 [wordlim: 200] Published: yesterday; summary\n'));assert.equal(r[0].url,'https://example.com/study');assert.equal(r[0].sourceRef,'ref123')});
+test('unknown search formats fail closed',()=>assert.throws(()=>parseSearchResponse(response('unstructured response')),/unknown_search/));
+test('host connector errors fail closed',()=>assert.throws(()=>parseSearchResponse({isError:true}),/host_tool_failed/));
+test('host search uses requested dates as search hints',async()=>{let args;const web=createHostedWeb({guard:guard(),invoke:async a=>{args=a;return response('Study (https://example.com/study)\n【ref123】 summary\n')}});const r=await web.search(query);assert.ok(args.system2_search_query[0].q.includes('after:2023-01-01'));assert.equal(r.candidates[0].verificationStatus,'unverified')});
+test('403 tool result cannot become verified source',async()=>{const web=createHostedWeb({guard:guard(),invoke:async()=>response('Internal Error ()\n【ref123】\nL0: Failed to fetch https://example.com: (403) Forbidden')});assert.equal((await web.retrieve({url:'https://example.com'})).retrievalStatus,'unavailable')});
+test('host excerpts retain limited coverage and hash scope',async()=>{const web=createHostedWeb({guard:guard(),invoke:async()=>response('Source (https://example.com)\n【ref123】\nL10: A long passage from a workplace study.\nL11: More evidence.')});const r=await web.retrieve({url:'https://example.com'});assert.equal(r.metadata.hashScope,'host-returned-excerpt');assert.equal(r.metadata.lineStart,10);assert.equal(r.metadata.transportSecurityVerifiedByAdapter,false);assert.equal(web.locateEvidence(r,'A long passage from a workplace study.').status,'passage_located')});
+test('unsafe URL rejected before invoking host',async()=>{const web=createHostedWeb({guard:guard(),invoke:async()=>assert.fail()});await assert.rejects(web.retrieve({url:'http://169.254.169.254'}),/unsafe/)});
+test('cancelled guard prevents hosted retrieval',async()=>{const g=guard();g.cancel();const web=createHostedWeb({guard:g,invoke:async()=>assert.fail()});await assert.rejects(web.retrieve({url:'https://example.com'}),/cancelled/)});

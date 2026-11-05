@@ -1,0 +1,37 @@
+{
+  "status": "supervised_host_smoke_pass",
+  "scope": "Historical-source connectivity test; not a weekly report or production release",
+  "candidateCount": 23,
+  "selectedUrl": "https://arxiv.org/abs/2304.11771",
+  "retrievalStatus": "retrieved",
+  "sourceMetadata": {
+    "url": "https://arxiv.org/abs/2304.11771",
+    "sourceRef": "turn6view0",
+    "contentHash": "8023434c1b5808f6d937356ecf0d686978ca17d830fdb8b34a51629b0c5b374c",
+    "hashScope": "host-returned-excerpt",
+    "publicationDateVerified": false,
+    "claimVerification": "pending",
+    "trust": "untrusted-source",
+    "transport": "host-managed",
+    "transportSecurityVerifiedByAdapter": false,
+    "coverage": "excerpt",
+    "lineStart": 0,
+    "lineEnd": 162,
+    "usageCost": "unmetered-host-subscription"
+  },
+  "evidence": {
+    "status": "passage_located",
+    "offset": 542,
+    "length": 160,
+    "contentHash": "8023434c1b5808f6d937356ecf0d686978ca17d830fdb8b34a51629b0c5b374c",
+    "semanticVerification": "pending"
+  },
+  "hostCalls": 2,
+  "completedAt": "2026-10-07T09:55:30.592Z",
+  "remaining": [
+    "Native source transport failed DNS resolution",
+    "Deployed provider connection absent",
+    "Semantic claim and publication date review pending",
+    "Shared register and report workflow pending"
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Workplace AI Research Agent pilot configuration",
+  "description": "Draft pilot profile. Enabling scheduling, payment or wider permissions requires a reviewed schema change.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "agent_id",
+    "owner",
+    "status",
+    "runtime",
+    "schedule",
+    "scope",
+    "limits",
+    "permissions",
+    "report",
+    "storage",
+    "pilot"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "agent_id": {
+      "const": "workplace-ai-research-agent"
+    },
+    "owner": {
+      "const": "Alec Gardner"
+    },
+    "status": {
+      "const": "Draft"
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "framework",
+        "integration_status",
+        "model_ref"
+      ],
+      "properties": {
+        "framework": {
+          "const": "eve"
+        },
+        "integration_status": {
+          "const": "pending"
+        },
+        "model_ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
+    },
+    "schedule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled",
+        "timezone",
+        "weekday",
+        "local_time",
+        "first_run_lookback_days"
+      ],
+      "properties": {
+        "enabled": {
+          "const": false
+        },
+        "timezone": {
+          "const": "Australia/Sydney"
+        },
+        "weekday": {
+          "const": "Friday"
+        },
+        "local_time": {
+          "const": "09:00"
+        },
+        "first_run_lookback_days": {
+          "const": 7
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "materiality",
+        "categories",
+        "prioritise_australia",
+        "public_sources_only"
+      ],
+      "properties": {
+        "materiality": {
+          "const": "M2"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "workplace_examples",
+              "agents_and_workflows",
+              "products_and_tools",
+              "research_and_evidence",
+              "people_and_skills",
+              "implementation_lessons"
+            ]
+          },
+          "minItems": 6,
+          "maxItems": 6,
+          "uniqueItems": true
+        },
+        "prioritise_australia": {
+          "const": true
+        },
+        "public_sources_only": {
+          "const": true
+        }
+      }
+    },
+    "limits": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "timeout_seconds",
+        "research_calls",
+        "retries_per_failure",
+        "budget_aud_cents",
+        "paid_execution_enabled",
+        "require_known_pricing"
+      ],
+      "properties": {
+        "timeout_seconds": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1200
+        },
+        "research_calls": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 60
+        },
+        "retries_per_failure": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2
+        },
+        "budget_aud_cents": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 500
+        },
+        "paid_execution_enabled": {
+          "const": false
+        },
+        "require_known_pricing": {
+          "const": true
+        }
+      }
+    },
+    "permissions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "allowed_tools",
+        "external_publication",
+        "external_messaging",
+        "purchases",
+        "arbitrary_code_execution",
+        "human_approval_required"
+      ],
+      "properties": {
+        "allowed_tools": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "search_public_web",
+              "fetch_public_source",
+              "find_previous_coverage",
+              "append_evidence",
+              "save_checkpoint",
+              "save_report_draft",
+              "record_monitoring_item"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1,
+          "maxItems": 7
+        },
+        "external_publication": {
+          "const": false
+        },
+        "external_messaging": {
+          "const": false
+        },
+        "purchases": {
+          "const": false
+        },
+        "arbitrary_code_execution": {
+          "const": false
+        },
+        "human_approval_required": {
+          "const": true
+        }
+      }
+    },
+    "report": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "language",
+        "target_min_words",
+        "target_max_words",
+        "target_min_items",
+        "max_items",
+        "max_events",
+        "allow_fewer_when_evidence_insufficient",
+        "draft_label"
+      ],
+      "properties": {
+        "language": {
+          "const": "en-AU"
+        },
+        "target_min_words": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1200
+        },
+        "target_max_words": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1200
+        },
+        "target_min_items": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "max_items": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "max_events": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "allow_fewer_when_evidence_insufficient": {
+          "const": true
+        },
+        "draft_label": {
+          "const": "Draft for Alec Gardner’s review"
+        }
+      }
+    },
+    "storage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adapter",
+        "evidence_register_mapping",
+        "operational_data_in_git"
+      ],
+      "properties": {
+        "adapter": {
+          "const": "unconfigured"
+        },
+        "evidence_register_mapping": {
+          "const": "pending"
+        },
+        "operational_data_in_git": {
+          "const": false
+        }
+      }
+    },
+    "pilot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required_consecutive_passes",
+        "critical_failures_allowed"
+      ],
+      "properties": {
+        "required_consecutive_passes": {
+          "const": 3
+        },
+        "critical_failures_allowed": {
+          "const": 0
+        }
+      }
+    }
+  }
+}
