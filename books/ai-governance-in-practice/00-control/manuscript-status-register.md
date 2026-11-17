@@ -1,4 +1,4 @@
-# Manuscript Status Register v0.17
+# Manuscript Status Register v0.18
 
 | Component | Status | Structural work | Evidence issues | Provenance issues | Visuals | Owner/decision | Next gate |
 |---|---|---|---|---|---|---|---|
@@ -8,5 +8,5 @@
 | Claims & Evidence Register | draft | Chapter 1 claims closed; remaining chapters to expand | No known Chapter 1 evidence gaps | Gardner synthesis boundaries explicit | N/A | Engine | Continue chapter evidence mapping |
 | Chapter 1 — The AI You Are Already Governing | **APPROVED SUBJECT TO LIGHT EDITING AND FINAL SOURCE VERIFICATION** | Developmental rewrite complete | Evidence PASS | Theory PASS | Potential use-to-decision map; not required for approval | Ebook Studio | Copy edit later; whole-book flow review when adjacent chapters exist |
 | Chapter 2 — When Policy Exists but Control Does Not | **PROOF** | v0.5 proof pass complete; spelling, punctuation, citation presentation and terminology checked | Evidence and citations preserved; final full reference-list reconciliation remains a publication-stage control | Doctrine integrity preserved | Possible work-as-imagined/work-as-done visual later | Alec | Park pending whole-book flow + publication approval |
-| Chapter 3 — The Human Who Still Owns the Decision | **AUTHOR REVISION** | v0.1 argument/flow review complete; developmental expansion required | Evidence spine retained; forensic review deferred until v0.2 | Accountability–Control Gap theory PASS; depth insufficient before evidence gate | Potential accountability-vs-control visual later | Ebook Studio | v0.2 developmental expansion → re-run argument/flow + forensic review |
+| Chapter 3 — The Human Who Still Owns the Decision | **DEVELOPMENTAL REVIEW** | v0.2 developmental expansion complete; out-of-loop, distributed responsibility and board consequences deepened | Evidence spine retained; forensic evidence survival review now due | Accountability–Control Gap preserved as Gardner synthesis | Potential accountability-vs-control visual later | Ebook Studio | Re-run argument/flow → Forensic Evidence Survival + Integrity review |
 | Chapters 4–10 | brief | Architecture approved; no prose drafted | Research before each chapter | Do not introduce constructs before their earned point | Not started | Ebook Studio | Chapter-level evidence map |
