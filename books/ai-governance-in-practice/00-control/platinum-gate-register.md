@@ -1,13 +1,13 @@
-# Platinum Gate Register v0.12
+# Platinum Gate Register v0.13
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Whole book | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | Continue chapter-level evidence closure; re-test whole-book flow as manuscript develops |
-| Chapter 1 — The AI You Are Already Governing | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | N/A | PASS | Developmentally approved; retain for later copy edit, final source verification and whole-book flow review |
-| Chapter 2 — When Policy Exists but Control Does Not | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | Proof complete; park pending full reference reconciliation, whole-book flow and publication approval |
-| Chapter 3 — The Human Who Still Owns the Decision | PASS | PASS | CONDITIONAL PASS | PASS | CONDITIONAL PASS | PASS | PASS | PASS | N/A | N/A | CONDITIONAL PASS | Integration evidence run PASS WITH QUALIFICATIONS; insert Zhu et al. (2026) and absorb at least two clustered short paragraphs in v0.3, then re-run targeted Evidence Survival and Book-Prose checks |
-| Meaningful Accountability Test | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Complete provenance map and claim-level academic evidence |
-| Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Evidence and provenance architecture pass; close Chapter 3 manuscript citation task and recheck v0.3 wording |
-| Governance as Permission | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Complete enabling-versus-friction evidence pass |
+| Whole book | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | Continue chapter-level evidence closure; re-test whole-book flow and constructs as manuscript develops |
+| Chapter 1 — The AI You Are Already Governing | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | Retrospective evidence audit PASS; complete copyedit, Australian guidance citation reconciliation, final NIST currency check and Proof |
+| Chapter 2 — When Policy Exists but Control Does Not | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | v0.6 Proof evidence reconciliation complete; park pending consolidated references, whole-book flow and publication approval |
+| Chapter 3 — The Human Who Still Owns the Decision | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | N/A | PASS | v0.3 targeted evidence and book-prose review PASS; proceed to Copyedit |
+| Meaningful Accountability Test | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Complete Chapter 4 provenance map, claim-level academic evidence and red-team challenge |
+| Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Evidence architecture and Chapter 3 wording PASS; Alec retains final author approval of construct wording |
+| Governance as Permission | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Complete enabling-versus-friction evidence pass before Chapter 8 |
 | Delegated Authority Map | CONDITIONAL PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Develop only after decision-rights/autonomy evidence mapping |
 | Evolved Governance Chain | CONDITIONAL PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Test sequence against NIST/ISO and assurance models; retain non-linear caveat |
