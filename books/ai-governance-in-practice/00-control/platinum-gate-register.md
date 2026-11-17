@@ -1,4 +1,4 @@
-# Platinum Gate Register v0.14
+# Platinum Gate Register v0.15
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -6,8 +6,8 @@
 | Chapter 1 — The AI You Are Already Governing | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | Retrospective evidence audit PASS; complete copyedit, Australian guidance citation reconciliation, final NIST currency check and Proof |
 | Chapter 2 — When Policy Exists but Control Does Not | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | v0.6 Proof evidence reconciliation complete; park pending consolidated references, whole-book flow and publication approval |
 | Chapter 3 — The Human Who Still Owns the Decision | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | N/A | PASS | v0.3 targeted evidence and book-prose review PASS; proceed to Copyedit |
-| Chapter 4 — The Conditions for Meaningful Accountability | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | **PASS TO DRAFT** | Detailed brief locked; draft v0.1, then run argument/flow, Evidence Survival, doctrine integrity and originality/provenance gates |
-| Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | **PASS WITH QUALIFICATION** | N/A | N/A | N/A | N/A | **PASS FOR MANUSCRIPT DEVELOPMENT** | Retain as Gardner organisational diagnostic; acknowledge close prior art; do not claim novel discovery, validation, universal legal status or scoring precision |
+| Chapter 4 — The Conditions for Meaningful Accountability | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | N/A | **PASS DEVELOPMENTAL REVIEW** | v0.3 evidence survival, provenance, narrative, book prose and novelty PASS; move to Author Revision, then Copyedit |
+| Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | **PASS WITH QUALIFICATION** | N/A | PASS | N/A | N/A | **PASS FOR MANUSCRIPT USE** | Retain as Gardner organisational diagnostic; preserve prior-art acknowledgement and non-validation/legal/scoring boundaries |
 | Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Evidence architecture and Chapter 3 wording PASS; Alec retains final author approval of construct wording |
 | Governance as Permission | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Complete enabling-versus-friction evidence pass before Chapter 8 |
 | Delegated Authority Map | CONDITIONAL PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Develop only after decision-rights/autonomy evidence mapping |
