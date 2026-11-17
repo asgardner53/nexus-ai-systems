@@ -1,4 +1,4 @@
-# Manuscript Status Register v0.14
+# Manuscript Status Register v0.15
 
 | Component | Status | Structural work | Evidence issues | Provenance issues | Visuals | Owner/decision | Next gate |
 |---|---|---|---|---|---|---|---|
@@ -8,4 +8,5 @@
 | Claims & Evidence Register | draft | Chapter 1 claims closed; remaining chapters to expand | No known Chapter 1 evidence gaps | Gardner synthesis boundaries explicit | N/A | Engine | Continue chapter evidence mapping |
 | Chapter 1 — The AI You Are Already Governing | **APPROVED SUBJECT TO LIGHT EDITING AND FINAL SOURCE VERIFICATION** | Developmental rewrite complete | Evidence PASS | Theory PASS | Potential use-to-decision map; not required for approval | Ebook Studio | Copy edit later; whole-book flow review when adjacent chapters exist |
 | Chapter 2 — When Policy Exists but Control Does Not | **PROOF** | v0.5 proof pass complete; spelling, punctuation, citation presentation and terminology checked | Evidence and citations preserved; final full reference-list reconciliation remains a publication-stage control | Doctrine integrity preserved | Possible work-as-imagined/work-as-done visual later | Alec | Park pending whole-book flow + publication approval |
-| Chapters 3–10 | brief | Architecture approved; no prose drafted | Research before each chapter | Do not introduce constructs before their earned point | Not started | Ebook Studio | Chapter-level evidence map |
+| Chapter 3 — The Human Who Still Owns the Decision | **FIRST DRAFT** | Detailed chapter brief locked; narrative and evidence boundaries fixed | Research brief PASS; claims C03-001 to C03-008 registered | Accountability–Control Gap provenance controlled | Potential accountability-vs-control visual later | Ebook Studio | Draft v0.1 → argument/flow review |
+| Chapters 4–10 | brief | Architecture approved; no prose drafted | Research before each chapter | Do not introduce constructs before their earned point | Not started | Ebook Studio | Chapter-level evidence map |
