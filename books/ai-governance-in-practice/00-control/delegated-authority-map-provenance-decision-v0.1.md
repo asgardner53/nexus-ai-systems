@@ -3,18 +3,19 @@
 **Book:** *AI Governance in Practice*  
 **Chapter:** 5 — What Have We Actually Allowed the AI to Do?  
 **Date:** 2026-11-18  
-**Status:** For Alec Gardner human approval  
-**Decision owner:** Alec Gardner
+**Status:** **APPROVED FOR MANUSCRIPT DEVELOPMENT**  
+**Decision owner:** Alec Gardner  
+**Decision recorded:** 2026-11-18
 
-## Proposed construct
+## Approved construct
 
 **Name:** Delegated Authority Map
 
-**Recommended definition:**
+**Approved definition:**
 
 > **The Delegated Authority Map is a practical organisational diagnostic that identifies the functions an AI system may perform, the actions it may take without fresh human approval, the boundaries within which that permission applies, the controls that govern it, the recourse available when conditions change, and the human or institutional accountability that remains.**
 
-## Recommended structure
+## Approved structure
 
 ### Function
 
@@ -40,7 +41,7 @@ When must the system defer, escalate, pause, permit override, roll back, accept 
 
 Who authorised the delegation, owns its outcomes and learning, monitors its use, can modify or revoke it, and remains responsible for conditions controlled elsewhere?
 
-## Governing proposition
+## Approved governing proposition
 
 > **Capability does not confer authority.**
 
@@ -116,7 +117,7 @@ It does not mean that the AI possesses:
 
 ## Design decision
 
-The map should not be presented as a vertical ladder. A ladder implies one direction and one overall level. In practice, an AI system may have different authority across information, recommendation, decision, execution and adaptation functions.
+The map will not be presented as a vertical ladder. A ladder implies one direction and one overall level. In practice, an AI system may have different authority across information, recommendation, decision, execution and adaptation functions.
 
 The preferred visual is therefore a structured map or table showing:
 
@@ -125,9 +126,9 @@ The preferred visual is therefore a structured map or table showing:
 - control and recourse attached to each material authority;
 - named accountability across the complete arrangement.
 
-## Human approval requested
+## Human decision
 
-Approve, revise or reject the following package:
+Alec Gardner approved the complete package:
 
 1. the name **Delegated Authority Map**;
 2. the structure **Function → Permission → Boundary → Control → Recourse**, with accountability as an overlay;
@@ -136,6 +137,6 @@ Approve, revise or reject the following package:
 5. the originality claim limited to organisational synthesis, mapping and integration;
 6. the non-legal, non-scoring and non-certification boundaries.
 
-## Recommended decision
+## Decision
 
-**APPROVE FOR DETAILED CHAPTER BRIEF**, subject to Alec Gardner's judgement.
+**APPROVED FOR DETAILED CHAPTER BRIEF AND MANUSCRIPT DEVELOPMENT.**
