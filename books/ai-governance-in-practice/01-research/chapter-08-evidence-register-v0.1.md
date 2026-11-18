@@ -4,7 +4,7 @@
 **Chapter:** 8 — Governance as Permission  
 **Date:** 2026-11-19  
 **Materiality:** M3  
-**Status:** **EVIDENCE PASS / PROVENANCE AWAITING AUTHOR APPROVAL**  
+**Status:** **EVIDENCE PASS / PROVENANCE APPROVED / SAFE TO DRAFT**  
 **Human decision owner:** Alec Gardner
 
 ## Research question
@@ -46,7 +46,7 @@ Supporting propositions:
 | C08-013 | Responsible experimentation requires anticipation, reflection, inclusion and responsiveness | Responsible-innovation scholarship establishes these dimensions and the importance of adapting decisions | Strong conceptual prior art | Responsible-innovation processes have power, resource and implementation limits and can become ceremonial | Stilgoe, Owen & Macnaghten 2013; de Hoop, Pols & Romijn 2016 | VERIFIED WITH LIMITS |
 | C08-014 | High-reliability organising combines standards with attention, adaptation and expertise | Research supports preoccupation with failure, reluctance to simplify, operational sensitivity, resilience and deference to expertise | Strong established concept; mixed application evidence | Primarily derived from hazardous and specialised settings | Hales & Chakravorty 2016; Etchegaray et al. 2019 | VERIFIED WITH SECTOR BOUNDARY |
 | C08-015 | Governance may become enabling only in operation, not by design declaration | Combined evidence shows formal design, user experience, hierarchical use, repair, information and institutional context determine whether a control enables work | Strong synthesis | Do not describe enabling governance as a permanent property of a policy or framework | Adler & Borys; Wouters & Wilderom; Cäker & Siverbo | SUPPORTED INTERPRETATION |
-| C08-016 | Governance as Permission | The evidence supports bounded authority, proportional pathways, conditional approval, exceptions, escalation, monitoring and revocation as connected design elements | Strong evidence base; originality lies in integration | Gardner lens, not a validated instrument, legal doctrine, compliance status or first theory of enabling governance | Complete Chapter 8 evidence spine | CONDITIONAL PASS — AUTHOR APPROVAL REQUIRED |
+| C08-016 | Governance as Permission | The evidence supports bounded authority, proportional pathways, conditional approval, exceptions, escalation, monitoring and revocation as connected design elements | Strong evidence base; originality lies in integration | Gardner lens, not a validated instrument, legal doctrine, compliance status or first theory of enabling governance | Complete Chapter 8 evidence spine | APPROVED FOR MANUSCRIPT USE |
 
 ## Safe wording and prohibited overstatement
 
@@ -176,9 +176,9 @@ The logic of attention, resilience and relevant expertise is useful, but special
 
 ## Originality and provenance decision
 
-The component ideas are established. The book must not claim originality for enabling formalisation, proportionality, decision rights, conditional approval, exception handling, high reliability, responsible innovation or red-tape research.
+The component ideas are established. The book does not claim originality for enabling formalisation, proportionality, decision rights, conditional approval, exception handling, high reliability, responsible innovation or red-tape research.
 
-The defensible Gardner contribution is:
+The approved Gardner contribution is:
 
 1. applying enabling-governance theory directly to AI-enabled organisational work;
 2. defining governance as a system that can create legitimate operating room rather than only constraint;
@@ -198,20 +198,21 @@ Recheck if:
 - stronger evidence emerges on AI-governance burden, workarounds, sandboxes or conditional approvals;
 - substantially identical prior art emerges around the complete Governance as Permission integration.
 
-## Human decision gate
+## Human decision closure
 
-Alec Gardner must approve:
+On 19 November 2026, Alec Gardner approved:
 
 1. the name **Governance as Permission**;
-2. its status as a Gardner book-level organisational lens rather than a novel external theory;
-3. the explicit acknowledgement of enabling-formalisation, decision-rights, proportionality and responsible-innovation prior art;
+2. its status as a Gardner book-level organisational lens rather than a new external theory;
+3. explicit acknowledgement of enabling-formalisation, decision-rights, proportionality and responsible-innovation prior art;
 4. the controlled definition;
-5. the originality claim limited to integration within the book's accountability-and-control operating system;
-6. the boundaries prohibiting automatic speed, innovation, trust, ROI or adoption claims.
+5. originality limited to the integration within the book's accountability-and-control operating system;
+6. the boundaries prohibiting automatic speed, innovation, trust, ROI or adoption claims;
+7. progression to the detailed Chapter 8 brief and first draft.
 
 ## Gate decision
 
 **EVIDENCE: PASS**  
 **DOCTRINE INTEGRITY: PASS WITH QUALIFICATION**  
-**ORIGINALITY: CONDITIONAL PASS**  
-**MANUSCRIPT PROGRESSION: HOLD FOR AUTHOR PROVENANCE APPROVAL**
+**ORIGINALITY: PASS FOR MANUSCRIPT USE AS GARDNER BOOK-LEVEL SYNTHESIS**  
+**MANUSCRIPT PROGRESSION: SAFE TO DRAFT CHAPTER 8 v0.1**
