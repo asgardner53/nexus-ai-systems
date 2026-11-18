@@ -1,4 +1,4 @@
-# Platinum Gate Register v0.22
+# Platinum Gate Register v0.23
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -8,7 +8,7 @@
 | Chapter 3 — The Human Who Still Owns the Decision | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | N/A | PASS | v0.3 targeted evidence and book-prose review PASS; proceed to Copyedit |
 | Chapter 4 — The Conditions for Meaningful Accountability | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Author reading approved; proceed through Copyedit, Proof and final publication controls |
 | Chapter 5 — What Have We Actually Allowed the AI to Do? | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
-| Chapter 6 — Where Governance Actually Lives | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | v0.2 targeted Author Revision and recheck PASS; produce clean reading version for Alec's author judgement, then Copyedit |
+| Chapter 6 — Where Governance Actually Lives | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
 | Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Retain as Gardner organisational diagnostic; preserve prior-art acknowledgement and non-validation/legal/scoring boundaries |
 | Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Evidence architecture and Chapter 3 wording PASS; Alec retains final author approval of construct wording |
 | Governance as Permission | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Complete enabling-versus-friction evidence pass before Chapter 8 |
