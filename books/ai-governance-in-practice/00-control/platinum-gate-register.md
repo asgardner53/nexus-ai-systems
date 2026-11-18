@@ -1,4 +1,4 @@
-# Platinum Gate Register v0.18
+# Platinum Gate Register v0.19
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -7,10 +7,10 @@
 | Chapter 2 — When Policy Exists but Control Does Not | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | v0.6 Proof evidence reconciliation complete; park pending consolidated references, whole-book flow and publication approval |
 | Chapter 3 — The Human Who Still Owns the Decision | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | N/A | PASS | v0.3 targeted evidence and book-prose review PASS; proceed to Copyedit |
 | Chapter 4 — The Conditions for Meaningful Accountability | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Author reading approved; proceed through Copyedit, Proof and final publication controls |
-| Chapter 5 — What Have We Actually Allowed the AI to Do? | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS DEVELOPMENTAL REVIEW** | v0.2 targeted revision and Forensic Evidence Survival PASS; prepare clean reading version for Alec judgement before Copyedit |
+| Chapter 5 — What Have We Actually Allowed the AI to Do? | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
 | Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Retain as Gardner organisational diagnostic; preserve prior-art acknowledgement and non-validation/legal/scoring boundaries |
 | Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Evidence architecture and Chapter 3 wording PASS; Alec retains final author approval of construct wording |
 | Governance as Permission | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Complete enabling-versus-friction evidence pass before Chapter 8 |
-| Delegated Authority Map | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | **PASS FOR MANUSCRIPT USE** | Retain Function → Permission → Boundary → Control → Recourse with accountability overlay; visual remains optional after author approval |
+| Delegated Authority Map | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | **PASS FOR MANUSCRIPT USE** | Retain Function → Permission → Boundary → Control → Recourse with accountability overlay; test the optional visual after copyedit |
 | Authority drift | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | **PASS FOR MANUSCRIPT USE** | Retain as Gardner descriptive synthesis for an evidence-supported change-control problem; do not present as validated external terminology |
 | Evolved Governance Chain | CONDITIONAL PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Test sequence against NIST/ISO and assurance models; retain non-linear caveat |
