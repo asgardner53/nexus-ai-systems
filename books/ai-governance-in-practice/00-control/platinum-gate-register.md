@@ -1,4 +1,4 @@
-# Platinum Gate Register v0.23
+# Platinum Gate Register v0.24
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -9,10 +9,12 @@
 | Chapter 4 — The Conditions for Meaningful Accountability | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Author reading approved; proceed through Copyedit, Proof and final publication controls |
 | Chapter 5 — What Have We Actually Allowed the AI to Do? | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
 | Chapter 6 — Where Governance Actually Lives | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
+| Chapter 7 — Capability Before Compliance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | v0.2 targeted evidence and book-prose gates PASS; provide clean reading version for Alec's author judgement |
 | Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Retain as Gardner organisational diagnostic; preserve prior-art acknowledgement and non-validation/legal/scoring boundaries |
 | Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Evidence architecture and Chapter 3 wording PASS; Alec retains final author approval of construct wording |
 | Governance as Permission | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Complete enabling-versus-friction evidence pass before Chapter 8 |
 | Delegated Authority Map | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | **PASS FOR MANUSCRIPT USE** | Retain Function → Permission → Boundary → Control → Recourse with accountability overlay; test the optional visual after copyedit |
 | Authority drift | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | **PASS FOR MANUSCRIPT USE** | Retain as Gardner descriptive synthesis for an evidence-supported change-control problem; do not present as validated external terminology |
 | Governance infrastructure synthesis | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | **PASS FOR MANUSCRIPT USE** | Retain infrastructure as governance's enactment layer, not the complete governance system; preserve access, documentation, logging, vendor and judgement limitations |
+| Capability-as-governance synthesis | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | **CONDITIONAL PASS FOR MANUSCRIPT USE** | Retain capability as part of governance and distinguish compliance evidence from demonstrated judgement; Alec author approval pending |
 | Evolved Governance Chain | CONDITIONAL PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Test sequence against NIST/ISO and assurance models; retain non-linear caveat |
