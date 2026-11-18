@@ -1,4 +1,4 @@
-# Platinum Gate Register v0.21
+# Platinum Gate Register v0.22
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -8,11 +8,11 @@
 | Chapter 3 — The Human Who Still Owns the Decision | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | N/A | PASS | v0.3 targeted evidence and book-prose review PASS; proceed to Copyedit |
 | Chapter 4 — The Conditions for Meaningful Accountability | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Author reading approved; proceed through Copyedit, Proof and final publication controls |
 | Chapter 5 — What Have We Actually Allowed the AI to Do? | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
-| Chapter 6 — Where Governance Actually Lives | PASS | PASS | CONDITIONAL PASS | PASS | PASS | PASS WITH QUALIFICATION | PASS | PASS | CONDITIONAL PASS | N/A | **CONDITIONAL PASS** | Produce targeted v0.2 closing E6-01 to E6-05, then re-run Evidence Survival, Citation Visibility, Narrative, Book Prose, Theory and Engrossment |
+| Chapter 6 — Where Governance Actually Lives | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | v0.2 targeted Author Revision and recheck PASS; produce clean reading version for Alec's author judgement, then Copyedit |
 | Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Retain as Gardner organisational diagnostic; preserve prior-art acknowledgement and non-validation/legal/scoring boundaries |
 | Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Evidence architecture and Chapter 3 wording PASS; Alec retains final author approval of construct wording |
 | Governance as Permission | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Complete enabling-versus-friction evidence pass before Chapter 8 |
 | Delegated Authority Map | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | **PASS FOR MANUSCRIPT USE** | Retain Function → Permission → Boundary → Control → Recourse with accountability overlay; test the optional visual after copyedit |
 | Authority drift | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | **PASS FOR MANUSCRIPT USE** | Retain as Gardner descriptive synthesis for an evidence-supported change-control problem; do not present as validated external terminology |
-| Governance infrastructure synthesis | PASS | PASS | CONDITIONAL PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | **CONDITIONAL PASS FOR MANUSCRIPT USE** | Close Chapter 6 citation-visibility and provenance-signalling items; retain infrastructure as governance's enactment layer, not the complete governance system |
+| Governance infrastructure synthesis | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | **PASS FOR MANUSCRIPT USE** | Retain infrastructure as governance's enactment layer, not the complete governance system; preserve access, documentation, logging, vendor and judgement limitations |
 | Evolved Governance Chain | CONDITIONAL PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Test sequence against NIST/ISO and assurance models; retain non-linear caveat |
