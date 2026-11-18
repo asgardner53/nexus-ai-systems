@@ -3,18 +3,18 @@
 **Book:** *AI Governance in Practice*  
 **Chapter:** 8 — Governance as Permission  
 **Date:** 2026-11-19  
-**Status:** **FOR AUTHOR APPROVAL**  
+**Status:** **APPROVED FOR MANUSCRIPT USE AND DETAILED BRIEFING**  
 **Decision owner:** Alec Gardner
 
-## Proposed construct
+## Approved construct
 
 **Name:** Governance as Permission
 
-**Proposed controlled definition:**
+**Approved controlled definition:**
 
 > **Governance as Permission is an organisational lens for designing governance so that people and systems can act within explicit, proportionate and reviewable boundaries, with defined authority, evidence requirements, exception paths, escalation and the ability to restrict or withdraw permission when conditions change.**
 
-## Proposed governing propositions
+## Approved governing propositions
 
 > **Well-designed governance creates legitimate room to act by clarifying what may proceed, within which boundaries, under whose authority, with what evidence and when escalation is required.**
 
@@ -22,9 +22,21 @@
 
 > **Permission to act is not permission to ignore risk.**
 
+## Author approval
+
+On 19 November 2026, Alec Gardner approved the complete provenance package and directed the Ebook Studio to:
+
+1. retain the name **Governance as Permission**;
+2. adopt the controlled definition above;
+3. use the three governing propositions;
+4. classify the lens as Gardner book-level synthesis informed by established prior art;
+5. limit originality to the specific organisational integration within this book;
+6. preserve the non-automatic-outcome, non-legal, non-scoring and institutional-accountability boundaries;
+7. proceed to the detailed Chapter 8 brief.
+
 ## Evidence basis
 
-The proposed lens draws on established work concerning:
+The approved lens draws on established work concerning:
 
 - enabling and coercive formalisation;
 - decision rights and accountability;
@@ -64,13 +76,13 @@ The distinctive contribution is the book-level integration:
 5. combining proportionality, risk appetite, conditional approval, exceptions, escalation, evidence and revocation into one organisational argument;
 6. creating the bridge into Chapter 9, where authorised action must leave evidence capable of reconstruction and assurance.
 
-## Claims permitted after approval
+## Claims permitted
 
 The manuscript may state that:
 
 - formal governance can enable or constrain responsible action depending on its design and use;
 - clear boundaries, decision rights and escalation paths can create legitimate room to act;
-- proportionate pathways can direct governance attention toward material risks;
+- proportionate pathways can direct governance attention towards material risks;
 - conditional approval and authorised exceptions can form part of effective control;
 - escalation can connect uncertainty with relevant expertise and authority;
 - governance requirements should be examined for purpose, duplication and cumulative burden;
@@ -89,7 +101,7 @@ Do not state or imply that Governance as Permission:
 - means reducing or removing governance;
 - permits the organisation to ignore law, rights, safety or ethical limits;
 - makes a sandbox, pilot or exception inherently responsible;
-- transfers institutional accountability to the people or systems operating within a boundary.
+- transfers institutional accountability to people or systems operating within a boundary.
 
 ## Design boundaries
 
@@ -113,9 +125,9 @@ A control cannot be declared enabling merely because it is transparent or partic
 
 Governance as Permission includes the authority to refuse, restrict, pause or withdraw permission where risk, uncertainty, capability or legitimacy is unacceptable.
 
-## Proposed chapter role
+## Approved chapter role
 
-Chapter 8 should show that the organisation's inability to create a proportionate legitimate pathway can generate delay, hesitation, workarounds and weaker visibility. It should then demonstrate that governance enables movement by defining:
+Chapter 8 will show that an organisation's inability to create a proportionate legitimate pathway can generate delay, hesitation, workarounds and weaker visibility. It will then demonstrate that governance enables movement by defining:
 
 - what may proceed;
 - who may decide;
@@ -125,26 +137,16 @@ Chapter 8 should show that the organisation's inability to create a proportionat
 - when escalation is required;
 - when permission expires, narrows or is withdrawn.
 
-The chapter must end by exposing the remaining assurance problem:
+The chapter will end by exposing the remaining assurance problem:
 
 > **Permission without evidence becomes optimism.**
 
 This creates the Chapter 9 handoff.
 
-## Human decision requested
-
-Alec Gardner is asked to approve the following complete package:
-
-1. retain the name **Governance as Permission**;
-2. retain the controlled definition above;
-3. use the three proposed governing propositions;
-4. classify the lens as Gardner book-level synthesis informed by established prior art;
-5. limit originality to the specific organisational integration within this book;
-6. preserve all non-automatic-outcome, non-legal, non-scoring and accountability boundaries;
-7. authorise development of the detailed Chapter 8 brief after approval.
-
 ## Current decision
 
-**EVIDENCE PASS**  
-**ORIGINALITY CONDITIONAL PASS**  
-**DO NOT DRAFT MANUSCRIPT PROSE UNTIL ALEC APPROVES THIS PROVENANCE POSITION.**
+**EVIDENCE: PASS**  
+**DOCTRINE INTEGRITY: PASS WITH QUALIFICATION**  
+**ORIGINALITY: PASS FOR MANUSCRIPT USE AS GARDNER BOOK-LEVEL SYNTHESIS**  
+**DETAILED CHAPTER BRIEF: AUTHORISED**  
+**MANUSCRIPT PROSE: MAY COMMENCE AFTER THE DETAILED BRIEF IS LOCKED**
