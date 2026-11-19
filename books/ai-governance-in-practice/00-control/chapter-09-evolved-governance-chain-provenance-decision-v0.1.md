@@ -3,20 +3,20 @@
 **Book:** *AI Governance in Practice*  
 **Chapter:** 9 — Evidence Before Assurance  
 **Date:** 2026-11-19  
-**Status:** **FOR AUTHOR APPROVAL**  
+**Status:** **APPROVED FOR MANUSCRIPT USE AND DETAILED BRIEFING**  
 **Decision owner:** Alec Gardner
 
-## Proposed construct
+## Approved construct
 
 **Name:** Evolved Governance Chain
 
-**Proposed form:** diagnostic traceability spine
+**Approved form:** diagnostic traceability spine
 
-**Proposed spine:**
+**Approved spine:**
 
 > **Purpose → Authority → Boundary → Execution → Evidence → Evaluation → Learning**
 
-**Cross-cutting conditions:**
+**Approved cross-cutting conditions:**
 
 - accountability;
 - risk and exposure;
@@ -25,17 +25,31 @@
 - monitoring;
 - change.
 
-**Assurance position:**
+**Approved assurance position:**
 
 > **Assurance is the conclusion produced by evaluating a defined governance claim and the relevant traceability spine against suitable criteria and sufficient, appropriate evidence. It is not another sequential link in the chain.**
 
-## Why the current sequence should be revised
+## Author approval
+
+On 19 November 2026, Alec Gardner approved the complete revised provenance package and directed the Ebook Studio to:
+
+1. retain the name **Evolved Governance Chain**;
+2. use it only as a **non-linear diagnostic traceability spine**;
+3. adopt the sequence **Purpose → Authority → Boundary → Execution → Evidence → Evaluation → Learning**;
+4. treat accountability, risk and exposure, human judgement, controls, monitoring and change as cross-cutting conditions;
+5. treat assurance as an evaluation conclusion rather than another chain link;
+6. retain the three governing propositions;
+7. limit originality to the specific book-level integration;
+8. preserve all non-linear, non-exhaustive, non-validation, non-scoring, non-certification and proportional-reconstruction boundaries;
+9. proceed to the detailed Chapter 9 brief.
+
+## Why the earlier sequence was revised
 
 The earlier working sequence was:
 
 > Purpose/use → delegated authority → risk/exposure → required human judgement → controls → accountable owner → evidence → monitoring → intervention/learning
 
-The Chapter 9 evidence review found that this arrangement is useful as a list of governance concerns but weak as a literal chain because:
+The Chapter 9 evidence review found that this arrangement was useful as a list of governance concerns but weak as a literal chain because:
 
 1. risk, accountability, judgement, controls and monitoring operate throughout the arrangement rather than at one point;
 2. controls and evidence are often designed concurrently rather than sequentially;
@@ -45,13 +59,13 @@ The Chapter 9 evidence review found that this arrangement is useful as a list of
 6. assurance is a conclusion based on evaluation and evidence, not a final process step;
 7. the earlier sequence could be mistaken for a lifecycle, maturity model or causal law.
 
-The revised form retains the traceability value while making the non-linearity explicit.
+The approved form retains the traceability value while making the non-linearity explicit.
 
-## Proposed controlled definition
+## Approved controlled definition
 
 > **The Evolved Governance Chain is a diagnostic traceability spine that links an AI use's purpose, authorised authority, operating boundary, execution, evidence, evaluation and learning. It helps an organisation test whether its governance claim can be reconstructed and challenged while treating accountability, risk, human judgement, controls, monitoring and change as cross-cutting conditions.**
 
-## Proposed governing propositions
+## Approved governing propositions
 
 > **Successful execution does not eliminate the need for assurance.**
 
@@ -61,7 +75,7 @@ The revised form retains the traceability value while making the non-linearity e
 
 ## Evidence basis
 
-The proposed spine draws on established work concerning:
+The approved spine draws on established work concerning:
 
 - assurance subject matter, criteria, evidence, evaluation and conclusions;
 - reasonable and limited assurance;
@@ -107,7 +121,7 @@ The distinctive contribution is limited to the book-level integration:
 5. giving executives a practical way to test whether a governance claim can be reconstructed and challenged;
 6. creating the bridge from periodic assurance into Chapter 10's runtime delegated-action problem.
 
-## Claims permitted after approval
+## Claims permitted
 
 The manuscript may state that:
 
@@ -155,43 +169,43 @@ The organisation needs enough evidence to test the material claim. It does not n
 
 Traceability demonstrates what happened and whether the defined criteria were met. It does not make the purpose, boundary or criteria legitimate merely because they were followed consistently.
 
-## Hostile evidence and challenge
+## Hostile evidence and challenge retained
 
 ### Existing frameworks already cover cycles and evidence
 
 ISO management systems, NIST AI RMF, COSO internal control and professional assurance standards already provide governance, monitoring, evaluation and improvement structures.
 
-**Response:** originality is limited to integration with this book's accountability architecture and reader-facing traceability purpose.
+**Controlled response:** originality is limited to integration with this book's accountability architecture and reader-facing traceability purpose.
 
 ### “Chain” implies false linearity
 
 Governance, monitoring, evidence and learning are concurrent and iterative.
 
-**Response:** define the construct as a diagnostic traceability spine and make feedback, iteration and cross-cutting conditions explicit. Retain the name only if this qualification is acceptable.
+**Controlled response:** the manuscript must define the construct as a diagnostic traceability spine and make feedback, iteration and cross-cutting conditions explicit.
 
 ### The construct may duplicate earlier book tools
 
-The Delegated Authority Map already identifies function, permission, boundary, control and recourse. Governance as Permission already addresses proportional pathways.
+The Delegated Authority Map already identifies function, permission, boundary, control and recourse. Governance as Permission already addresses proportionate pathways.
 
-**Response:** Chapter 9 owns a different question: whether the complete governance claim left evidence that can be evaluated and assured. The chain should not repeat earlier tools; it should trace them into operating evidence, evaluation and learning.
+**Controlled response:** Chapter 9 owns a different question: whether the complete governance claim left evidence that can be evaluated and assured. The chain should trace earlier decisions into operating evidence, evaluation and learning rather than repeat those tools.
 
 ### Traceability can create false confidence
 
 A fully documented process may still implement a poor, unlawful or unfair decision.
 
-**Response:** retain suitable criteria, contrary evidence, independent challenge and legitimacy boundaries.
+**Controlled response:** retain suitable criteria, contrary evidence, independent challenge and legitimacy boundaries.
 
 ### Auditability may distort the work
 
 Organisations may optimise for what can be logged or measured while neglecting judgement, affected-party experience and qualitative evidence.
 
-**Response:** allow mixed evidence and professional judgement; do not equate machine-readable traceability with complete assurance.
+**Controlled response:** allow mixed evidence and professional judgement; do not equate machine-readable traceability with complete assurance.
 
-## Proposed chapter role
+## Approved chapter role
 
-Chapter 9 should show why a successful pilot, green dashboard and absence of incidents do not establish that the governance arrangement operated as intended.
+Chapter 9 will show why a successful pilot, green dashboard and absence of incidents do not establish that the governance arrangement operated as intended.
 
-The Evolved Governance Chain should be introduced only after the reader has experienced the assurance problem. It should help organise the evidence needed to test:
+The Evolved Governance Chain will be introduced only after the reader has experienced the assurance problem. It will organise the evidence needed to test:
 
 - what purpose and claim were approved;
 - what authority and boundary applied;
@@ -202,30 +216,17 @@ The Evolved Governance Chain should be introduced only after the reader has expe
 
 The chapter must distinguish management monitoring, second-line challenge, internal audit and external assurance without prescribing one structure for every organisation.
 
-The chapter should end by exposing the next problem:
+The chapter will end by exposing the next problem:
 
 > **What happens when the system begins to act faster than the organisation can reconstruct?**
 
 This creates the Chapter 10 handoff.
 
-## Human decision requested
-
-Alec Gardner is asked to approve, revise or reject the following complete package:
-
-1. retain the name **Evolved Governance Chain**;
-2. reframe it as a **diagnostic traceability spine**;
-3. approve the spine **Purpose → Authority → Boundary → Execution → Evidence → Evaluation → Learning**;
-4. treat accountability, risk/exposure, human judgement, controls, monitoring and change as cross-cutting conditions;
-5. treat assurance as an evaluation conclusion rather than a chain link;
-6. retain the three proposed governing propositions;
-7. limit originality to integration within this book;
-8. preserve all non-linear, non-exhaustive, non-validation, non-scoring, non-certification and proportional-reconstruction boundaries;
-9. authorise the detailed Chapter 9 brief only after this decision.
-
 ## Current decision
 
 **EVIDENCE: PASS**  
 **ASSURANCE ARCHITECTURE: PASS WITH QUALIFICATION**  
-**ORIGINALITY: CONDITIONAL PASS**  
-**EVOLVED GOVERNANCE CHAIN: HUMAN DECISION REQUIRED**  
-**DO NOT DRAFT CHAPTER 9 MANUSCRIPT PROSE UNTIL ALEC APPROVES OR REVISES THIS PROVENANCE POSITION.**
+**ORIGINALITY: PASS FOR MANUSCRIPT USE AS GARDNER BOOK-LEVEL SYNTHESIS**  
+**EVOLVED GOVERNANCE CHAIN: APPROVED AS A NON-LINEAR DIAGNOSTIC TRACEABILITY SPINE**  
+**DETAILED CHAPTER BRIEF: AUTHORISED**  
+**MANUSCRIPT PROSE: MAY COMMENCE ONLY AFTER THE DETAILED BRIEF IS LOCKED**
