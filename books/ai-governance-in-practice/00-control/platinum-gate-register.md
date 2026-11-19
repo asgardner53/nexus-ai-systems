@@ -1,8 +1,8 @@
-# Platinum Gate Register v0.39
+# Platinum Gate Register v0.40
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Whole book | PASS | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS WITH REFINEMENT | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | **TARGETED WHOLE-BOOK REVISION** | Close WB-01 to WB-07 and WB-10; author decision on Chapter 10 absorbing conclusion; develop optional preface and visual architecture separately |
+| Whole book | PASS | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS WITH REFINEMENT | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | **TARGETED WHOLE-BOOK REVISION** | WB-04 CLOSED; close WB-01 to WB-03, WB-05 to WB-07 and WB-10; develop optional preface and visual architecture separately |
 | Chapter 1 — The AI You Are Already Governing | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | Whole-book cadence pass, consolidated source reconciliation, currency check, Copyedit and Proof |
 | Chapter 2 — When Policy Exists but Control Does Not | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | Reconcile intent/purpose language with Chapter 9, then final Proof and references |
 | Chapter 3 — The Human Who Still Owns the Decision | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Whole-book cadence pass → Copyedit → Proof |
@@ -12,7 +12,8 @@
 | Chapter 7 — Capability Before Compliance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Consolidate composite-case note; cadence pass; Copyedit and Proof |
 | Chapter 8 — Governance as Permission | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS | Consolidate composite-case note; cadence pass; Copyedit and Proof |
 | Chapter 9 — Evidence Before Assurance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS | Consolidate composite-case note; governance-chain callback; test Evolved Governance Chain visual; Copyedit and Proof |
-| Chapter 10 — When the System Begins to Act | PASS | CONDITIONAL PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS WITH WHOLE-BOOK REVISION | Author decision on conclusion absorption; add one operating-system callback; cadence pass; Copyedit and Proof |
+| Chapter 10 — When the System Begins to Act | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | **PASS** | Conclusion absorption APPROVED; add restrained operating-system callback, run cadence pass, Copyedit and Proof |
+| Whole-book conclusion architecture | PASS | PASS | N/A | PASS | PASS | PASS | PASS | PASS | N/A | N/A | **PASS** | Chapter 10 absorbs the conclusion; no separate conclusion, epilogue or recap chapter |
 | Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | Retain as the primary organisational diagnostic; preserve prior-art and non-validation boundaries |
 | Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | PASS | N/A | N/A | PASS WITH RECONCILIATION | Retain as the problem diagnosis; reconcile exact final wording and cross-chapter use |
 | Governance as Permission | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | Retain as enabling-governance lens; avoid visual duplication with the Delegated Authority Map |
