@@ -28,6 +28,7 @@ SOURCE_FILES = [
 
 GLOBAL_REPLACEMENTS = {
     "\u00a0": " ",
+    "# Chapter 6 - Where Governance Actually Lives": "# Chapter 6 — Where Governance Actually Lives",
     "(ISO, 2023": "(ISO/IEC, 2023",
     "MIT CISR, 2026": "Sebastian et al., 2026",
     "Nitchals, 2026; van de Sande, Economou-Zavlanos & van Genderen, 2026": "Sterz et al., 2024; Calvert, 2025",
@@ -63,6 +64,13 @@ PER_FILE_REPLACEMENTS = {
     },
 }
 
+# Applied after file-specific changes to repair overlaps caused by institutional year suffixes
+# and source substitutions within a multi-source citation.
+POST_REPLACEMENTS = {
+    "Australian Government, 2026ba": "Australian Government, 2026a",
+    "Sterz et al., 2024; Sterz et al., 2024; Calvert, 2025": "Sterz et al., 2024; Calvert, 2025",
+}
+
 # Limited whole-book consistency corrections. These do not alter argument or evidence strength.
 STYLE_REPLACEMENTS = {
     "AI assurance": "AI assurance",
@@ -87,6 +95,11 @@ def apply_replacements(text: str, filename: str) -> tuple[str, int]:
             text = text.replace(old, new)
 
     for old, new in PER_FILE_REPLACEMENTS.get(filename, {}).items():
+        if old in text:
+            count += text.count(old)
+            text = text.replace(old, new)
+
+    for old, new in POST_REPLACEMENTS.items():
         if old in text:
             count += text.count(old)
             text = text.replace(old, new)
