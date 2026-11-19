@@ -104,7 +104,6 @@ def apply_replacements(text: str, filename: str) -> tuple[str, int]:
             count += text.count(old)
             text = text.replace(old, new)
 
-    # Apply only safe lexical replacements. Protect already hyphenated/en-dashed forms.
     for old, new in STYLE_REPLACEMENTS.items():
         pattern = rf"(?<![\w–-]){re.escape(old)}(?![\w–-])"
         text, n = re.subn(pattern, new, text)
@@ -152,6 +151,8 @@ for source_name in SOURCE_FILES:
     copyedited_parts.append(edited_text.rstrip())
     change_rows.append((source_name, destination_name, change_count, word_count(edited_text)))
 
+manuscript_body = "\n\n---\n\n".join(copyedited_parts)
+
 reference_path = MANUSCRIPT / "references-v1.0-reconciled.md"
 reference_text = ""
 if reference_path.exists():
@@ -166,8 +167,8 @@ master_sections = [
     "",
     "---",
     "",
+    manuscript_body,
 ]
-master_sections.append("\n\n---\n\n".join(copyedited_parts))
 if reference_text:
     master_sections.extend(["", "---", "", reference_text])
 
@@ -175,11 +176,14 @@ master_text = "\n".join(master_sections).strip() + "\n"
 master_path = MANUSCRIPT / "ai-governance-in-practice-unified-copyedit-v1.0.md"
 master_path.write_text(master_text, encoding="utf-8")
 
-citation_groups = extract_citation_groups(master_text)
+# Audit only the front matter, part openings and chapters. Bibliographic years in the
+# reference list are not in-text citations and must not enter the citation inventory.
+citation_groups = extract_citation_groups(manuscript_body)
 inventory_lines = [
     "# Whole-Book In-Text Citation Inventory v1.0",
     "",
     "**Generated from:** `ai-governance-in-practice-unified-copyedit-v1.0.md`  ",
+    "**Scope:** front matter, part openings and Chapters 1–10; references excluded.  ",
     "**Purpose:** proof-stage citation-to-reference matching and anomaly review.",
     "",
 ]
