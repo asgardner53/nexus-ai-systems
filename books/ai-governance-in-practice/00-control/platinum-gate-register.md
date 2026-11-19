@@ -1,27 +1,33 @@
-# Platinum Gate Register v0.40
+# Platinum Gate Register v0.41
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Whole book | PASS | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS WITH REFINEMENT | CONDITIONAL PASS | CONDITIONAL PASS | CONDITIONAL PASS | **TARGETED WHOLE-BOOK REVISION** | WB-04 CLOSED; close WB-01 to WB-03, WB-05 to WB-07 and WB-10; develop optional preface and visual architecture separately |
-| Chapter 1 — The AI You Are Already Governing | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | Whole-book cadence pass, consolidated source reconciliation, currency check, Copyedit and Proof |
-| Chapter 2 — When Policy Exists but Control Does Not | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | Reconcile intent/purpose language with Chapter 9, then final Proof and references |
-| Chapter 3 — The Human Who Still Owns the Decision | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Whole-book cadence pass → Copyedit → Proof |
-| Chapter 4 — The Conditions for Meaningful Accountability | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS | Whole-book cadence pass; test primary diagnostic visual; Copyedit and Proof |
-| Chapter 5 — What Have We Actually Allowed the AI to Do? | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS | Consolidate composite-case note; cadence pass; test Delegated Authority Map visual; Copyedit and Proof |
-| Chapter 6 — Where Governance Actually Lives | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Consolidate composite-case note; cadence pass; Copyedit and Proof |
-| Chapter 7 — Capability Before Compliance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Consolidate composite-case note; cadence pass; Copyedit and Proof |
-| Chapter 8 — Governance as Permission | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS | Consolidate composite-case note; cadence pass; Copyedit and Proof |
-| Chapter 9 — Evidence Before Assurance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS | Consolidate composite-case note; governance-chain callback; test Evolved Governance Chain visual; Copyedit and Proof |
-| Chapter 10 — When the System Begins to Act | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | **PASS** | Conclusion absorption APPROVED; add restrained operating-system callback, run cadence pass, Copyedit and Proof |
-| Whole-book conclusion architecture | PASS | PASS | N/A | PASS | PASS | PASS | PASS | PASS | N/A | N/A | **PASS** | Chapter 10 absorbs the conclusion; no separate conclusion, epilogue or recap chapter |
-| Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | Retain as the primary organisational diagnostic; preserve prior-art and non-validation boundaries |
-| Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | PASS | N/A | N/A | PASS WITH RECONCILIATION | Retain as the problem diagnosis; reconcile exact final wording and cross-chapter use |
-| Governance as Permission | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | Retain as enabling-governance lens; avoid visual duplication with the Delegated Authority Map |
-| Delegated Authority Map | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | Retain as the authority-design tool; Function → Permission → Boundary → Control → Recourse with accountability overlay |
-| Authority drift | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Retain as descriptive synthesis, not a peer framework |
-| Governance infrastructure synthesis | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Retain as supporting proposition and enactment layer |
-| Capability-as-governance synthesis | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Retain as supporting synthesis, not a competency framework |
-| Evolved Governance Chain | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | Explain *Evolved* at first use; retain non-linear traceability spine and assurance as a conclusion, not a link |
-| Chapter 10 runtime-action synthesis | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Preserve whole-book integration and no-new-framework boundary |
-| Front-matter case note | PASS | N/A | N/A | CONDITIONAL PASS | CONDITIONAL PASS | PASS | N/A | PASS | N/A | CONDITIONAL PASS | TO DRAFT | Replace repeated composite-case disclaimers while preserving clear disclosure |
-| Author preface | PASS | N/A | N/A | N/A | CONDITIONAL PASS | PASS | CONDITIONAL PASS | PASS | N/A | CONDITIONAL PASS | AUTHOR READING REQUIRED | Draft concise standpoint note; avoid memoir and credentials list |
+| Whole book | PASS | PASS | CONDITIONAL PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **DEVELOPMENTAL PASS / COPYEDIT READY** | Consolidated evidence/reference reconciliation; author preface decision; visual gate; unified Copyedit and Proof |
+| Whole-Book Author Revision v0.1 | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | **PASS** | Use controlled source map; do not mix earlier chapter versions into production |
+| Part I — The Accountability Problem | PASS | PASS | CONDITIONAL PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Unified Copyedit and consolidated source checks |
+| Chapter 1 — The AI You Are Already Governing | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | Source-title/date reconciliation, currency check, Copyedit and Proof |
+| Chapter 2 — When Policy Exists but Control Does Not | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Reconciled v0.7 → source verification, Copyedit and Proof |
+| Chapter 3 — The Human Who Still Owns the Decision | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Unified Copyedit → Proof |
+| Part II — Making Accountability Meaningful | PASS | PASS | CONDITIONAL PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Unified Copyedit and consolidated source checks |
+| Chapter 4 — The Conditions for Meaningful Accountability | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS | Copyedit; visual test; Proof |
+| Chapter 5 — What Have We Actually Allowed the AI to Do? | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS | Revised v0.3 → Copyedit; visual test; Proof |
+| Chapter 6 — Where Governance Actually Lives | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Revised v0.3 → source recheck, Copyedit and Proof |
+| Chapter 7 — Capability Before Compliance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Revised v0.3 → source recheck, Copyedit and Proof |
+| Chapter 8 — Governance as Permission | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS | Revised v0.3 → source recheck, Copyedit and Proof |
+| Part III — Proving and Adapting Control | PASS | PASS | CONDITIONAL PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | PASS | Unified Copyedit and fast-moving-source recheck |
+| Chapter 9 — Evidence Before Assurance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | PASS | Revised v0.3 → source reconciliation, visual test, Copyedit and Proof |
+| Chapter 10 — When the System Begins to Act | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | **PASS** | Revised v0.3 → fast-moving-source recheck, Copyedit and Proof |
+| Whole-book conclusion architecture | PASS | PASS | N/A | PASS | PASS | PASS | PASS | PASS | N/A | N/A | **PASS** | Chapter 10 remains final; no separate conclusion or epilogue |
+| Construct hierarchy | PASS | PASS | PASS | N/A | N/A | PASS | N/A | PASS | CONDITIONAL PASS | N/A | **PASS FOR MANUSCRIPT CONTROL** | Apply hierarchy to visuals, marketing copy and first-use terminology |
+| Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | Primary diagnostic; preserve non-validation, non-legal and non-scoring boundaries |
+| Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Retain as problem diagnosis |
+| Governance as Permission | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | Retain as enabling-governance lens |
+| Delegated Authority Map | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | Authority-design tool; visual approval pending |
+| Authority drift | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Descriptive synthesis only |
+| Governance infrastructure synthesis | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Supporting proposition and enactment layer |
+| Capability-as-governance synthesis | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Supporting synthesis, not competency framework |
+| Evolved Governance Chain | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | *Evolved* explanation implemented; visual approval pending |
+| Chapter 10 runtime-action synthesis | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Whole-book integration only; no new named framework |
+| Front-matter case note | PASS | PASS | N/A | PASS | PASS | PASS | N/A | PASS | N/A | CONDITIONAL PASS | PASS | Copyedit and Proof |
+| Author preface | PASS | N/A | N/A | PASS | CONDITIONAL PASS | PASS | CONDITIONAL PASS | PASS | N/A | CONDITIONAL PASS | AUTHOR READING REQUIRED | Alec to approve, revise or exclude v0.1 |
+| Visual architecture | PASS | PASS | N/A | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | CONDITIONAL PASS | VISUAL GATE OPEN | Develop and test no more than three core visuals unless another earns inclusion |
