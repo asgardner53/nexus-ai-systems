@@ -33,7 +33,7 @@
 - Endsley & Kiris, 1995
 - European Union, 2024
 - European Union, 2024; Australian Government, 2026b
-- European Union, 2024; NIST, 2023; Australian Government, 2026ba
+- European Union, 2024; NIST, 2023; Australian Government, 2026a
 - Flemisch et al., 2012; Cavalcante Siebert et al., 2023
 - Flemisch et al., 2012; Cavalcante Siebert et al., 2023; Sebastian et al., 2026
 - Gebru et al., 2021
@@ -85,7 +85,6 @@
 - Stanford HAI, 2026
 - Sterz et al., 2024
 - Sterz et al., 2024; Calvert, 2025
-- Sterz et al., 2024; Sterz et al., 2024; Calvert, 2025
 - Stilgoe, Owen & Macnaghten, 2013
 - UK AI Security Institute, 2026a
 - UK AI Security Institute, 2026a, 2026b

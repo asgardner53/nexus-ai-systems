@@ -2,7 +2,7 @@
 
 **Book:** *AI Governance in Practice*  
 **Outcome:** **COPYEDIT MASTER GENERATED**  
-**Master word count:** 31,858
+**Master word count:** 31,854
 
 ## Controlled outputs
 
@@ -31,10 +31,10 @@
 | `chapter-02-when-policy-exists-but-control-does-not-v0.7-whole-book-author-revision.md` | `chapter-02-when-policy-exists-but-control-does-not-copyedit-v1.0.md` | 1 | 2,349 |
 | `chapter-03-the-human-who-still-owns-the-decision-v0.3.md` | `chapter-03-the-human-who-still-owns-the-decision-copyedit-v1.0.md` | 5 | 2,467 |
 | `part-02-making-accountability-meaningful-v0.1.md` | `part-02-making-accountability-meaningful-copyedit-v1.0.md` | 0 | 81 |
-| `chapter-04-the-conditions-for-meaningful-accountability-v0.3.md` | `chapter-04-the-conditions-for-meaningful-accountability-copyedit-v1.0.md` | 4 | 2,721 |
+| `chapter-04-the-conditions-for-meaningful-accountability-v0.3.md` | `chapter-04-the-conditions-for-meaningful-accountability-copyedit-v1.0.md` | 5 | 2,717 |
 | `chapter-05-what-have-we-actually-allowed-the-ai-to-do-v0.3-whole-book-author-revision.md` | `chapter-05-what-have-we-actually-allowed-the-ai-to-do-copyedit-v1.0.md` | 5 | 3,108 |
 | `chapter-06-where-governance-actually-lives-v0.3-whole-book-author-revision.md` | `chapter-06-where-governance-actually-lives-copyedit-v1.0.md` | 6 | 3,001 |
-| `chapter-07-capability-before-compliance-v0.3-whole-book-author-revision.md` | `chapter-07-capability-before-compliance-copyedit-v1.0.md` | 4 | 2,728 |
+| `chapter-07-capability-before-compliance-v0.3-whole-book-author-revision.md` | `chapter-07-capability-before-compliance-copyedit-v1.0.md` | 5 | 2,728 |
 | `chapter-08-governance-as-permission-v0.3-whole-book-author-revision.md` | `chapter-08-governance-as-permission-copyedit-v1.0.md` | 3 | 2,977 |
 | `part-03-proving-and-adapting-control-v0.1.md` | `part-03-proving-and-adapting-control-copyedit-v1.0.md` | 0 | 84 |
 | `chapter-09-evidence-before-assurance-v0.3-whole-book-author-revision.md` | `chapter-09-evidence-before-assurance-copyedit-v1.0.md` | 6 | 3,143 |

@@ -60,7 +60,7 @@ Meaningful-human-control scholarship argues that responsibility attributed to a 
 
 These five conditions come together in what I call the **Meaningful Accountability Test**. It is a practical organisational diagnostic for examining whether a person, role or organisation assigned accountability for an AI-mediated decision has the capability, visibility, authority and intervention capacity needed to exercise that accountability in practice, and whether the responsibility assigned is proportionate to the control that can realistically be exercised.
 
-The component ideas are established rather than newly discovered. They draw from human factors, meaningful human control, effective oversight, organisational accountability and regulatory design. Closely related contemporary models set out conditions for effective oversight and meaningful human authority. The contribution here is to gather that evidence into a concise organisational diagnostic, connect it to the Accountability–Control Gap and place it within the operating system through which an organisation governs itself (Sterz et al., 2024; Sterz et al., 2024; Calvert, 2025).
+The component ideas are established rather than newly discovered. They draw from human factors, meaningful human control, effective oversight, organisational accountability and regulatory design. Closely related contemporary models set out conditions for effective oversight and meaningful human authority. The contribution here is to gather that evidence into a concise organisational diagnostic, connect it to the Accountability–Control Gap and place it within the operating system through which an organisation governs itself (Sterz et al., 2024; Calvert, 2025).
 
 Applied to a defined decision or action, the test asks:
 
