@@ -1,4 +1,4 @@
-# Platinum Gate Register v0.33
+# Platinum Gate Register v0.34
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -11,7 +11,7 @@
 | Chapter 6 — Where Governance Actually Lives | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
 | Chapter 7 — Capability Before Compliance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
 | Chapter 8 — Governance as Permission | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
-| Chapter 9 — Evidence Before Assurance | PASS | PASS | CONDITIONAL PASS | PASS | PASS | PASS | PASS | PASS | N/A | N/A | **CONDITIONAL PASS — AUTHOR REVISION** | Close E9-01 and E9-02 in targeted v0.2; re-run Evidence Survival, Citation Visibility, Narrative, Book Prose, Theory, Evolved Governance Chain Provenance and Engrossment before author reading |
+| Chapter 9 — Evidence Before Assurance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | **PASS** | v0.2 targeted revision and full gate recheck PASS; present clean author reading, then move to Copyedit only after Alec approval |
 | Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Retain as Gardner organisational diagnostic; preserve prior-art acknowledgement and non-validation/legal/scoring boundaries |
 | Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Evidence architecture and Chapter 3 wording PASS; Alec retains final author approval of construct wording |
 | Governance as Permission | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | **PASS FOR MANUSCRIPT USE** | Retain as Gardner book-level organisational lens; author approval and manuscript provenance visibility PASS; preserve non-validation, non-legal, non-scoring, non-automatic-outcome and institutional-accountability boundaries |
