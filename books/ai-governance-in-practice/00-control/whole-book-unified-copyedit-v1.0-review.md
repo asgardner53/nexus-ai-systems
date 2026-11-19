@@ -23,6 +23,8 @@ The copyedit improves consistency without flattening Alec Gardner's voice or reo
 
 No material claim failed after consolidation. Evidence strength and qualifications remain proportionate to the supporting sources.
 
+The chapter-level Claims & Evidence Register has been promoted to `claims-evidence-register-v1.0.md`, preserving the established claim IDs and evidence decisions through C10-032 while applying the whole-book source corrections.
+
 ### Citation visibility
 
 **PASS**
@@ -42,7 +44,7 @@ The copyedit applies the controlled corrections recorded in `whole-book-claims-c
 - final publication details for Cäker, Siverbo and Åkesson;
 - final publication year for Bozeman, Youtie and Jung;
 - separation of Microsoft 2026a and 2026b;
-- removal of the provisional Nitchals, van de Sande et al. and Engin citations from the manuscript and canonical bibliography.
+- removal of the provisional Nitchals, van de Sande et al. and Engin citations from the manuscript, claims register and canonical bibliography.
 
 ### Citation inventory anomaly test
 
@@ -138,15 +140,16 @@ The copyedit changes citation form, lexical consistency, punctuation, spacing, h
 
 ## Controlled outputs
 
+- `01-research/claims-evidence-register-v1.0.md`
+- `01-research/whole-book-claims-citations-reference-reconciliation-v1.0.md`
 - `02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md`
 - `02-manuscript/copyedit-v1.0/`
 - `02-manuscript/references-v1.0-reconciled.md`
 - `02-manuscript/citation-inventory-v1.0.md`
-- `01-research/whole-book-claims-citations-reference-reconciliation-v1.0.md`
 - `00-control/whole-book-unified-copyedit-v1.0-source-map.md`
 - `00-control/unified-copyedit-v1.0-build-report.md`
 
-The GitHub Actions build completed successfully and regenerated the controlled component files, unified master, citation inventory and build report from the locked author-revision sources.
+The GitHub Actions build completed successfully and regenerated the reconciled claims register, controlled component files, unified master, citation inventory and build report from the locked author-revision sources.
 
 ## Gate outcomes
 
