@@ -1,6 +1,7 @@
 # Whole-Book In-Text Citation Inventory v1.0
 
 **Generated from:** `ai-governance-in-practice-unified-copyedit-v1.0.md`  
+**Scope:** front matter, part openings and Chapters 1–10; references excluded.  
 **Purpose:** proof-stage citation-to-reference matching and anomaly review.
 
 - A2A Protocol, 2026; Model Context Protocol, 2026
@@ -42,8 +43,6 @@
 - Hales & Chakravorty, 2016; Etchegaray, Thomas & Profit, 2019
 - IAASB, 2013; ISO/IEC, 2023, 2025; NIST, 2023; European Union, 2024
 - IAASB, 2013; UK Government, 2024
-- ICLR 2024
-- ICLR 2025
 - IIA, 2024, 2026; NIST, 2023; Australian Government, 2026b
 - ISO/IEC, 2023, 2025
 - ISO/IEC, 2023; NIST, 2023
