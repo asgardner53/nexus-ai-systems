@@ -1,8 +1,8 @@
-# Platinum Gate Register v0.34
+# Platinum Gate Register v0.35
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Whole book | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | Continue chapter-level evidence closure; re-test whole-book flow and constructs as manuscript develops |
+| Whole book | PASS | PASS | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | N/A | CONDITIONAL PASS | N/A | N/A | CONDITIONAL PASS | Complete Chapter 10 evidence and manuscript development; then run whole-book flow, reference, visual and publication-integrity controls |
 | Chapter 1 — The AI You Are Already Governing | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | Retrospective evidence audit PASS; complete copyedit, Australian guidance citation reconciliation, final NIST currency check and Proof |
 | Chapter 2 — When Policy Exists but Control Does Not | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | CONDITIONAL PASS | v0.6 Proof evidence reconciliation complete; park pending consolidated references, whole-book flow and publication approval |
 | Chapter 3 — The Human Who Still Owns the Decision | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | N/A | PASS | v0.3 targeted evidence and book-prose review PASS; proceed to Copyedit |
@@ -11,7 +11,8 @@
 | Chapter 6 — Where Governance Actually Lives | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
 | Chapter 7 — Capability Before Compliance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
 | Chapter 8 — Governance as Permission | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
-| Chapter 9 — Evidence Before Assurance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | **PASS** | v0.2 targeted revision and full gate recheck PASS; present clean author reading, then move to Copyedit only after Alec approval |
+| Chapter 9 — Evidence Before Assurance | PASS | PASS | PASS | PASS | PASS | PASS | PASS | PASS | N/A | CONDITIONAL PASS | **PASS** | Author reading approved; proceed through Copyedit, Proof and final publication controls |
+| Chapter 10 — When the System Begins to Act | N/A | PASS | N/A | N/A | N/A | N/A | N/A | PASS | N/A | N/A | **RESEARCH GATE OPEN** | Run M3 research, evidence map, hostile-evidence review and provenance testing for agentic authority, runtime control, intervention, traceability and adaptive governance before detailed briefing |
 | Meaningful Accountability Test | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Retain as Gardner organisational diagnostic; preserve prior-art acknowledgement and non-validation/legal/scoring boundaries |
 | Accountability–Control Gap | PASS | PASS | PASS | N/A | N/A | PASS | N/A | N/A | N/A | N/A | CONDITIONAL PASS | Evidence architecture and Chapter 3 wording PASS; Alec retains final author approval of construct wording |
 | Governance as Permission | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | **PASS FOR MANUSCRIPT USE** | Retain as Gardner book-level organisational lens; author approval and manuscript provenance visibility PASS; preserve non-validation, non-legal, non-scoring, non-automatic-outcome and institutional-accountability boundaries |
