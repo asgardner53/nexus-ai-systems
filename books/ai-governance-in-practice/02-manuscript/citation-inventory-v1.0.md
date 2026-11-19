@@ -42,6 +42,8 @@
 - Hales & Chakravorty, 2016; Etchegaray, Thomas & Profit, 2019
 - IAASB, 2013; ISO/IEC, 2023, 2025; NIST, 2023; European Union, 2024
 - IAASB, 2013; UK Government, 2024
+- ICLR 2024
+- ICLR 2025
 - IIA, 2024, 2026; NIST, 2023; Australian Government, 2026b
 - ISO/IEC, 2023, 2025
 - ISO/IEC, 2023; NIST, 2023

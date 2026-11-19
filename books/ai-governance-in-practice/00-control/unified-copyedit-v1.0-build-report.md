@@ -2,7 +2,7 @@
 
 **Book:** *AI Governance in Practice*  
 **Outcome:** **COPYEDIT MASTER GENERATED**  
-**Master word count:** 31,854
+**Master word count:** 32,049
 
 ## Controlled outputs
 
