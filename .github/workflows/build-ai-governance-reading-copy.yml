@@ -1,0 +1,74 @@
+name: Build AI Governance Reading Copy
+on:
+  push:
+    branches:
+      - book-intelligence-engine-v0.1
+    paths:
+      - '.github/workflows/build-ai-governance-reading-copy.yml'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install python-docx markdown
+      - name: Build DOCX
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          from docx import Document
+          from docx.shared import Inches, Pt
+          from docx.enum.text import WD_ALIGN_PARAGRAPH
+          from docx.enum.section import WD_SECTION
+          from docx.oxml import OxmlElement
+          from docx.oxml.ns import qn
+          src=Path('books/ai-governance-in-practice/02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md')
+          out=Path('AI_Governance_in_Practice_Reading_Copy_v1.0.docx')
+          lines=src.read_text(encoding='utf-8').splitlines()
+          d=Document()
+          sec=d.sections[0]; sec.top_margin=Inches(.8); sec.bottom_margin=Inches(.8); sec.left_margin=Inches(.85); sec.right_margin=Inches(.85)
+          styles=d.styles
+          styles['Normal'].font.name='Aptos'; styles['Normal'].font.size=Pt(11.5)
+          styles['Normal'].paragraph_format.space_after=Pt(7); styles['Normal'].paragraph_format.line_spacing=1.12
+          for name,size in [('Title',28),('Subtitle',16),('Heading 1',20),('Heading 2',15),('Heading 3',12)]:
+              if name in styles: styles[name].font.name='Aptos Display'; styles[name].font.size=Pt(size)
+          def add_inline(p,text):
+              parts=re.split(r'(\*\*.*?\*\*|\*.*?\*)',text)
+              for part in parts:
+                  if part.startswith('**') and part.endswith('**'): r=p.add_run(part[2:-2]); r.bold=True
+                  elif part.startswith('*') and part.endswith('*'): r=p.add_run(part[1:-1]); r.italic=True
+                  else: p.add_run(part)
+          first_h1=True
+          for line in lines:
+              s=line.strip()
+              if not s: continue
+              if s=='---': continue
+              if s.startswith('# '):
+                  txt=s[2:]
+                  if first_h1 and txt=='AI Governance in Practice':
+                      p=d.add_paragraph(style='Title'); p.alignment=WD_ALIGN_PARAGRAPH.CENTER; p.add_run(txt); first_h1=False
+                  else:
+                      p=d.add_paragraph(style='Heading 1'); p.add_run(txt)
+              elif s.startswith('## '):
+                  txt=s[3:]
+                  if txt=='Building the Operating System for Responsible, Accountable and Effective AI':
+                      p=d.add_paragraph(style='Subtitle'); p.alignment=WD_ALIGN_PARAGRAPH.CENTER; p.add_run(txt)
+                  else: d.add_paragraph(txt,style='Heading 2')
+              elif s.startswith('### '): d.add_paragraph(s[4:],style='Heading 3')
+              elif re.match(r'^\d+\.\s+',s):
+                  p=d.add_paragraph(style='List Number'); add_inline(p,re.sub(r'^\d+\.\s+','',s))
+              elif s.startswith('- '):
+                  p=d.add_paragraph(style='List Bullet'); add_inline(p,s[2:])
+              else:
+                  p=d.add_paragraph(); add_inline(p,s)
+          d.save(out)
+          print(out)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ai-governance-reading-copy-v1
+          path: AI_Governance_in_Practice_Reading_Copy_v1.0.docx
