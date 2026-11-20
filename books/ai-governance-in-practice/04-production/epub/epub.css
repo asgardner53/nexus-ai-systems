@@ -1,0 +1,10 @@
+body { font-family: serif; line-height: 1.45; }
+p { margin: 0 0 0.85em 0; }
+h1 { break-before: page; font-family: sans-serif; color: #082d4a; margin-top: 1.2em; }
+h2,h3 { font-family: sans-serif; color: #082d4a; }
+img { max-width: 100%; height: auto; }
+figure { margin: 1.5em 0; break-inside: avoid; }
+figcaption { font-size: 0.88em; font-style: italic; margin-top: 0.5em; }
+.core-visual { width: 100%; }
+a { color: inherit; }
+hr { border: 0; border-top: 1px solid #999; margin: 1.5em 0; }
