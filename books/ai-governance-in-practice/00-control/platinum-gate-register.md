@@ -1,4 +1,4 @@
-# Platinum Gate Register v0.43
+# Platinum Gate Register v0.44
 
 | Component | Proposition | Architecture | Evidence | Narrative | Book prose | Theory | Engrossment | Whole-book flow | Visual | Publication integrity | Overall | Outstanding action |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -32,4 +32,6 @@
 | Evolved Governance Chain | PASS | PASS | PASS | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | N/A | PASS FOR MANUSCRIPT USE | Evidence-spine visual approval pending |
 | Chapter 10 runtime-action synthesis | PASS | PASS | PASS WITH FINAL MONITORING | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | N/A | N/A | PASS FOR MANUSCRIPT USE | Whole-book integration only; no new named framework |
 | Visual architecture | PASS | PASS | N/A | N/A | N/A | PASS WITH QUALIFICATION | N/A | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **CONCEPTUAL/DESIGN PASS / PRODUCTION PREVIEW PENDING** | Three controlled core visuals complete; Kindle/phone-size and greyscale checks remain |
-| Whole-book proof | PASS | PASS | PASS WITH FINAL MONITORING | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PROOF CONTROL ACTIVE / CITATION AUDIT PASS** | Gate 4 final citation-to-reference audit passed; complete proof closeout and residual publication-integrity checks |
+| Whole-book proof | PASS | PASS | PASS WITH FINAL MONITORING | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **PASS / CLOSED** | Whole-book proof closeout v1.0 PASS; manuscript locked by author for publication production |
+
+| Author publication-production gate | PASS | PASS | PASS WITH FINAL MONITORING | PASS | PASS | PASS | PASS | PASS | CONDITIONAL PASS | CONDITIONAL PASS | **APPROVED — PRODUCTION OPEN** | Locked unified master is sole source; build reflowable EPUB, validate, preview visuals, complete metadata/rights, then return to Alec for final release decision |
