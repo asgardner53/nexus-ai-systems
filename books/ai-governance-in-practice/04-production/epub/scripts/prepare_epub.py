@@ -2,7 +2,7 @@
 from pathlib import Path
 import re, shutil
 
-ROOT=Path(__file__).resolve().parents[2]
+ROOT=Path(__file__).resolve().parents[3]
 src=ROOT/"02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md"
 out=ROOT/"04-production/epub/build/manuscript-production.md"
 assets=ROOT/"04-production/visual-assets"
