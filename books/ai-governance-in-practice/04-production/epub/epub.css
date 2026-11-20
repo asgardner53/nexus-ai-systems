@@ -8,3 +8,5 @@ figcaption { font-size: 0.88em; font-style: italic; margin-top: 0.5em; }
 .core-visual { width: 100%; }
 a { color: inherit; }
 hr { border: 0; border-top: 1px solid #999; margin: 1.5em 0; }
+
+/* Controlled reflowable EPUB production stylesheet v0.1 */
