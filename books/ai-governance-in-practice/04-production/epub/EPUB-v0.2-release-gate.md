@@ -1,6 +1,6 @@
 # AI Governance in Practice — EPUB v0.2 release gate
 
-Status: **HOLD — AUTOMATED BUILD VALIDATED; AUTHOR REPORTS POSITIVE KINDLE PREVIEW**. This record is a production-control note, not publication approval.
+Status: **VISUAL REVIEW ACCEPTED BY AUTHOR — FORMAL PUBLICATION APPROVAL PENDING**. This record is a production-control note, not publication approval.
 
 ## Protected sources
 - Locked manuscript: `02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md`. Do not edit.
@@ -21,11 +21,12 @@ Status: **HOLD — AUTOMATED BUILD VALIDATED; AUTHOR REPORTS POSITIVE KINDLE PRE
 ## Author-reported Kindle review — 21 November 2026
 - Alec Gardner confirmed that Kindle Previewer was installed and that he reviewed the EPUB with a **positive outcome**.
 - This is an author-reported visual acceptance, not an independently witnessed or screenshot-documented device-by-device QA pass.
-- Specific coverage of Enhanced Typesetting, all eight diagrams, phone/e-reader/tablet views, orientations, font sizes, themes, references and links was not individually confirmed.
+- Alec subsequently confirmed **all good, no issues** in response to the specific question whether diagrams, chapter layout and navigation looked good and required no corrections. These three visual-review categories are accepted on author report.
+- Individual device-mode, font-size, orientation, theme and accessibility test coverage has not been separately evidenced; do not describe these as independently certified.
 - This acknowledgement is **not** permission to merge, upload to KDP or publish.
 
 ## Outstanding release blockers
-1. Confirm the scope of Alec's positive Kindle Previewer review, including diagram legibility and the key device, typography and navigation checks, or record any untested views as limitations.
-2. Obtain Alec Gardner's explicit release approval before marking the PR ready, merging or uploading to KDP.
+1. If required for a fully evidenced device-coverage claim, record individual device-mode, font-size, orientation, theme and accessibility checks; these were not separately documented.
+2. Obtain Alec Gardner's explicit publication release approval before marking the PR ready, merging or uploading to KDP.
 
 No merge, KDP upload or publication is authorised by this record.
