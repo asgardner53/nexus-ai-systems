@@ -1,0 +1,71 @@
+name: Build AI Governance EPUB v0.2 Review
+on:
+  workflow_dispatch:
+  push:
+    branches: [ai-governance-epub-v0.2-review]
+    paths:
+      - '.github/workflows/build-ai-governance-epub-v0.2.yml'
+      - 'books/ai-governance-in-practice/04-production/epub/scripts/prepare_epub_v02.py'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install EPUB tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc librsvg2-bin
+          curl -fL -o /tmp/epubcheck.zip https://github.com/w3c/epubcheck/releases/download/v5.2.1/epubcheck-5.2.1.zip
+          unzip -q /tmp/epubcheck.zip -d /tmp
+      - name: Prepare approved diagrams and production manuscript
+        working-directory: books/ai-governance-in-practice
+        run: |
+          mkdir -p 04-production/epub/build/images
+          for f in 04-production/visual-assets/*-v1.0.svg; do
+            n=$(basename "$f" .svg)
+            rsvg-convert -w 1600 "$f" -o "04-production/epub/build/images/$n.png"
+          done
+          python 04-production/epub/scripts/prepare_epub_v02.py
+      - name: Build EPUB v0.2 reflowable
+        working-directory: books/ai-governance-in-practice/04-production/epub
+        run: |
+          pandoc build/metadata-v0.2.yaml build/manuscript-production.md \
+            --from markdown --to epub3 --toc --toc-depth=1 --split-level=1 \
+            --css=build/epub-v0.2.css --resource-path=build \
+            --output=build/AI_Governance_in_Practice_v0.2_REVIEW.epub
+      - name: Run EPUBCheck
+        working-directory: books/ai-governance-in-practice/04-production/epub/build
+        run: |
+          java -jar /tmp/epubcheck-5.2.1/epubcheck.jar AI_Governance_in_Practice_v0.2_REVIEW.epub 2>&1 | tee epubcheck-v0.2.txt
+          ! grep -Eq '([1-9][0-9]* errors|[1-9][0-9]* fatal)' epubcheck-v0.2.txt
+      - name: Verify EPUB archive, diagram count, navigation and alt text
+        working-directory: books/ai-governance-in-practice/04-production/epub/build
+        run: |
+          python - <<'PY'
+          import zipfile, re
+          from lxml import etree
+          path='AI_Governance_in_Practice_v0.2_REVIEW.epub'
+          with zipfile.ZipFile(path) as z:
+              assert z.testzip() is None
+              names=z.namelist()
+              images=[n for n in names if re.search(r'\.(png|jpe?g|svg)$',n,re.I)]
+              assert len(images)==8, images
+              xhtml=[n for n in names if n.endswith('.xhtml')]
+              assert len(xhtml)>10
+              img_tags=[]
+              for name in xhtml:
+                  root=etree.fromstring(z.read(name))
+                  img_tags += root.xpath('//*[local-name()="img"]')
+              assert len(img_tags)==8, len(img_tags)
+              assert all(i.get('alt','').strip() for i in img_tags)
+              assert any(n.endswith('nav.xhtml') for n in names)
+              print('ZIP integrity, eight images, eight nonempty alt texts, navigation PASS')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ai-governance-in-practice-epub-v0.2-review
+          path: |
+            books/ai-governance-in-practice/04-production/epub/build/AI_Governance_in_Practice_v0.2_REVIEW.epub
+            books/ai-governance-in-practice/04-production/epub/build/epubcheck-v0.2.txt
+            books/ai-governance-in-practice/04-production/epub/build/v0.2-manifest.txt
