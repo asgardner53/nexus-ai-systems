@@ -59,6 +59,16 @@ for basename,*rest in visuals:
     recovered=re.sub(r"\n\n!\[[^\n]*\]\(images/"+re.escape(basename)+r"\.png\)\{\.core-visual\}","",recovered,count=1)
 expected=re.sub(r"(?m)^---[ \t]*\n(?:\n)?","",prepared)
 assert recovered==expected, "Unexpected change to existing manuscript content"
+# Add only author-approved end matter after manuscript-fidelity verification.
+bio_source=EPUB/"about-the-author-approved-v1.0.md"
+bio_record=bio_source.read_text(encoding="utf-8")
+bio_start=bio_record.index("## About the Author\n")
+bio_end=bio_record.index("\n## Approval and production note",bio_start)
+bio=bio_record[bio_start:bio_end].strip()
+assert bio.startswith("## About the Author\n") and "**Nexus BMG**" in bio
+assert text.count("## About the Author")==0, "About the Author already present"
+text=text.rstrip()+"\n\n"+bio+"\n"
+assert text.endswith(bio+"\n") and text.count("## About the Author")==1
 (BUILD/"manuscript-production.md").write_text(text,encoding="utf-8")
 meta=(EPUB/"metadata.yaml").read_text(encoding="utf-8")
 assert "v0.1" in meta
@@ -71,5 +81,5 @@ css=css.replace("color: #082d4a;","color: inherit;")
     "SOURCE_GIT_BLOB_SHA=b06696d4e77f7bb4b5c3520fcc32e326936880d3\n"+
     "SOURCE_SHA256="+hashlib.sha256(SRC.read_bytes()).hexdigest()+"\n"+
     f"NEW_VISUALS=5\nTOTAL_VISUALS=8\nSEPARATORS_REMOVED={removed}\n"+
-    "MANUSCRIPT_FIDELITY=PASS\n",encoding="utf-8")
+    "MANUSCRIPT_FIDELITY=PASS\nABOUT_AUTHOR=APPROVED_V1.0\n",encoding="utf-8")
 print("Prepared EPUB v0.2: eight visuals; removed",removed,"decorative separators; prose fidelity PASS")
