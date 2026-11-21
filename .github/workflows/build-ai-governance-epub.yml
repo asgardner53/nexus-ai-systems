@@ -1,0 +1,46 @@
+name: Build AI Governance EPUB
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [book-intelligence-engine-v0.1]
+    paths:
+      - 'books/ai-governance-in-practice/04-production/epub/**'
+      - 'books/ai-governance-in-practice/04-production/visual-assets/*.svg'
+      - 'books/ai-governance-in-practice/02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md'
+      - '.github/workflows/build-ai-governance-epub.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install production tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc librsvg2-bin epubcheck
+      - name: Prepare production manuscript and raster visuals
+        working-directory: books/ai-governance-in-practice
+        run: |
+          python 04-production/epub/scripts/prepare_epub.py
+          mkdir -p 04-production/epub/build/images
+          rsvg-convert -w 1600 04-production/visual-assets/meaningful-accountability-test-v1.0.svg -o 04-production/epub/build/images/meaningful-accountability-test-v1.0.png
+          rsvg-convert -w 1600 04-production/visual-assets/delegated-authority-map-v1.0.svg -o 04-production/epub/build/images/delegated-authority-map-v1.0.png
+          rsvg-convert -w 1800 04-production/visual-assets/evolved-governance-chain-v1.0.svg -o 04-production/epub/build/images/evolved-governance-chain-v1.0.png
+      - name: Build reflowable EPUB
+        working-directory: books/ai-governance-in-practice/04-production/epub
+        run: |
+          pandoc metadata.yaml build/manuscript-production.md --from=markdown --to=epub3 --toc --toc-depth=1 --epub-chapter-level=1 --css=epub.css --resource-path=build -o AI_Governance_in_Practice_v0.1.epub
+      - name: Validate EPUB
+        working-directory: books/ai-governance-in-practice/04-production/epub
+        run: |
+          epubcheck AI_Governance_in_Practice_v0.1.epub | tee epubcheck-v0.1.txt
+      - name: Package production evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-governance-in-practice-epub-v0.1
+          path: |
+            books/ai-governance-in-practice/04-production/epub/AI_Governance_in_Practice_v0.1.epub
+            books/ai-governance-in-practice/04-production/epub/epubcheck-v0.1.txt
+            books/ai-governance-in-practice/04-production/epub/build/manuscript-production.md
+            books/ai-governance-in-practice/04-production/epub/build/images/*.png

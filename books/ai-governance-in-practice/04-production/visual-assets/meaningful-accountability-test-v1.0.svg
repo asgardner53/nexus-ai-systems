@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1067" viewBox="0 0 1600 1067" role="img" aria-labelledby="title desc">
+<title id="title">Meaningful Accountability Test</title>
+<desc id="desc">Meaningful Accountability at the centre, surrounded by five interdependent conditions: Capability, Visibility, Authority, Intervention Capacity, and Accountability Alignment. The conditions are interdependent, not additive; a serious weakness in one can make accountability fragile.</desc>
+<style>
+.title{font:700 64px Arial,sans-serif;fill:#082d4a}.h{font:700 35px Arial,sans-serif;fill:white}.b{font:26px Arial,sans-serif;fill:white}.centre{font:700 38px Arial,sans-serif;fill:white}.note{font:italic 700 25px Arial,sans-serif;fill:#082d4a}
+</style>
+<rect width="1600" height="1067" fill="#fff"/>
+<text x="800" y="75" text-anchor="middle" class="title">Meaningful Accountability Test</text>
+<rect x="410" y="96" width="480" height="9" rx="4" fill="#e9a21b"/>
+<circle cx="800" cy="555" r="170" fill="#082d4a" stroke="#e9a21b" stroke-width="12"/>
+<text x="800" y="535" text-anchor="middle" class="centre">MEANINGFUL</text><text x="800" y="580" text-anchor="middle" class="centre">ACCOUNTABILITY</text>
+<rect x="570" y="135" width="460" height="190" rx="65" fill="#087f98"/><text x="800" y="190" text-anchor="middle" class="h">CAPABILITY</text><text x="800" y="235" text-anchor="middle" class="b">Knowledge, skills and judgement to</text><text x="800" y="270" text-anchor="middle" class="b">understand, assess and challenge.</text>
+<rect x="1050" y="350" width="460" height="220" rx="65" fill="#148531"/><text x="1280" y="410" text-anchor="middle" class="h">VISIBILITY</text><text x="1280" y="455" text-anchor="middle" class="b">Sufficient and timely information to see</text><text x="1280" y="490" text-anchor="middle" class="b">what the system is doing and its impact.</text>
+<rect x="940" y="700" width="460" height="210" rx="65" fill="#d95b00"/><text x="1170" y="760" text-anchor="middle" class="h">AUTHORITY</text><text x="1170" y="805" text-anchor="middle" class="b">A clear and legitimate right to make,</text><text x="1170" y="840" text-anchor="middle" class="b">change or stop a decision or action.</text>
+<rect x="200" y="700" width="500" height="210" rx="65" fill="#5c2a91"/><text x="450" y="755" text-anchor="middle" class="h">INTERVENTION CAPACITY</text><text x="450" y="805" text-anchor="middle" class="b">Practical means to intervene, override,</text><text x="450" y="840" text-anchor="middle" class="b">pause or reverse when needed.</text>
+<rect x="90" y="350" width="500" height="220" rx="65" fill="#a6004c"/><text x="340" y="405" text-anchor="middle" class="h">ACCOUNTABILITY</text><text x="340" y="445" text-anchor="middle" class="h">ALIGNMENT</text><text x="340" y="490" text-anchor="middle" class="b">Responsibilities match delegated authority,</text><text x="340" y="525" text-anchor="middle" class="b">control and real-world impact.</text>
+<g stroke="#e9a21b" stroke-width="12" fill="none"><path d="M800 325V385"/><path d="M970 520H1050"/><path d="M900 680L970 720"/><path d="M700 680L630 720"/><path d="M630 520H590"/></g>
+<rect x="65" y="960" width="1470" height="70" rx="25" fill="#fff" stroke="#e9a21b" stroke-width="3"/>
+<text x="800" y="1005" text-anchor="middle" class="note">The conditions are interdependent, not additive. A serious weakness in one can make accountability fragile.</text>
+</svg>
