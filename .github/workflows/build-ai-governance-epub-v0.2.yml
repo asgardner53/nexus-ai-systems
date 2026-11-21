@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/build-ai-governance-epub-v0.2.yml'
       - 'books/ai-governance-in-practice/04-production/epub/scripts/prepare_epub_v02.py'
+      - 'books/ai-governance-in-practice/04-production/epub/AI_Governance_in_Practice_Kindle_Cover_v1.0.png'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -31,7 +32,7 @@ jobs:
         run: |
           pandoc build/metadata-v0.2.yaml build/manuscript-production.md \
             --from markdown --to epub3 --toc --toc-depth=1 --split-level=1 \
-            --css=build/epub-v0.2.css --resource-path=build \
+            --css=build/epub-v0.2.css --resource-path=build --epub-cover-image=AI_Governance_in_Practice_Kindle_Cover_v1.0.png \
             --output=build/AI_Governance_in_Practice_v0.2_REVIEW.epub
       - name: Run EPUBCheck
         working-directory: books/ai-governance-in-practice/04-production/epub/build
@@ -49,7 +50,7 @@ jobs:
               assert z.testzip() is None
               names=z.namelist()
               images=[n for n in names if re.search(r'\.(png|jpe?g|svg)$',n,re.I)]
-              assert len(images)==8, images
+              assert len(images)==9, images
               xhtml=[n for n in names if n.endswith('.xhtml')]
               assert len(xhtml)>10
               img_tags=[]
@@ -59,7 +60,8 @@ jobs:
               assert len(img_tags)==8, len(img_tags)
               assert all(i.get('alt','').strip() for i in img_tags)
               assert any(n.endswith('nav.xhtml') for n in names)
-              print('ZIP integrity, eight images, eight nonempty alt texts, navigation PASS')
+              assert any('cover' in n.lower() for n in images), images
+              print('ZIP integrity, approved cover plus eight internal images, eight nonempty alt texts, navigation PASS')
           PY
       - uses: actions/upload-artifact@v4
         if: always()
