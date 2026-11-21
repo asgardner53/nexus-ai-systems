@@ -27,6 +27,7 @@ def svg_for(title,steps,caption):
         parts += [f'<rect x="130" y="{y}" width="700" height="104" rx="17" fill="#eef6f7" stroke="#236779" stroke-width="3"/>',f'<text x="480" y="{y+62}" text-anchor="middle" fill="#173c59" font-family="Arial,sans-serif" font-size="31" font-weight="600">{html.escape(step)}</text>']
         if i<3:
             parts += [f'<line x1="480" y1="{y+105}" x2="480" y2="{y+131}" stroke="#236779" stroke-width="5"/>',f'<path d="M470 {y+123} L480 {y+134} L490 {y+123}" fill="none" stroke="#236779" stroke-width="4"/>']
+    parts.append("</svg>")
     return "\n".join(parts)+"\n"
 
 for basename,title,steps,caption,anchor in visuals:
