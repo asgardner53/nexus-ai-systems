@@ -20,6 +20,15 @@ visuals=[
  ("V07-capability-to-control","Capability-to-Control Relationship",["Understand the task","Challenge the output","Intervene effectively","Organisational support"],"Training alone does not establish operational capability.","Meaningful capability is therefore partly domain capability."),
  ("V08-agent-action-control-points","Agent Action Control Points",["Identity and access","Permitted action scope","Approval or stop gate","Execution and review"],"AI-initiated actions require boundaries, evidence and recourse.","Yet nobody had made one conscious decision to authorise the complete consequence.")
 ]
+# Locked SHA-256 fingerprints of the five author-approved SVG masters.
+# Abort production if any generated diagram drifts from its approved master.
+APPROVED_SVG_SHA256={
+    "V04-policy-to-control-gap":"69d80a08242ae793a721fcd911b4b4a195d973abd2397a795a7229957f643695",
+    "V05-human-decision-responsibility":"b2043f863b92afcf5cac64dbbcd9bc793d033a3344a9be70075b148fe6febdc6",
+    "V06-governance-in-the-workflow":"1ebfc3c112e03b28528406df77855c626e4c0da3d4c68448e353c9fb07198bbe",
+    "V07-capability-to-control":"69a861701a3d51c4d7b68b0ddd56102275b40570f6db276577fe9fd4d9dffe30",
+    "V08-agent-action-control-points":"af94fb781a9af4147bd42114643db8d242d6c76e5a10a901cceca6a3d44fdf86",
+}
 def svg_for(title,steps,caption):
     parts=['<svg xmlns="http://www.w3.org/2000/svg" width="960" height="750" viewBox="0 0 960 750" role="img" aria-labelledby="title desc">',f'<title id="title">{html.escape(title)}</title>',f'<desc id="desc">{html.escape("; then ".join(steps)+". "+caption)}</desc>','<rect width="960" height="750" fill="#ffffff"/>',f'<text x="480" y="62" text-anchor="middle" fill="#173c59" font-family="Arial,sans-serif" font-size="38" font-weight="700">{html.escape(title)}</text>']
     for i,step in enumerate(steps):
@@ -39,6 +48,8 @@ for basename,title,steps,caption,anchor in visuals:
     text=text[:end]+fig+text[end:]
     svg=IMAGES/(basename+".svg")
     svg.write_text(svg_for(title,steps,caption),encoding="utf-8")
+    actual=hashlib.sha256(svg.read_bytes()).hexdigest()
+    assert actual==APPROVED_SVG_SHA256[basename], f"Approved artwork drift: {basename}: {actual}"
     subprocess.run(["rsvg-convert","-w","1200",str(svg),"-o",str(IMAGES/(basename+".png"))],check=True)
 text,removed=re.subn(r"(?m)^---[ \t]*\n(?:\n)?","",text)
 assert removed>=10 and text.count("](images/")==8
