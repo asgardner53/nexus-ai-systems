@@ -8,6 +8,10 @@ EPUB=ROOT/"04-production/epub"
 SRC=ROOT/"02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md"
 BUILD=EPUB/"build"
 IMAGES=BUILD/"images"
+COVER=EPUB/"AI_Governance_in_Practice_Kindle_Cover_v1.0.png"
+APPROVED_COVER_SHA256="f93aedbb1c01f214ed4ddc0928a177966449a6bdd92b71e0d7ae04233df3e3d3"
+assert COVER.is_file(), f"Missing approved production cover: {COVER}"
+assert hashlib.sha256(COVER.read_bytes()).hexdigest()==APPROVED_COVER_SHA256, "Approved cover checksum mismatch"
 assert SRC.is_file() and SRC.read_text(encoding="utf-8").startswith("# AI Governance in Practice\n")
 runpy.run_path(str(EPUB/"scripts/prepare_epub.py"),run_name="__main__")
 prepared=(BUILD/"manuscript-production.md").read_text(encoding="utf-8")
@@ -81,5 +85,6 @@ css=css.replace("color: #082d4a;","color: inherit;")
     "SOURCE_GIT_BLOB_SHA=b06696d4e77f7bb4b5c3520fcc32e326936880d3\n"+
     "SOURCE_SHA256="+hashlib.sha256(SRC.read_bytes()).hexdigest()+"\n"+
     f"NEW_VISUALS=5\nTOTAL_VISUALS=8\nSEPARATORS_REMOVED={removed}\n"+
-    "MANUSCRIPT_FIDELITY=PASS\nABOUT_AUTHOR=APPROVED_V1.0\n",encoding="utf-8")
+    "MANUSCRIPT_FIDELITY=PASS\nABOUT_AUTHOR=APPROVED_V1.0\n"+
+    "COVER_SHA256="+APPROVED_COVER_SHA256+"\nCOVER_STATUS=APPROVED_V1.0\n",encoding="utf-8")
 print("Prepared EPUB v0.2: eight visuals; removed",removed,"decorative separators; prose fidelity PASS")
