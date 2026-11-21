@@ -1,11 +1,11 @@
 # AI Governance in Practice — EPUB v0.2 release gate
 
-Status: **VISUAL REVIEW ACCEPTED BY AUTHOR — FORMAL PUBLICATION APPROVAL PENDING**. This record is a production-control note, not publication approval.
+Status: **AUTHOR APPROVED PUBLICATION PREPARATION — KDP PUBLICATION NOT AUTHORISED**. This record is a production-control note, not publication approval.
 
 ## Protected sources
 - Locked manuscript: `02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md`. Do not edit.
 - Preserve original EPUB v0.1.
-- Pull request #11 must remain draft until author approval.
+- Alec authorised moving pull request #11 out of draft for review on 21 November 2026; merge remains a separate controlled action.
 
 ## Checks completed
 - Original v0.2 CI build (run 44857708124): EPUBCheck 5.2.1 passed with zero errors/warnings; eight images and nonempty alt text checked.
@@ -25,8 +25,13 @@ Status: **VISUAL REVIEW ACCEPTED BY AUTHOR — FORMAL PUBLICATION APPROVAL PENDI
 - Individual device-mode, font-size, orientation, theme and accessibility test coverage has not been separately evidenced; do not describe these as independently certified.
 - This acknowledgement is **not** permission to merge, upload to KDP or publish.
 
+## Author decision — 21 November 2026
+- Alec Gardner explicitly replied **Approved** to the request to approve EPUB v0.2 for publication preparation, including moving PR #11 out of draft and proceeding towards KDP submission preparation.
+- This approval permits **ready-for-review status and preparation of the KDP release pack only**. It does not authorise merging the PR, uploading to KDP, or making the title live.
+
 ## Outstanding release blockers
 1. If required for a fully evidenced device-coverage claim, record individual device-mode, font-size, orientation, theme and accessibility checks; these were not separately documented.
-2. Obtain Alec Gardner's explicit publication release approval before marking the PR ready, merging or uploading to KDP.
+2. Complete KDP pre-submission rights/permissions, AI-content classification, metadata, cover, price, territories, DRM and distribution choices.
+3. Obtain separate explicit author approval before merging PR #11 or uploading to KDP, and separate approval to publish.
 
 No merge, KDP upload or publication is authorised by this record.
