@@ -6,7 +6,7 @@
 | --- | --- |
 | Document ID | NEX-IMP-AUD-001 |
 | Version | 1.0 |
-| Status | Approved controlled implementation package |
+| Status | Approved controlled implementation package — storage production gate passed 11 October 2026 |
 | Owner and approval authority | Alec Gardner |
 | Effective date | 10 October 2026, Australia/Sydney |
 | Repository | `asgardner53/nexus-ai-systems` |
@@ -492,3 +492,51 @@ The package does not expand recording authority, privacy permissions, assessment
 The human/institutional authority defined in each workflow remains controlling.
 
 **AI assists. Humans decide. Institutions remain accountable.**
+
+## 19. Storage validation and production-readiness decision — 11 October 2026
+
+The Nexus Audio Media Storage & Access implementation was validated using synthetic evidence only. No real student, client, governance or research media was used.
+
+### S01–S18 validation record
+
+| Test | Control | Result |
+| --- | --- | --- |
+| S01 | Private bucket configuration | PASS |
+| S02 | Anonymous download denied | PASS |
+| S03 | Anonymous listing denied | PASS |
+| S04 | Unrelated authenticated user denied | PASS |
+| S05 | Authorised upload/service path accepted | PASS |
+| S06 | Wrong or unregistered upload path denied | PASS |
+| S07 | Authorised read succeeds | PASS |
+| S08 | Controlled signed URL works for configured short interval | PASS — VET signed access returned 300-second TTL; immediate fetch succeeded; expired short link failed |
+| S09 | Signed URL not stored as source locator | PASS |
+| S10 | Ordinary user cannot delete restricted source | PASS |
+| S11 | Authorised Storage API deletion removes object | PASS |
+| S12 | No direct SQL deletion from `storage.objects` | PASS — controlled deletion used the Supabase Storage API |
+| S13 | Metadata and audit state reflect deletion | PASS |
+| S14 | VET user cannot access GOV/RES material without grant | PASS |
+| S15 | User cannot browse unrelated recordings | PASS |
+| S16 | Service-role secret is not exposed in public client/test configuration | PASS |
+| S17 | M3/RESTRICTED signed-link generation is auditable | PASS — `SIGNED_URL_CREATED` recorded with 300-second expiry and SUCCESS outcome |
+| S18 | No real evidence used in validation | PASS |
+
+### Production-readiness decision
+
+**Decision:** The Audio Evidence Storage & Access implementation is approved as **production-ready for controlled use** under NEX-GOV-AUD-001 and NEX-GOV-AMS-001.
+
+This closes the storage production gate that prohibited introduction of real media before completion of S01–S18 and human approval.
+
+Production-ready does not mean unrestricted use. Every real recording remains subject to authority, consent, classification, least-privilege access, transcript and material-passage verification, retention and deletion authority, workflow-specific human decision gates, and all VET/ASQA, client, research, privacy and publication controls.
+
+This decision does not resolve unrelated project-wide Supabase advisory findings. Existing non-audio findings remain outside this Audio Evidence release decision.
+
+### Validation cleanup
+
+Following successful validation:
+
+- synthetic Storage media was deleted through the controlled deletion path;
+- the temporary runtime test user was deleted;
+- synthetic Audio Evidence record, access-grant and access-event rows were removed;
+- the temporary S08 Edge Function was retired to a JWT-protected 410 response because the available connector did not expose a hard-delete operation.
+
+**Human approval:** Alec Gardner — explicit instruction on 11 October 2026 to record the S01–S18 results and production-readiness decision.
