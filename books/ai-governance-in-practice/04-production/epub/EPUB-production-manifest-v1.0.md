@@ -25,7 +25,7 @@ Approved conversation proof:
 - SHA-256: `6ebd965d4a5da48d16517c541f3a98b9b096cdc90eb4e2beda8475e982402cf0`
 - author decision: APPROVED, 21 November 2026
 
-**Assembly state:** APPROVED SOURCE IDENTIFIED; BINARY NOT YET STORED IN GITHUB.
+**Assembly state:** SUPERSEDED BY APPROVED RECONSTRUCTED PRODUCTION COVER — see cover approval record.
 
 No regenerated or visually substituted cover may be treated as the approved source. The binary attached to production must match the recorded SHA-256 or be separately re-approved after any production conversion.
 
@@ -78,7 +78,16 @@ AI-content classification, accessibility declaration and rights/permissions veri
 ## 7. Release status
 
 **Assembly gate:** CONDITIONAL PASS  
-**Blocker:** exact approved cover binary has not yet been committed to GitHub.  
+**Blocker:** approved reconstructed cover binary must be placed at `04-production/epub/assets/AI_Governance_in_Practice_Kindle_Cover_v1.0.png` and verified against SHA-256 `f93aedbb1c01f214ed4ddc0928a177966449a6bdd92b71e0d7ae04233df3e3d3` before the cover-integrated build.  
 **Publication status:** HOLD — NOT AUTHORISED.
 
 **AI assists. Alec decides. GitHub records.**
+
+
+## 8. Approved reconstructed production cover
+
+Author approval: **APPROVED — 21 November 2026**  
+Controlled SHA-256: `f93aedbb1c01f214ed4ddc0928a177966449a6bdd92b71e0d7ae04233df3e3d3`  
+Repository target: `04-production/epub/assets/AI_Governance_in_Practice_Kindle_Cover_v1.0.png`
+
+The missing historical proof is not the release asset. This newly approved image is now the authoritative production cover. Binary placement and checksum verification remain required before build.
