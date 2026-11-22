@@ -32,7 +32,7 @@ The original approved proof binary could not be recovered. Alec Gardner authoris
 ### Newly approved controlled production asset
 - Working filename: `book_cover_design_dark_navy_electric_blue_backgr.png`
 - Controlled repository target: `books/ai-governance-in-practice/04-production/epub/assets/AI_Governance_in_Practice_Kindle_Cover_v1.0.png`
-- SHA-256: `f93aedbb1c01f214ed4ddc0928a177966449a6bdd92b71e0d7ae04233df3e3d3`
+- SHA-256: `95997bbfa293f22be8caef9ca6e45729eda96efe7701177f1dffc9976a31e9da`
 - Status: **APPROVED BY ALEC GARDNER — CONTROLLED PRODUCTION COVER**
 
 This approval supersedes the missing earlier proof as the production-cover authority. The earlier record remains retained as historical provenance. The approved replacement must not be regenerated, altered, cropped or substituted without a new author decision. Publication remains unauthorised.
