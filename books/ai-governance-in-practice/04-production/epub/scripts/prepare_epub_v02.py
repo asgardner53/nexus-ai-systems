@@ -11,7 +11,13 @@ IMAGES=BUILD/"images"
 COVER=EPUB/"book_cover_design_dark_navy_electric_blue_backgr.png"
 APPROVED_COVER_SHA256="f93aedbb1c01f214ed4ddc0928a177966449a6bdd92b71e0d7ae04233df3e3d3"
 assert COVER.is_file(), f"Missing approved production cover: {COVER}"
-assert hashlib.sha256(COVER.read_bytes()).hexdigest()==APPROVED_COVER_SHA256, "Approved cover checksum mismatch"
+cover_bytes=COVER.read_bytes()
+actual_cover_sha256=hashlib.sha256(cover_bytes).hexdigest()
+png_dims="unknown"
+if cover_bytes[:8] == b"\x89PNG\r\n\x1a\n" and len(cover_bytes) >= 24:
+    png_dims=f"{int.from_bytes(cover_bytes[16:20],'big')}x{int.from_bytes(cover_bytes[20:24],'big')}"
+print(f"COVER_DIAGNOSTIC path={COVER.name} bytes={len(cover_bytes)} dimensions={png_dims} expected_sha256={APPROVED_COVER_SHA256} actual_sha256={actual_cover_sha256}")
+assert actual_cover_sha256==APPROVED_COVER_SHA256, f"Approved cover checksum mismatch: expected {APPROVED_COVER_SHA256}; actual {actual_cover_sha256}; bytes {len(cover_bytes)}; dimensions {png_dims}"
 assert SRC.is_file() and SRC.read_text(encoding="utf-8").startswith("# AI Governance in Practice\n")
 runpy.run_path(str(EPUB/"scripts/prepare_epub.py"),run_name="__main__")
 prepared=(BUILD/"manuscript-production.md").read_text(encoding="utf-8")
