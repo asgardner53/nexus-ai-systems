@@ -72,7 +72,8 @@ assert removed>=10 and text.count("](images/")==8
 recovered=text
 for basename,*rest in visuals:
     recovered=re.sub(r"\n\n!\[[^\n]*\]\(images/"+re.escape(basename)+r"\.png\)\{\.core-visual\}","",recovered,count=1)
-expected=re.sub(r"(?m)^---[ \t]*\n(?:\n)?","",prepared)
+expected=heading_separator_re.sub(r"\\1: \\2", prepared)
+expected=re.sub(r"(?m)^---[ \t]*\n(?:\n)?","",expected)
 assert recovered==expected, "Unexpected change to existing manuscript content"
 # Add only author-approved end matter after manuscript-fidelity verification.
 bio_source=EPUB/"about-the-author-approved-v1.0.md"
