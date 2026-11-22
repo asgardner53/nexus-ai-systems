@@ -78,7 +78,7 @@ AI-content classification, accessibility declaration and rights/permissions veri
 ## 7. Release status
 
 **Assembly gate:** CONDITIONAL PASS  
-**Blocker:** approved reconstructed cover binary must be placed at `04-production/epub/assets/AI_Governance_in_Practice_Kindle_Cover_v1.0.png` and verified against SHA-256 `f93aedbb1c01f214ed4ddc0928a177966449a6bdd92b71e0d7ae04233df3e3d3` before the cover-integrated build.  
+**Blocker:** approved reconstructed cover binary must be placed at `04-production/epub/assets/AI_Governance_in_Practice_Kindle_Cover_v1.0.png` and verified against SHA-256 `95997bbfa293f22be8caef9ca6e45729eda96efe7701177f1dffc9976a31e9da` before the cover-integrated build.  
 **Publication status:** HOLD — NOT AUTHORISED.
 
 **AI assists. Alec decides. GitHub records.**
@@ -87,7 +87,7 @@ AI-content classification, accessibility declaration and rights/permissions veri
 ## 8. Approved reconstructed production cover
 
 Author approval: **APPROVED — 21 November 2026**  
-Controlled SHA-256: `f93aedbb1c01f214ed4ddc0928a177966449a6bdd92b71e0d7ae04233df3e3d3`  
+Controlled SHA-256: `95997bbfa293f22be8caef9ca6e45729eda96efe7701177f1dffc9976a31e9da`  
 Repository target: `04-production/epub/assets/AI_Governance_in_Practice_Kindle_Cover_v1.0.png`
 
 The missing historical proof is not the release asset. This newly approved image is now the authoritative production cover. Binary placement and checksum verification remain required before build.
