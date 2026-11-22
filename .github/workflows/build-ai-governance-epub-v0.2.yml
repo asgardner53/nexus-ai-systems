@@ -6,7 +6,7 @@ on:
     paths:
       - '.github/workflows/build-ai-governance-epub-v0.2.yml'
       - 'books/ai-governance-in-practice/04-production/epub/scripts/prepare_epub_v02.py'
-      - 'books/ai-governance-in-practice/04-production/epub/book_cover_design_dark_navy_electric_blue_backgr .png'
+      - 'books/ai-governance-in-practice/04-production/epub/book_cover_design_dark_navy_electric_blue_backgr.png'
 jobs:
   build:
     runs-on: ubuntu-latest
