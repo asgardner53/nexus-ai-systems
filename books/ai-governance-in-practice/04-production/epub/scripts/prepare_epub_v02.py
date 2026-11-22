@@ -23,6 +23,11 @@ runpy.run_path(str(EPUB/"scripts/prepare_epub.py"),run_name="__main__")
 prepared=(BUILD/"manuscript-production.md").read_text(encoding="utf-8")
 assert prepared.count("](images/")==3, "Expected three original diagrams"
 text=prepared
+# Kindle Previewer QA: remove em/en-dash separator construction from Part/Chapter headings only.
+# Preserve all punctuation inside approved narrative prose.
+heading_separator_re = re.compile(r"(?m)^(# (?:Part [IVX]+|Chapter \\d+)) [—–] (.+)$")
+text, heading_separators_removed = heading_separator_re.subn(r"\\1: \\2", text)
+assert heading_separators_removed == 13, f"Expected 13 Part/Chapter heading separators; removed {heading_separators_removed}"
 visuals=[
  ("V04-policy-to-control-gap","Policy-to-Control Gap",["Declared policy","Defined authority","Operating controls","Observable evidence"],"A policy is not an operating control until authority, execution and evidence connect.","The gap does not necessarily imply bad faith."),
  ("V05-human-decision-responsibility","Human Decision Responsibility",["AI recommendation","Human examination","Authorised decision","Recorded rationale"],"Human involvement must include informed judgement and the ability to intervene.","That does not mean the decision is wrong. It does mean that a human sign-off is not, by itself, evidence of meaningful human control."),
@@ -93,4 +98,4 @@ css=css.replace("color: #082d4a;","color: inherit;")
     f"NEW_VISUALS=5\nTOTAL_VISUALS=8\nSEPARATORS_REMOVED={removed}\n"+
     "MANUSCRIPT_FIDELITY=PASS\nABOUT_AUTHOR=APPROVED_V1.0\n"+
     "COVER_SHA256="+APPROVED_COVER_SHA256+"\nCOVER_STATUS=APPROVED_V1.0\n",encoding="utf-8")
-print("Prepared EPUB v0.2: eight visuals; removed",removed,"decorative separators; prose fidelity PASS")
+print("Prepared EPUB v0.2: eight visuals; removed",removed,"decorative separators;",heading_separators_removed,"heading separators; prose fidelity PASS with approved QA heading normalisation")
