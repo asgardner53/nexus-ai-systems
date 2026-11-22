@@ -9,7 +9,7 @@ SRC=ROOT/"02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md"
 BUILD=EPUB/"build"
 IMAGES=BUILD/"images"
 COVER=EPUB/"book_cover_design_dark_navy_electric_blue_backgr.png"
-APPROVED_COVER_SHA256="f93aedbb1c01f214ed4ddc0928a177966449a6bdd92b71e0d7ae04233df3e3d3"
+APPROVED_COVER_SHA256="95997bbfa293f22be8caef9ca6e45729eda96efe7701177f1dffc9976a31e9da"
 assert COVER.is_file(), f"Missing approved production cover: {COVER}"
 cover_bytes=COVER.read_bytes()
 actual_cover_sha256=hashlib.sha256(cover_bytes).hexdigest()
