@@ -25,7 +25,7 @@ assert prepared.count("](images/")==3, "Expected three original diagrams"
 text=prepared
 # Kindle Previewer QA: remove em/en-dash separator construction from Part/Chapter headings only.
 # Preserve all punctuation inside approved narrative prose.
-heading_separator_re = re.compile(r"(?m)^(# (?:Part [IVX]+|Chapter \\d+)) [—–] (.+)$")
+heading_separator_re = re.compile(r"(?m)^(# (?:Part [IVX]+|Chapter \d+)) [—–] (.+)$")
 text, heading_separators_removed = heading_separator_re.subn(r"\\1: \\2", text)
 assert heading_separators_removed == 13, f"Expected 13 Part/Chapter heading separators; removed {heading_separators_removed}"
 visuals=[
