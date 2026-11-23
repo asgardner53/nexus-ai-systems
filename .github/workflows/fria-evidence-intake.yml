@@ -1,0 +1,38 @@
+name: FRIA evidence intake (review only)
+on:
+  workflow_dispatch:
+    inputs:
+      payload_json:
+        description: 'FRIA JSON payload (no secrets or personal learner data)'
+        required: true
+        type: string
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and render research records
+        env:
+          FRIA_PAYLOAD: ${{ inputs.payload_json }}
+        run: |
+          printf '%s' "$FRIA_PAYLOAD" > "$RUNNER_TEMP/fria-payload.json"
+          python3 scripts/fria_ingest.py --input "$RUNNER_TEMP/fria-payload.json"
+      - name: Open review pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: 'FRIA provisional evidence intake'
+          branch: 'fria/intake-${{ github.run_id }}'
+          delete-branch: true
+          title: 'FRIA provisional research intake — review required'
+          body: |
+            Automated FRIA intake. These records are provisional.
+            Review original sources, contrary findings, materiality and safe wording before approval.
+            This workflow does not publish or verify claims.
+          add-paths: |
+            the-learning-frontier/01-research-intelligence/
+            the-learning-frontier/02-evidence-register/
+            the-learning-frontier/03-editorial-pipeline/
