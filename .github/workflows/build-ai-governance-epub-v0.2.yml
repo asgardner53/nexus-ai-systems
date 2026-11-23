@@ -53,13 +53,39 @@ jobs:
               assert len(images)==9, images
               xhtml=[n for n in names if n.endswith('.xhtml')]
               assert len(xhtml)>=2, xhtml
-              combined_xhtml=b"\n".join(z.read(name) for name in xhtml).decode("utf-8","replace")
-              for required in ["Part I:", "Part II:", "Part III:", "Chapter 1:", "Chapter 10:", "References"]:
-                  assert required in combined_xhtml, f"Missing required semantic section: {required}"
               img_tags=[]
+              heading_texts=[]
               for name in xhtml:
                   root=etree.fromstring(z.read(name))
                   img_tags += [node for node in root.iter() if node.tag.endswith('}img')]
+                  for node in root.iter():
+                      if re.search(r'}h[1-6]
+              assert len(img_tags)==8, len(img_tags)
+              assert all(i.get('alt','').strip() for i in img_tags)
+              assert any(n.endswith('nav.xhtml') for n in names)
+              opf_names=[n for n in names if n.endswith('.opf')]
+              assert len(opf_names)==1, opf_names
+              opf=etree.fromstring(z.read(opf_names[0]))
+              cover_items=[node for node in opf.iter() if node.tag.endswith('}item') and 'cover-image' in node.get('properties','').split()]
+              assert len(cover_items)==1, [(node.get('id'),node.get('href'),node.get('properties')) for node in opf.iter() if node.tag.endswith('}item')]
+              cover_href=cover_items[0].get('href','')
+              assert cover_href, 'EPUB package cover-image item has no href'
+              print(f'ZIP integrity, package-designated cover image ({cover_href}), eight internal images, eight nonempty alt texts, navigation PASS')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ai-governance-in-practice-epub-v0.2-review
+          path: |
+            books/ai-governance-in-practice/04-production/epub/build/AI_Governance_in_Practice_v0.2_REVIEW.epub
+            books/ai-governance-in-practice/04-production/epub/build/epubcheck-v0.2.txt
+            books/ai-governance-in-practice/04-production/epub/build/v0.2-manifest.txt
+, node.tag):
+                          heading_texts.append(' '.join(''.join(node.itertext()).split()))
+              normalised_headings=[re.sub(r'[^A-Za-z0-9 ]+',' ',h).strip() for h in heading_texts]
+              required_prefixes=["Part I","Part II","Part III"]+[f"Chapter {i}" for i in range(1,11)]+["References"]
+              for required in required_prefixes:
+                  assert any(h==required or h.startswith(required+" ") for h in normalised_headings), f"Missing required semantic heading: {required}; headings={normalised_headings}"
               assert len(img_tags)==8, len(img_tags)
               assert all(i.get('alt','').strip() for i in img_tags)
               assert any(n.endswith('nav.xhtml') for n in names)
