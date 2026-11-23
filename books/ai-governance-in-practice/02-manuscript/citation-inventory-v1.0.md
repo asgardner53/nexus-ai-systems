@@ -1,0 +1,96 @@
+# Whole-Book In-Text Citation Inventory v1.0
+
+**Generated from:** `ai-governance-in-practice-unified-copyedit-v1.0.md`  
+**Scope:** front matter, part openings and Chapters 1–10; references excluded.  
+**Purpose:** proof-stage citation-to-reference matching and anomaly review.
+
+- A2A Protocol, 2026; Model Context Protocol, 2026
+- Adler & Borys, 1996
+- Adler & Borys, 1996; NIST, 2023; Stilgoe, Owen & Macnaghten, 2013
+- Ahrens & Chapman, 2004; Wouters & Wilderom, 2008; Chapman & Kihn, 2009
+- Alles et al., 2006; Chiu, Liu & Vasarhelyi, 2014
+- Almeida & Santos Júnior, 2025
+- Arnold et al., 2019
+- Australian AI Safety Institute, 2026
+- Australian Government, 2025a
+- Australian Government, 2025b
+- Australian Government, 2025c
+- Australian Government, 2026b
+- Australian Government, 2026b; European Union, 2024
+- Australian Government, 2026b; Slagel et al., 2024
+- Baldwin & Ford, 1988; Grossman & Salas, 2011
+- Brynjolfsson, Li & Raymond, 2025
+- Calvert, 2025
+- Calvert, 2025; ASD et al., 2026; Australian Government, 2026b
+- Cavalcante Siebert et al., 2023; OECD, 2024
+- Cobbe, Lee & Singh, 2021
+- Cäker, Siverbo & Åkesson, 2022
+- de Bree & Stoopendaal, 2020
+- de Hoop, Pols & Romijn, 2016
+- Debenedetti et al., 2024; Ruan et al., 2024; Zhang et al., 2025
+- Edmondson, 1999; Detert & Burris, 2007; Morrison, 2014; O’Donovan & McAuliffe, 2020
+- Elish, 2019
+- Endsley & Kaber, 1999
+- Endsley & Kiris, 1995
+- European Union, 2024
+- European Union, 2024; Australian Government, 2026b
+- European Union, 2024; NIST, 2023; Australian Government, 2026a
+- Flemisch et al., 2012; Cavalcante Siebert et al., 2023
+- Flemisch et al., 2012; Cavalcante Siebert et al., 2023; Sebastian et al., 2026
+- Gebru et al., 2021
+- Green, 2022; Laux, 2023
+- Gurman, 2023
+- Hales & Chakravorty, 2016; Etchegaray, Thomas & Profit, 2019
+- IAASB, 2013; ISO/IEC, 2023, 2025; NIST, 2023; European Union, 2024
+- IAASB, 2013; UK Government, 2024
+- IIA, 2024, 2026; NIST, 2023; Australian Government, 2026b
+- ISO/IEC, 2023, 2025
+- ISO/IEC, 2023; NIST, 2023
+- Kapoor et al., 2025
+- Lee & See, 2004; Zhang, Liao & Bellamy, 2020
+- Lee et al., 2025
+- Long & Magerko, 2020; Ng et al., 2021
+- Madaio et al., 2020
+- Microsoft, 2026a
+- Microsoft, 2026b
+- Miller & Parasuraman, 2007; Methnani et al., 2021
+- Mitchell et al., 2019; Gebru et al., 2021; Arnold et al., 2019
+- NIST NCCoE, 2026; ASD et al., 2026
+- NIST, 2020a
+- NIST, 2020b
+- NIST, 2023
+- NIST, 2023; Australian Government, 2026b
+- NIST, 2023; Australian Government, 2026b; European Union, 2024
+- NIST, 2023; Australian Government, 2026b; ISO/IEC, 2023
+- NIST, 2023; COSO, 2013; Australian Government, 2026b
+- NIST, 2023; European Union, 2024; Australian Government, 2026b; Raji et al., 2020
+- NIST, 2023; OECD, 2023, 2024; Australian Government, 2026b
+- NIST, 2023; OECD, 2024
+- NIST, 2023; OECD, 2024; Australian Government, 2026b
+- NIST, 2026b; ASD et al., 2026
+- NIST, 2026b; ASD et al., 2026; Australian Government, 2026b
+- OECD, 2024
+- OECD, 2026; NIST, 2026a
+- Papagiannidis et al., 2025; Sayan & Bueechl, 2025
+- Parasuraman & Manzey, 2010; Goddard, Roudsari & Wyatt, 2012; Zhang, Liao & Bellamy, 2020; Buçinca, Malaya & Gajos, 2021
+- Parasuraman & Riley, 1997; Lee & See, 2004
+- Parasuraman & Riley, 1997; Onnasch et al., 2014
+- Parasuraman, Sheridan & Wickens, 2000
+- PCAOB, 2010; IAASB, 2013
+- PCAOB, 2010; NIST, 2023
+- Raji et al., 2020
+- Sambasivan et al., 2021
+- Sebastian et al., 2026
+- Singh, Cobbe & Norval, 2019
+- Singh, Cobbe & Norval, 2019; Cobbe & Singh, 2020; Raji et al., 2020; Cobbe, Lee & Singh, 2021
+- Stanford HAI, 2026
+- Sterz et al., 2024
+- Sterz et al., 2024; Calvert, 2025
+- Stilgoe, Owen & Macnaghten, 2013
+- UK AI Security Institute, 2026a
+- UK AI Security Institute, 2026a, 2026b
+- Vaccaro, Almaatouq & Malone, 2024
+- van Loon, Leisink & Knies, 2016; George, Pandey & Steijn, 2021; Bozeman, Youtie & Jung, 2021
+- Weill & Ross, 2004
+- Westphal & Zajac, 2001
+- Wieringa, 2020

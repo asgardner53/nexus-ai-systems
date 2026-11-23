@@ -1,0 +1,47 @@
+name: AI Governance Unified Copyedit
+
+on:
+  push:
+    branches:
+      - book-intelligence-engine-v0.1
+    paths:
+      - books/ai-governance-in-practice/04-production/reconcile_claims_register.py
+      - books/ai-governance-in-practice/04-production/run_unified_copyedit.py
+      - books/ai-governance-in-practice/02-manuscript/references-v1.0-reconciled.md
+      - .github/workflows/ai-governance-unified-copyedit.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-copyedit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out controlled branch
+        uses: actions/checkout@v4
+        with:
+          ref: book-intelligence-engine-v0.1
+          fetch-depth: 0
+
+      - name: Generate reconciled claims register
+        run: python books/ai-governance-in-practice/04-production/reconcile_claims_register.py
+
+      - name: Generate copyedited components and master
+        run: python books/ai-governance-in-practice/04-production/run_unified_copyedit.py
+
+      - name: Commit generated outputs
+        run: |
+          git config user.name "Nexus Book Intelligence Engine"
+          git config user.email "actions@users.noreply.github.com"
+          git add books/ai-governance-in-practice/01-research/claims-evidence-register-v1.0.md \
+                  books/ai-governance-in-practice/02-manuscript/copyedit-v1.0 \
+                  books/ai-governance-in-practice/02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md \
+                  books/ai-governance-in-practice/02-manuscript/citation-inventory-v1.0.md \
+                  books/ai-governance-in-practice/00-control/unified-copyedit-v1.0-build-report.md
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "book: generate reconciled evidence and unified copyedit v1.0"
+            git push origin HEAD:book-intelligence-engine-v0.1
+          fi
