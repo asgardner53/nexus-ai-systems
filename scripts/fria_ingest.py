@@ -26,11 +26,13 @@ def render(data):
     if not isinstance(data.get("claims"), list) or not isinstance(data.get("opportunities"), list):
         raise ValueError("claims and opportunities must be arrays")
     ids = set()
+    if not data["claims"] or not data["opportunities"]:
+        raise ValueError("Claims and opportunities must be nonempty")
     claims = [
         "# FRIA Evidence Register — " + day, "",
         "**Status: Provisional intake; human verification required.**", "",
-        "| ID | Claim | Source | Jurisdiction | Materiality | Status | Limitations | Contrary evidence | Safe wording |",
-        "|---|---|---|---|---|---|---|---|---|"
+        "| ID | Claim | Source | Published | Checked | Quality | Jurisdiction | Materiality | Status | Limitations | Contrary evidence | Safe wording |",
+        "|---|---|---|---|---|---|---|---|---|---|---|"
     ]
     for c in data["claims"]:
         cid = field(c, "id")
@@ -39,14 +41,18 @@ def render(data):
         ids.add(cid)
         for k in ("claim", "source_title", "source_url", "jurisdiction", "limitations", "contrary_evidence", "safe_wording"):
             field(c, k)
+        for key in ("source_date", "date_checked"):
+            date.fromisoformat(field(c, key))
+        if c.get("source_quality") not in ("A", "B", "C", "D"):
+            raise ValueError("Invalid source quality")
         url = urlparse(c["source_url"])
-        if url.scheme != "https" or not url.netloc:
+        if url.scheme != "https" or not url.hostname or url.username or url.password or any(x in c["source_url"] for x in ("|", "<", ">", " ", "\\n", "\\r")):
             raise ValueError("Source URL must be absolute HTTPS")
         if c.get("verification_status") not in ("provisional", "unresolved", "rejected"):
             raise ValueError("Intake cannot assert verified status")
         if c.get("materiality") not in ("M2", "M3"):
             raise ValueError("M2/M3 required")
-        values = [cid, c["claim"], "[" + cell(c["source_title"]) + "](" + c["source_url"] + ")", c["jurisdiction"], c["materiality"], c["verification_status"], c["limitations"], c["contrary_evidence"], c["safe_wording"]]
+        values = [cid, c["claim"], "[" + cell(c["source_title"]) + "](" + c["source_url"] + ")", c["source_date"], c["date_checked"], c["source_quality"], c["jurisdiction"], c["materiality"], c["verification_status"], c["limitations"], c["contrary_evidence"], c["safe_wording"]]
         claims.append("| " + " | ".join(map(cell, values)) + " |")
     opportunities = [
         "# FRIA Editorial Opportunities — " + day, "",
@@ -54,9 +60,13 @@ def render(data):
         "| Rank | Headline | Rationale | Evidence gap |",
         "|---|---|---|---|"
     ]
+    ranks = set()
     for o in sorted(data["opportunities"], key=lambda x: x["rank"]):
         if not isinstance(o.get("rank"), int) or o["rank"] < 1:
             raise ValueError("Invalid rank")
+        if o["rank"] in ranks:
+            raise ValueError("Duplicate opportunity rank")
+        ranks.add(o["rank"])
         for k in ("headline", "rationale", "evidence_gap"):
             field(o, k)
         opportunities.append("| " + " | ".join(map(cell, [o["rank"], o["headline"], o["rationale"], o["evidence_gap"]])) + " |")
