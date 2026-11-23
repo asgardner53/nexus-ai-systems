@@ -86,3 +86,21 @@ This register identifies the authoritative Nexus AI governance documents current
 
 **AI assists. Humans decide. GitHub records.**
 
+
+## Small Business Advisory Studio - proposed supplement (PR #5)
+
+Supplement version: 0.2. Status: Under Review. Prepared: 11 October 2026. Owner and approval authority: Alec Gardner. Effective date: Not effective - approval pending. Next review: 18 October 2026 or earlier on material change.
+
+The existing approved records above are preserved. This draft supplement does not approve the Studio, alter those decisions, activate restricted evidence processing or authorise client use. Related proposal: https://github.com/asgardner53/nexus-ai-systems/pull/5 . Settings changes require a separate decision in Issue #6.
+
+| Document ID | Title | Version | Status | Proposed path |
+|---|---|---|---|---|
+| SBA-DOC-001 | Studio baseline README | 0.2 | Under Review | `studio-control-records/small-business-advisory/README.md` |
+| SBA-DOC-002 | Forensic evidence baseline | 0.2 | Under Review | `studio-control-records/small-business-advisory/forensic-evidence-baseline.md` |
+| SBA-DOC-003 | Forensic review protocol | 0.2 | Under Review | `studio-control-records/small-business-advisory/forensic-review-protocol.md` |
+| SBA-SCR-001 | Studio control record | 0.2 | Under Review | `studio-control-records/small-business-advisory/studio-control-record.md` |
+| SBA-REG-001 | Register suite control | 0.2 | Under Review | `studio-control-records/small-business-advisory/register-control.md` |
+| SBA-GAT-001 | Approval gate records | 0.2 | Under Review | `studio-control-records/small-business-advisory/approval-gates.json` |
+| SBA-REV-002 | Remediation handover | 0.2 | Under Review | `studio-control-records/small-business-advisory/remediation-report.md` |
+
+SBA-REG-001 controls `baseline-register.json`, `legacy-id-map.csv` and `review-register.csv` in the same directory. Local validation code `validate_baseline.py` and `test_validator.py` is review support for this version, not an approved runtime or CI deployment. Original v0.1 is preserved at commit `1925f435fc4a374d8a2f6f6bda338072f606b59d`; no prior Studio operational approval is asserted.
