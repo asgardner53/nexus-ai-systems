@@ -41,3 +41,14 @@ NEX-GOV-AUD-001 Nexus Audio Evidence Standard v1.0 applies to:
 - Research Interview workflows.
 
 Where a workflow does not yet have a standalone Studio control record in this register, the shared Audio Evidence Standard applies without changing that workflow's existing approval status, classification or decision authority.
+
+
+## Audio Evidence production readiness — 11 October 2026
+
+The shared Audio Evidence implementation has passed S01–S18 synthetic Storage validation and is approved for controlled production use under NEX-GOV-AUD-001, NEX-GOV-AMS-001 and NEX-IMP-AUD-001.
+
+This closes the shared raw-media storage production gate for the four listed workflows, without changing their human decision authority, Studio classification, assessment obligations, privacy obligations or workflow-specific release controls.
+
+Decision record: NEX-DEC-AUD-20261011-004.
+
+Unrelated Supabase security/performance advisories remain outside this production-readiness decision and must be managed through their own governance and remediation processes.
