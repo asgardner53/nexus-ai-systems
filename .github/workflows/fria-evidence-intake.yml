@@ -15,6 +15,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests -p 'test_fria_ingest.py' -v
       - name: Validate and render research records
         env:
           FRIA_PAYLOAD: ${{ inputs.payload_json }}
