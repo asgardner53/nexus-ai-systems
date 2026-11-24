@@ -1,5 +1,13 @@
 # AI Governance in Practice — KDP pre-submission package v0.1
 
+## Current RC1 record
+
+This early submission proposal is historical. Its cover, validation and biography states are superseded. Use the RC1 publication record for current proposed retailer copy, known provenance and open decisions.
+
+See [RC1 publication preparation](../../05-release/publication-pack-RC1-2026-11-25.md) and [the current release gate](EPUB-v0.2-release-gate.md). Updated 25 November 2026.
+
+## Historical record
+
 **Status:** DRAFT FOR AUTHOR REVIEW — NOT AUTHORISED FOR KDP UPLOAD OR PUBLICATION  
 **Prepared:** 21 November 2026  
 **Source:** Controlled Book Brief v0.2, `04-production/epub/metadata.yaml`, validated EPUB v0.2 and release-gate record.  

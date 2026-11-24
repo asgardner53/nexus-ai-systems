@@ -36,3 +36,9 @@ The original approved proof binary could not be recovered. Alec Gardner authoris
 - Status: **APPROVED BY ALEC GARDNER — CONTROLLED PRODUCTION COVER**
 
 This approval supersedes the missing earlier proof as the production-cover authority. The earlier record remains retained as historical provenance. The approved replacement must not be regenerated, altered, cropped or substituted without a new author decision. Publication remains unauthorised.
+
+## Retail format export recorded 25 November 2026
+
+The current publication pack supplies a lossless TIFF derivative, AI_Governance_in_Practice_Retail_Cover.tif, 1024 by 1536 RGB pixels, 1,895,305 bytes. SHA-256: 2a005f0560021320d6e5bc2209087f53e511848fc437911189aa843f9ad19974. The decoded RGB pixels are identical to the approved PNG. This is a format export, with no artwork, dimensions or colour changes.
+
+TIFF is accepted by both current KDP cover guidance pages; the pages differ on PNG acceptance. The approved image meets both published minimum dimensions and remains below the recommended 1600 by 2560 pixels. KDP upload acceptance has not been tested. See ../../05-release/cover-format-verification-RC1.json and the current publication pack record for evidence and sources.

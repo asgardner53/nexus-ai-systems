@@ -1,0 +1,17 @@
+{
+  "source": "AI_Governance_in_Practice_Approved_Cover.png",
+  "derivative": "AI_Governance_in_Practice_Retail_Cover.tif",
+  "method": "ImageMagick lossless format conversion with ZIP compression; no crop, resize, redraw, colour adjustment or artwork change",
+  "rgb_pixels_identical": true,
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "source_sha256": "95997bbfa293f22be8caef9ca6e45729eda96efe7701177f1dffc9976a31e9da",
+  "derivative_sha256": "2a005f0560021320d6e5bc2209087f53e511848fc437911189aa843f9ad19974",
+  "derivative_bytes": 1895305,
+  "verified_date_sydney": "2026-11-25",
+  "upload_acceptance": "Not tested in KDP",
+  "resolution_note": "1024 x 1536 meets the minimum dimensions stated by both current KDP cover pages; below the recommended 1600 x 2560. No upscaling performed."
+}

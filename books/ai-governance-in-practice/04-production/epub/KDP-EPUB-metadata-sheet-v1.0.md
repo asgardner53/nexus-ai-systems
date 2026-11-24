@@ -1,5 +1,13 @@
 # AI Governance in Practice — Controlled KDP/EPUB Metadata Sheet v1.0
 
+## Current RC1 record
+
+The locked bibliographic fields remain authoritative. Current RC1 identity, proposed retailer copy and unresolved commercial choices are consolidated in the RC1 publication record.
+
+See [RC1 publication preparation](../../05-release/publication-pack-RC1-2026-11-25.md) and [the current release gate](EPUB-v0.2-release-gate.md). Updated 25 November 2026.
+
+## Historical record
+
 **Status:** CONTROLLED PRODUCTION METADATA — PUBLICATION NOT AUTHORISED  
 **Date:** 21 November 2026  
 **Author authority:** Alec Gardner  

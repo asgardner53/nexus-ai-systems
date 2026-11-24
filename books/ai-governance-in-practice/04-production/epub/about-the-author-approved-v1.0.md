@@ -1,7 +1,7 @@
 # About the Author — Approved v1.0
 
 **Status:** AUTHOR APPROVED — 21 November 2026  
-**Placement:** After references in the next controlled EPUB production build.  
+**Placement:** Included after references as a principal section in the approved Run 22 RC1 EPUB.
 **Control:** Approved end matter only; do not rewrite the locked ten-chapter manuscript. Rebuild and revalidate EPUB after integration.
 
 ## About the Author
@@ -23,4 +23,4 @@ www.nexusbmg.com
 
 ## Approval and production note
 
-Alec replied **approved** to this exact proposed About the Author section. This file preserves the approved wording as a separate source for the production pipeline. Inclusion in the final EPUB and Kindle Previewer retesting are pending. No KDP upload or publication has been authorised.
+Alec replied **approved** to this exact proposed About the Author section. This file preserves the approved wording as a separate source for the production pipeline. This exact section is included in the approved Run 22 RC1 EPUB. Kindle Previewer verification for RC1 is not separately evidenced. No KDP upload or publication has been authorised.

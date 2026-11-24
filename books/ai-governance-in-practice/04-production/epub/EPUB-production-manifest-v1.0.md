@@ -1,5 +1,13 @@
 # AI Governance in Practice — EPUB Production Manifest v1.0
 
+## Current RC1 record
+
+This 21 November assembly record is historical. Its old cover-placement blocker and build IDs are superseded by the RC1 publication record. The approved cover is embedded in Run 22; RC1 technical validation and author acceptance are recorded.
+
+See [RC1 publication preparation](../../05-release/publication-pack-RC1-2026-11-25.md) and [the current release gate](EPUB-v0.2-release-gate.md). Updated 25 November 2026.
+
+## Historical record
+
 **Status:** CONTROLLED ASSEMBLY RECORD — RELEASE HOLD  
 **Date:** 21 November 2026  
 **Production branch:** `ai-governance-epub-v0.2-review`
