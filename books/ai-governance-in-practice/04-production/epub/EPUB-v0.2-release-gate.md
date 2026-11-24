@@ -2,6 +2,12 @@
 
 Status: **RC1 AUTHOR APPROVED; TECHNICALLY VALIDATED; KINDLE VISUAL VERIFICATION NOT SEPARATELY EVIDENCED**. This record identifies the approved release candidate for publication preparation.
 
+## Launch settings approval 25 November 2026
+
+Alec replied **yes** to the specific six-setting confirmation. Approved for submission preparation: A$9.99 including GST; the 70% royalty option for eligible sales; Amazon.com.au as the primary marketplace; no initial KDP Select enrolment; no DRM; and no Kindle ISBN purchase.
+
+The [launch settings approval record](../../05-release/launch-settings-approval-2026-11-25.md) preserves the scope. Rights and territories, AI-origin declarations, retailer listing approval, and specific RC1 Kindle verification remain open. No upload, merge or publication authority is inferred.
+
 ## Author approval: 25 November 2026
 
 Alec Gardner replied **“approved”** after receiving the corrected Run 22 EPUB and its QA report. This is recorded as author acceptance of the supplied file and its designation as **release candidate RC1 for publication preparation**.
@@ -55,7 +61,7 @@ At delivery, renewed Kindle Previewer review remained open. Alec subsequently ap
 
 ## Outstanding release blockers
 1. Record Kindle Previewer execution and coverage for RC1 before claiming the full Kindle QA gate is complete: Enhanced Typesetting, reference pagination, contents, section openings, all eight diagrams and device/font/orientation views. Author acceptance was received on 25 November; specific Previewer results were not supplied.
-2. Complete KDP pre-submission rights/permissions, AI-content classification, metadata, cover, price, territories, DRM and distribution choices.
+2. Complete rights/permissions, AI-content classification, retailer listing, territorial and remaining cover/accessibility checks. The six launch settings are approved as recorded above; edition presentation and launch timing remain proposals.
 3. Obtain separate explicit author approval before merging PR #11 or uploading to KDP, and separate approval to publish.
 
 No merge, KDP upload or publication is authorised by this record.

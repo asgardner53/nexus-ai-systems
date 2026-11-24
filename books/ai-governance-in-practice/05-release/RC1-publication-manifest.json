@@ -44,5 +44,34 @@
     "kdp_upload": false,
     "publish": false
   },
-  "commercial_decisions": "Proposed; pending Alec decision"
+  "commercial_decisions": "Six launch settings approved; remaining listing, territory, edition and timing decisions open",
+  "launch_settings_approval": {
+    "status": "Approved for submission preparation",
+    "approver": "Alec Gardner",
+    "date_sydney": "2026-11-25",
+    "reply": "yes",
+    "confirmation_question": "For now, let\u2019s take one step: are you happy with those proposed launch settings?",
+    "settings": {
+      "australian_list_price": {
+        "currency": "AUD",
+        "amount": 9.99,
+        "gst_included": true
+      },
+      "royalty_option": "70% for eligible sales",
+      "primary_marketplace": "Amazon.com.au",
+      "kdp_select": "Do not enrol initially",
+      "drm": "Do not apply DRM",
+      "kindle_isbn": "Do not purchase an ISBN; leave the optional field blank"
+    },
+    "not_resolved_by_this_approval": [
+      "publishing rights and territories",
+      "AI-origin declarations",
+      "retailer description",
+      "keywords and categories",
+      "edition presentation",
+      "launch timing",
+      "RC1 Kindle visual verification"
+    ],
+    "kdp_settings_applied": false
+  }
 }

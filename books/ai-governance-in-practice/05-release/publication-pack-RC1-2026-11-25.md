@@ -4,36 +4,46 @@ Prepared 25 November 2026 for Alec Gardner and Nexus BMG Pty Ltd.
 
 **Current state:** RC1 author approved; technical validation passed; Kindle visual verification not separately evidenced.
 
-This is the current submission-preparation record. Alec's approval designates the unchanged Run 22 EPUB as RC1. The later instruction to proceed authorises this preparation. Commercial settings and factual declarations below remain proposals or open confirmations. No KDP account action has been taken.
+This is the current submission-preparation record. Alec's earlier approval designates the unchanged Run 22 EPUB as RC1. On 25 November he approved the six launch settings below for submission preparation. Remaining proposals and factual declarations are identified separately. No KDP account action has been taken.
 
-## Recommended decisions
+## Approved launch settings
 
-All recommendations are **PENDING ALEC DECISION**.
+Alec Gardner replied **yes** to the specific question asking whether he accepted the six proposed launch settings. These choices are **AUTHOR APPROVED, 25 November 2026**, for preparation of the KDP submission.
 
-| Choice | Recommendation | Reason or condition |
+| Choice | Approved setting | Reason or condition |
 | --- | --- | --- |
-| Price and royalty | A$9.99 including GST; 70% option for eligible sales | Balances access with a paid professional title. Review marketplace conversions before submission. [S1, S2, S3] |
-| Primary marketplace | Amazon.com.au | Proposed home marketplace for the Australian launch; confirm the available category paths during setup. [S10] |
+| Australian price | A$9.99 including GST | Approved launch price. Review marketplace conversions before submission. [S1, S3] |
+| Royalty option | 70% for eligible sales | Eligibility and the processed file determine the displayed royalty. [S2] |
+| Primary marketplace | Amazon.com.au | Approved home marketplace; confirm the available category paths during setup. [S10] |
 | Distribution | Kindle launch without KDP Select | Keeps future direct and other retailer distribution available. Select imposes a renewable 90-day ebook exclusivity term. [S4] |
 | DRM | Do not apply DRM | Allows verified buyers EPUB and PDF downloads. DRM can change later, but downloaded copies cannot be recalled. [S5] |
-| ISBN and edition | No Kindle ISBN purchase; first edition presentation | KDP does not require an ebook ISBN. RC1 and v0.2 remain internal production labels. [S6] |
+| ISBN | No Kindle ISBN purchase; leave field blank | KDP does not require an ebook ISBN. [S6] |
+
+
+The approved A$9.99 price is a launch judgement, not a forecast of demand. It sits within KDP's current Australian 70% band of A$3.99 to A$15.99. For illustration, if KDP determines a 3 MB delivery size, A$0.45 delivery cost gives approximately A$6.04 per eligible Australian sale after GST and delivery. The processed size and KDP's displayed estimate control. [S1, S2, S3]
+
+Leaving Select off preserves distribution flexibility; its current rules permit KDP and public-library distribution during the 90-day term, with automatic renewal unless disabled. [S4] The approved DRM-free choice is separate from Select and does not change the royalty rate. [S5]
+
+Use automatic marketplace conversions where offered, retain the approved Australian price and record the displayed prices before submission. Other currency amounts have not been individually approved. If a physical edition is later offered, recheck the 70% requirement that the ebook price be at least 20% below its Amazon list price. Some territories earn 35%, including Brazil, Japan, Mexico and India without Select. [S2]
+
+## Remaining proposals
+
+| Choice | Earlier proposal | Current condition |
+| --- | --- | --- |
+| Edition presentation | First Kindle edition; optional edition field blank | Remains an earlier proposal. RC1 and v0.2 are internal production labels. |
 | Launch approach | Standard release after preview and final approval | No pre-order date or public launch date has been set. |
 | Territories | Worldwide only if rights are confirmed | Otherwise list the territories actually covered. This is an author attestation, not a default. [S7] |
 
 
-The A$9.99 recommendation is an editorial launch judgement, not a forecast of demand. It sits within KDP's current Australian 70% band of A$3.99 to A$15.99. For illustration, if KDP determines a 3 MB delivery size, A$0.45 delivery cost gives approximately A$6.04 per eligible Australian sale after GST and delivery. The processed size and KDP's displayed estimate control. [S1, S2, S3]
-
-Leaving Select off preserves distribution flexibility; its current rules permit KDP and public-library distribution during the 90-day term, with automatic renewal unless disabled. [S4] The proposed DRM-free choice is separate from Select and does not change the royalty rate. [S5]
-
-Use automatic marketplace conversions where offered, retain the proposed Australian price and record the displayed prices before submission. If a physical edition is later offered, recheck the 70% requirement that the ebook price be at least 20% below its Amazon list price. Some territories earn 35%, including Brazil, Japan, Mexico and India without Select. [S2]
+The six-setting approval does not settle these proposals, approve the retailer copy, supply factual rights or AI declarations, document a Kindle test, or authorise upload, merge or publication. See launch-settings-approval-2026-11-25.md for the precise approval record.
 
 ## Confirmations needed from Alec
 
-1. Approve or amend the proposed price, royalty, distribution, DRM, edition and launch settings, and the listing copy below.
+1. Review the remaining edition and launch proposals and the retailer description, keyword phrases and category directions. The six launch settings above are already approved and do not require repeated confirmation.
 2. Confirm the publishing-rights territories, necessary permissions for text and artwork, and that no unauthorised confidential or personal material is included. Worldwide rights must be a factual confirmation. [S7, S8]
 3. Confirm how AI contributed to the actual retained manuscript, diagrams and any translations. The cover generation is already documented. KDP treats actual content created by AI as generated even after substantial editing; editing human-created content alone is assisted. [S8]
 
-These are new submission choices and factual attestations. The title, subtitle, manuscript, cover artwork and biography have already been approved.
+These are remaining submission choices and factual attestations. The six launch settings, title, subtitle, manuscript, cover artwork and biography have already been approved.
 
 ## Proposed Amazon description
 
@@ -82,7 +92,7 @@ Proposed category directions: business management and leadership; artificial int
 | Copyright wording | Copyright © 2026 Alec Gardner. All rights reserved. | Controlled wording; rights confirmation open |
 | Format | Reflowable EPUB 3 | Approved production format |
 | Edition presentation | First Kindle edition; leave optional edition field blank unless required | Proposed |
-| ISBN | Leave blank for this Kindle edition | Proposed; no ISBN purchase required by KDP [S6] |
+| ISBN | Leave blank for this Kindle edition | Approved 25 November 2026; no Kindle ISBN purchase [S6] |
 | Series | None specified; leave blank | No series has been approved |
 | Reading age | Leave optional field blank | Adult professional readership; no age range specified |
 | Publication year | 2026 in the EPUB metadata | Actual release date not yet set |
@@ -147,7 +157,7 @@ Use 03-control/kindle-visual-review-record.md for the observations. This record 
 
 ## Submission sequence
 
-1. Record Alec's decisions and rights/AI confirmations in this controlled record.
+1. Retain the approved six launch settings and record the remaining listing, rights and AI confirmations in this controlled record.
 2. Complete and document the RC1 Kindle Previewer pass, resolving any material defect against the exact file identity.
 3. Obtain explicit author authority for the KDP draft upload. Use the supplied EPUB, TIFF cover and approved listing fields. Save a draft, run the online preview and record any warnings, processed file size and royalty estimate.
 4. Capture the final category paths, marketplace prices, rights, AI disclosure and accessibility answers. Only supported accessibility claims should be selected.
@@ -156,7 +166,7 @@ Use 03-control/kindle-visual-review-record.md for the observations. This record 
 
 ## Authorisation record
 
-Publication preparation and RC1 author acceptance are recorded. No instruction has yet authorised merging PR #11, uploading to KDP, enrolling in Select or publishing. This boundary comes from the existing author approval and release-gate records, and remains in force while the concrete submission material is prepared.
+Publication preparation, RC1 author acceptance and the six launch-setting decisions are recorded. KDP Select is approved as off for the initial launch. No instruction has yet authorised merging PR #11, uploading to KDP or publishing. This boundary comes from the existing author approval and release-gate records.
 
 ## Sources
 
