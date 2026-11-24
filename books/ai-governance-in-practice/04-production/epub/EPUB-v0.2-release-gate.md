@@ -1,6 +1,16 @@
-# AI Governance in Practice — EPUB v0.2 release gate
+# AI Governance in Practice: EPUB v0.2 release gate
 
-Status: **AUTHOR APPROVED PUBLICATION PREPARATION — KDP PUBLICATION NOT AUTHORISED**. This record is a production-control note, not publication approval.
+Status: **CORRECTED REVIEW PROOF; RENEWED KINDLE PREVIEW REQUIRED**. Author-approved publication preparation remains authorised. This record is a production-control note, not publication approval.
+
+## Current correction cycle: 25 November 2026
+
+The 22 November layout feedback and subsequent failed builds supersede the earlier visual acceptance for the corrected proof. Run 21 failed because the heading replacement emitted literal backreferences, deleting all thirteen Part and Chapter headings. EPUBCheck passed that malformed book; its format check alone did not establish content completeness. The previous prose-fidelity check repeated the faulty transformation and could not detect it.
+
+The correction preserves captured heading text, verifies all complete titles independently, reverses the actual heading edits to recover the input, and also reconstructs the complete locked manuscript after removing only approved production additions. The source manuscript remains unchanged.
+
+The v0.2 stylesheet keeps each of the 99 reference entries together where possible, compacts the contents, prevents automatic hyphenation in headings, and avoids redundant opening-page breaks. About the Author becomes its own principal section and contents entry; its approved prose is unchanged. The build and embedded-cover check now use the same approved cover asset.
+
+The release remains a review proof until the exact corrected artifact passes the workflow and a renewed Kindle Previewer check. Automated structural validation and supplemental EPUB rendering do not constitute a human Kindle acceptance.
 
 ## Protected sources
 - Locked manuscript: `02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md`. Do not edit.
@@ -30,7 +40,7 @@ Status: **AUTHOR APPROVED PUBLICATION PREPARATION — KDP PUBLICATION NOT AUTHOR
 - This approval permits **ready-for-review status and preparation of the KDP release pack only**. It does not authorise merging the PR, uploading to KDP, or making the title live.
 
 ## Outstanding release blockers
-1. If required for a fully evidenced device-coverage claim, record individual device-mode, font-size, orientation, theme and accessibility checks; these were not separately documented.
+1. Recheck the exact corrected artifact in Kindle Previewer: Enhanced Typesetting, contents destinations, every Part and Chapter opening, all eight diagrams, reference-entry pagination, author section, phone/e-reader/tablet, portrait/landscape and ordinary/large text. Earlier author acceptance predates these corrections.
 2. Complete KDP pre-submission rights/permissions, AI-content classification, metadata, cover, price, territories, DRM and distribution choices.
 3. Obtain separate explicit author approval before merging PR #11 or uploading to KDP, and separate approval to publish.
 

@@ -1,0 +1,37 @@
+/* Controlled reflowable review stylesheet v0.2.
+   Keep each entry together, while allowing whole sections to paginate. */
+body { font-family: serif; }
+p { margin: 0 0 0.85em 0; }
+h1 {
+  /* Every principal section is a separate spine document; no extra break. */
+  font-size: 1.5em;
+  line-height: 1.2;
+  margin: 0 0 1em;
+}
+h1, h2, h3 {
+  font-family: sans-serif;
+  color: inherit;
+  text-align: left;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+img { max-width: 100%; height: auto; }
+figure { margin: 1.5em 0; page-break-inside: avoid; break-inside: avoid; }
+figcaption { font-size: 0.88em; font-style: italic; margin-top: 0.5em; }
+.core-visual { width: 100%; }
+a { color: inherit; }
+
+#toc-title { page-break-before: auto; break-before: auto; margin: 0 0 0.7em; }
+#toc > ol.toc { list-style-type: none; padding-left: 0; margin: 0; }
+#toc > ol.toc > li {
+  margin: 0 0 0.25em;
+  line-height: 1.25;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+#toc > ol.toc > li:last-child { page-break-before: avoid; break-before: avoid; }
+#references > p { page-break-inside: avoid; break-inside: avoid; }
+#references a { overflow-wrap: break-word; word-wrap: break-word; }

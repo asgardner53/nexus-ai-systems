@@ -18,7 +18,12 @@ if cover_bytes[:8] == b"\x89PNG\r\n\x1a\n" and len(cover_bytes) >= 24:
     png_dims=f"{int.from_bytes(cover_bytes[16:20],'big')}x{int.from_bytes(cover_bytes[20:24],'big')}"
 print(f"COVER_DIAGNOSTIC path={COVER.name} bytes={len(cover_bytes)} dimensions={png_dims} expected_sha256={APPROVED_COVER_SHA256} actual_sha256={actual_cover_sha256}")
 assert actual_cover_sha256==APPROVED_COVER_SHA256, f"Approved cover checksum mismatch: expected {APPROVED_COVER_SHA256}; actual {actual_cover_sha256}; bytes {len(cover_bytes)}; dimensions {png_dims}"
-assert SRC.is_file() and SRC.read_text(encoding="utf-8").startswith("# AI Governance in Practice\n")
+assert SRC.is_file()
+source_bytes = SRC.read_bytes()
+source_blob_sha = hashlib.sha1(f"blob {len(source_bytes)}\0".encode() + source_bytes).hexdigest()
+assert source_blob_sha == "b06696d4e77f7bb4b5c3520fcc32e326936880d3", "Locked manuscript changed"
+source_text = source_bytes.decode("utf-8")
+assert source_text.startswith("# AI Governance in Practice\n")
 runpy.run_path(str(EPUB/"scripts/prepare_epub.py"),run_name="__main__")
 prepared=(BUILD/"manuscript-production.md").read_text(encoding="utf-8")
 assert prepared.count("](images/")==3, "Expected three original diagrams"
@@ -26,8 +31,18 @@ text=prepared
 # Kindle Previewer QA: remove em/en-dash separator construction from Part/Chapter headings only.
 # Preserve all punctuation inside approved narrative prose.
 heading_separator_re = re.compile(r"(?m)^(# (?:Part [IVX]+|Chapter \d+)) [—–] (.+)$")
-text, heading_separators_removed = heading_separator_re.subn(r"\\1: \\2", text)
+heading_changes = []
+def normalise_heading(match):
+    # A callable preserves real captured text; escaped replacement strings
+    # previously emitted literal backreferences and deleted the headings.
+    replacement = f"{match.group(1)}: {match.group(2)}"
+    heading_changes.append((match.group(0), replacement))
+    return replacement
+text, heading_separators_removed = heading_separator_re.subn(normalise_heading, text)
 assert heading_separators_removed == 13, f"Expected 13 Part/Chapter heading separators; removed {heading_separators_removed}"
+assert len(re.findall(r"(?m)^# (?:Part [IVX]+|Chapter \d+): .+$", text)) == 13
+assert not re.search(r"(?m)^#{1,3} .*?[—–]", text), "Unreviewed dash construction in a major heading"
+assert not re.search(r"\\[12](?=:|\s|$)", text), "Literal replacement backreference in manuscript"
 visuals=[
  ("V04-policy-to-control-gap","Policy-to-Control Gap",["Declared policy","Defined authority","Operating controls","Observable evidence"],"A policy is not an operating control until authority, execution and evidence connect.","The gap does not necessarily imply bad faith."),
  ("V05-human-decision-responsibility","Human Decision Responsibility",["AI recommendation","Human examination","Authorised decision","Recorded rationale"],"Human involvement must include informed judgement and the ability to intervene.","That does not mean the decision is wrong. It does mean that a human sign-off is not, by itself, evidence of meaningful human control."),
@@ -68,13 +83,27 @@ for basename,title,steps,caption,anchor in visuals:
     subprocess.run(["rsvg-convert","-w","1200",str(svg),"-o",str(IMAGES/(basename+".png"))],check=True)
 text,removed=re.subn(r"(?m)^---[ \t]*\n(?:\n)?","",text)
 assert removed>=10 and text.count("](images/")==8
-# Verifiable prose fidelity: only inserted images and removed horizontal rules.
+# Reverse the actual, recorded heading edits before comparing with the input.
+# Do not repeat the forward transformation in the expected result: that hid
+# the previous missing-heading defect.
 recovered=text
 for basename,*rest in visuals:
     recovered=re.sub(r"\n\n!\[[^\n]*\]\(images/"+re.escape(basename)+r"\.png\)\{\.core-visual\}","",recovered,count=1)
-expected=heading_separator_re.sub(r"\\1: \\2", prepared)
+for original, replacement in heading_changes:
+    assert recovered.count("\n" + replacement + "\n") == 1, f"Heading lost or duplicated: {original}"
+    recovered = recovered.replace("\n" + replacement + "\n", "\n" + original + "\n", 1)
+expected=prepared
 expected=re.sub(r"(?m)^---[ \t]*\n(?:\n)?","",expected)
 assert recovered==expected, "Unexpected change to existing manuscript content"
+# Independently recover the locked source, including the three base visuals.
+recovered_source = recovered
+for basename in ("meaningful-accountability-test-v1.0", "delegated-authority-map-v1.0", "evolved-governance-chain-v1.0"):
+    recovered_source, count = re.subn(r"\n\n!\[[^\n]*\]\(images/" + re.escape(basename) + r"\.png\)\{\.core-visual\}", "", recovered_source)
+    assert count == 1, f"Original visual missing or duplicated: {basename}"
+title_block = "# AI Governance in Practice\n\n## Building the Operating System for Responsible, Accountable and Effective AI\n\n**Alec Gardner**\n\n---\n\n"
+assert source_text.startswith(title_block), "Unexpected source title block"
+source_body = re.sub(r"(?m)^---[ \t]*\n(?:\n)?", "", source_text[len(title_block):])
+assert recovered_source == source_body, "Production prose differs from the locked manuscript"
 # Add only author-approved end matter after manuscript-fidelity verification.
 bio_source=EPUB/"about-the-author-approved-v1.0.md"
 bio_record=bio_source.read_text(encoding="utf-8")
@@ -83,20 +112,21 @@ bio_end=bio_record.index("\n## Approval and production note",bio_start)
 bio=bio_record[bio_start:bio_end].strip()
 assert bio.startswith("## About the Author\n") and "**Nexus BMG**" in bio
 assert text.count("## About the Author")==0, "About the Author already present"
+bio = bio.replace("## About the Author\n", "# About the Author\n", 1)
 text=text.rstrip()+"\n\n"+bio+"\n"
-assert text.endswith(bio+"\n") and text.count("## About the Author")==1
+assert text.endswith(bio+"\n") and text.count("# About the Author")==1
 (BUILD/"manuscript-production.md").write_text(text,encoding="utf-8")
 meta=(EPUB/"metadata.yaml").read_text(encoding="utf-8")
 assert "v0.1" in meta
-(BUILD/"metadata-v0.2.yaml").write_text(meta.replace("v0.1","v0.2"),encoding="utf-8")
-css=(EPUB/"epub.css").read_text(encoding="utf-8")
-css=re.sub(r"(?m)^hr\s*\{[^\n]*\}\s*\n?","",css)
-css=css.replace("color: #082d4a;","color: inherit;")
-(BUILD/"epub-v0.2.css").write_text(css+"\n/* v0.2 adaptive typography, no decorative rules */\n",encoding="utf-8")
+assert meta.count("\n---\n") == 1
+meta = meta.replace("v0.1","v0.2").replace("\n---\n", "\ntoc-title: Contents\n---\n")
+(BUILD/"metadata-v0.2.yaml").write_text(meta,encoding="utf-8")
+css=(EPUB/"epub-v0.2.css").read_text(encoding="utf-8")
+(BUILD/"epub-v0.2.css").write_text(css,encoding="utf-8")
 (BUILD/"v0.2-manifest.txt").write_text(
-    "SOURCE_GIT_BLOB_SHA=b06696d4e77f7bb4b5c3520fcc32e326936880d3\n"+
+    "SOURCE_GIT_BLOB_SHA="+source_blob_sha+"\n"+
     "SOURCE_SHA256="+hashlib.sha256(SRC.read_bytes()).hexdigest()+"\n"+
-    f"NEW_VISUALS=5\nTOTAL_VISUALS=8\nSEPARATORS_REMOVED={removed}\n"+
-    "MANUSCRIPT_FIDELITY=PASS\nABOUT_AUTHOR=APPROVED_V1.0\n"+
+    f"NEW_VISUALS=5\nTOTAL_VISUALS=8\nSEPARATORS_REMOVED={removed}\nHEADING_SEPARATORS_REMOVED={heading_separators_removed}\n"+
+    "MANUSCRIPT_FIDELITY=PASS\nLOCKED_SOURCE_RECOVERY=PASS\nABOUT_AUTHOR=APPROVED_V1.0\n"+
     "COVER_SHA256="+APPROVED_COVER_SHA256+"\nCOVER_STATUS=APPROVED_V1.0\n",encoding="utf-8")
 print("Prepared EPUB v0.2: eight visuals; removed",removed,"decorative separators;",heading_separators_removed,"heading separators; prose fidelity PASS with approved QA heading normalisation")
