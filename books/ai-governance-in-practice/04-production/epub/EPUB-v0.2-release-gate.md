@@ -1,6 +1,6 @@
 # AI Governance in Practice: EPUB v0.2 release gate
 
-Status: **CORRECTED REVIEW PROOF; RENEWED KINDLE PREVIEW REQUIRED**. Author-approved publication preparation remains authorised. This record is a production-control note, not publication approval.
+Status: **TECHNICALLY VALIDATED; KINDLE PREVIEW PENDING**. Author-approved publication preparation remains authorised. This record is a production-control note, not publication approval.
 
 ## Current correction cycle: 25 November 2026
 
@@ -10,7 +10,11 @@ The correction preserves captured heading text, verifies all complete titles ind
 
 The v0.2 stylesheet keeps each of the 99 reference entries together where possible, compacts the contents, prevents automatic hyphenation in headings, and avoids redundant opening-page breaks. About the Author becomes its own principal section and contents entry; its approved prose is unchanged. The build and embedded-cover check now use the same approved cover asset.
 
-The release remains a review proof until the exact corrected artifact passes the workflow and a renewed Kindle Previewer check. Automated structural validation and supplemental EPUB rendering do not constitute a human Kindle acceptance.
+The corrected artifact passed [GitHub Run 22](https://github.com/asgardner53/nexus-ai-systems/actions/runs/45491621772), built from commit `4245c3160b73b72df0a8c0eacafc95dee1dcdf0d`. EPUBCheck 5.4.0 reported 0 fatals, 0 errors and 0 warnings. All 17 complete section headings and linked contents entries, eight diagrams, 99 separate references and the approved embedded cover passed independent validation. All eight regression tests passed.
+
+Artifact ID: `14965518946`. The downloaded EPUB is 2,983,895 bytes, SHA-256 `1080220ab601b002f9b389eba3fcc61b9b18b9b1a827234bb1ade2a72553668f`. The artifact ZIP checksum and EPUB checksum match the workflow records. Comparing this exact downloaded EPUB against the author-supplied Run 15 proof confirmed identical text in 538 paragraphs, identical 93 paragraph links, and identical 99 reference entries.
+
+The corrected artifact still requires renewed Kindle Previewer review before release-candidate designation. Kindle Previewer was unavailable in the review workspace. Supplemental MuPDF rendering showed complete headings and no clipped text, but it does not reliably reproduce Kindle pagination or figure positioning. No Kindle conversion or human acceptance is claimed for this artifact.
 
 ## Protected sources
 - Locked manuscript: `02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md`. Do not edit.
