@@ -1,6 +1,16 @@
 # AI Governance in Practice: EPUB v0.2 release gate
 
-Status: **TECHNICALLY VALIDATED; KINDLE PREVIEW PENDING**. Author-approved publication preparation remains authorised. This record is a production-control note, not publication approval.
+Status: **RC1 AUTHOR APPROVED; TECHNICALLY VALIDATED; KINDLE VISUAL VERIFICATION NOT SEPARATELY EVIDENCED**. This record identifies the approved release candidate for publication preparation.
+
+## Author approval: 25 November 2026
+
+Alec Gardner replied **“approved”** after receiving the corrected Run 22 EPUB and its QA report. This is recorded as author acceptance of the supplied file and its designation as **release candidate RC1 for publication preparation**.
+
+RC1 is the unchanged Run 22 EPUB, delivered as `AI_Governance_in_Practice_v0.2_RC1.epub`, SHA-256 `1080220ab601b002f9b389eba3fcc61b9b18b9b1a827234bb1ade2a72553668f`. The existing technical validation remains applicable; this approval does not change the EPUB bytes.
+
+**Verification status:** Technical validation passed and author approval was received. Kindle Previewer conversion, reference pagination and device-specific visual coverage have not been independently verified or separately documented for this artifact. The approval is not recorded as a report that the full Kindle visual QA pass was performed.
+
+Merge, KDP upload and publication remain separate actions.
 
 ## Current correction cycle: 25 November 2026
 
@@ -14,7 +24,7 @@ The corrected artifact passed [GitHub Run 22](https://github.com/asgardner53/nex
 
 Artifact ID: `14965518946`. The downloaded EPUB is 2,983,895 bytes, SHA-256 `1080220ab601b002f9b389eba3fcc61b9b18b9b1a827234bb1ade2a72553668f`. The artifact ZIP checksum and EPUB checksum match the workflow records. Comparing this exact downloaded EPUB against the author-supplied Run 15 proof confirmed identical text in 538 paragraphs, identical 93 paragraph links, and identical 99 reference entries.
 
-The corrected artifact still requires renewed Kindle Previewer review before release-candidate designation. Kindle Previewer was unavailable in the review workspace. Supplemental MuPDF rendering showed complete headings and no clipped text, but it does not reliably reproduce Kindle pagination or figure positioning. No Kindle conversion or human acceptance is claimed for this artifact.
+At delivery, renewed Kindle Previewer review remained open. Alec subsequently approved the supplied file as recorded above. Kindle Previewer was unavailable in the review workspace. Supplemental MuPDF rendering showed complete headings and no clipped text, but it does not reliably reproduce Kindle pagination or figure positioning. This record distinguishes the received author approval from the unverified Kindle test coverage.
 
 ## Protected sources
 - Locked manuscript: `02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md`. Do not edit.
@@ -44,7 +54,7 @@ The corrected artifact still requires renewed Kindle Previewer review before rel
 - This approval permits **ready-for-review status and preparation of the KDP release pack only**. It does not authorise merging the PR, uploading to KDP, or making the title live.
 
 ## Outstanding release blockers
-1. Recheck the exact corrected artifact in Kindle Previewer: Enhanced Typesetting, contents destinations, every Part and Chapter opening, all eight diagrams, reference-entry pagination, author section, phone/e-reader/tablet, portrait/landscape and ordinary/large text. Earlier author acceptance predates these corrections.
+1. Record Kindle Previewer execution and coverage for RC1 before claiming the full Kindle QA gate is complete: Enhanced Typesetting, reference pagination, contents, section openings, all eight diagrams and device/font/orientation views. Author acceptance was received on 25 November; specific Previewer results were not supplied.
 2. Complete KDP pre-submission rights/permissions, AI-content classification, metadata, cover, price, territories, DRM and distribution choices.
 3. Obtain separate explicit author approval before merging PR #11 or uploading to KDP, and separate approval to publish.
 
