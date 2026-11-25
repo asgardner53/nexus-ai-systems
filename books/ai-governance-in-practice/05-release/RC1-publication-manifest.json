@@ -1,0 +1,77 @@
+{
+  "book_title": "AI Governance in Practice",
+  "publication_pack_version": "RC1 publication preparation 2026-11-25",
+  "status": "RC1 author approved; technical validation passed; Kindle visual verification not separately evidenced",
+  "author_approval_date_sydney": "2026-11-25",
+  "epub": {
+    "filename": "AI_Governance_in_Practice_v0.2_RC1.epub",
+    "bytes": 2983895,
+    "sha256": "1080220ab601b002f9b389eba3fcc61b9b18b9b1a827234bb1ade2a72553668f",
+    "unchanged_from_run": 22
+  },
+  "build": {
+    "source_commit": "4245c3160b73b72df0a8c0eacafc95dee1dcdf0d",
+    "run_id": 45491621772,
+    "run_url": "https://github.com/asgardner53/nexus-ai-systems/actions/runs/45491621772",
+    "artifact_id": 14965518946,
+    "artifact_zip_sha256": "ebfbf2b7903dfa405b318691fe57b104091ecdf372bbaef6fd7c4a0bae7755f4",
+    "epubcheck_version": "5.4.0",
+    "fatals": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "approval_record_commit": "b816b0e60058a3b026f9693e6ff774b9703c1701",
+  "source_manuscript_git_blob": "b06696d4e77f7bb4b5c3520fcc32e326936880d3",
+  "cover_master_sha256": "95997bbfa293f22be8caef9ca6e45729eda96efe7701177f1dffc9976a31e9da",
+  "retail_cover_sha256": "2a005f0560021320d6e5bc2209087f53e511848fc437911189aa843f9ad19974",
+  "validation": {
+    "principal_sections": 17,
+    "part_and_chapter_titles": 13,
+    "diagrams": 8,
+    "reference_entries": 99,
+    "regression_tests_passed": 8,
+    "identical_paragraphs_against_run15": 538,
+    "identical_paragraph_links_against_run15": 93,
+    "identical_reference_entries_against_run15": 99
+  },
+  "kindle_previewer": {
+    "executed_for_rc1_in_this_workspace": false,
+    "status": "Not separately evidenced for RC1; application unavailable in workspace"
+  },
+  "release_authorisation": {
+    "preparation": true,
+    "merge": false,
+    "kdp_upload": false,
+    "publish": false
+  },
+  "commercial_decisions": "Six launch settings approved; remaining listing, territory, edition and timing decisions open",
+  "launch_settings_approval": {
+    "status": "Approved for submission preparation",
+    "approver": "Alec Gardner",
+    "date_sydney": "2026-11-25",
+    "reply": "yes",
+    "confirmation_question": "For now, let\u2019s take one step: are you happy with those proposed launch settings?",
+    "settings": {
+      "australian_list_price": {
+        "currency": "AUD",
+        "amount": 9.99,
+        "gst_included": true
+      },
+      "royalty_option": "70% for eligible sales",
+      "primary_marketplace": "Amazon.com.au",
+      "kdp_select": "Do not enrol initially",
+      "drm": "Do not apply DRM",
+      "kindle_isbn": "Do not purchase an ISBN; leave the optional field blank"
+    },
+    "not_resolved_by_this_approval": [
+      "publishing rights and territories",
+      "AI-origin declarations",
+      "retailer description",
+      "keywords and categories",
+      "edition presentation",
+      "launch timing",
+      "RC1 Kindle visual verification"
+    ],
+    "kdp_settings_applied": false
+  }
+}

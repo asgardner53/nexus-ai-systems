@@ -1,0 +1,68 @@
+name: Build AI Governance EPUB v0.2 Review
+on:
+  workflow_dispatch:
+  push:
+    branches: [ai-governance-epub-v0.2-review]
+    paths:
+      - '.github/workflows/build-ai-governance-epub-v0.2.yml'
+      - 'books/ai-governance-in-practice/04-production/epub/scripts/**'
+      - 'books/ai-governance-in-practice/04-production/epub/epub-v0.2.css'
+      - 'books/ai-governance-in-practice/04-production/epub/metadata.yaml'
+      - 'books/ai-governance-in-practice/04-production/epub/about-the-author-approved-v1.0.md'
+      - 'books/ai-governance-in-practice/04-production/epub/book_cover_design_dark_navy_electric_blue_backgr.png'
+      - 'books/ai-governance-in-practice/04-production/visual-assets/*-v1.0.svg'
+      - 'books/ai-governance-in-practice/02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md'
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install EPUB tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc librsvg2-bin
+          curl -fL -o /tmp/epubcheck.zip https://github.com/w3c/epubcheck/releases/download/v5.4.0/epubcheck-5.4.0.zip
+          echo '33350c61038e71dfb3d45a76aed04bf5481e6d5500cb780f6e98db8bbd15a28c  /tmp/epubcheck.zip' | sha256sum -c -
+          unzip -q /tmp/epubcheck.zip -d /tmp
+      - name: Prepare approved diagrams and production manuscript
+        working-directory: books/ai-governance-in-practice
+        run: |
+          mkdir -p 04-production/epub/build/images
+          for f in 04-production/visual-assets/*-v1.0.svg; do
+            n=$(basename "$f" .svg)
+            rsvg-convert -w 1600 "$f" -o "04-production/epub/build/images/$n.png"
+          done
+          python 04-production/epub/scripts/prepare_epub_v02.py
+      - name: Build EPUB v0.2 reflowable
+        working-directory: books/ai-governance-in-practice/04-production/epub
+        run: |
+          pandoc build/metadata-v0.2.yaml build/manuscript-production.md \
+            --from markdown --to epub3 --toc --toc-depth=1 --split-level=1 \
+            --css=build/epub-v0.2.css --resource-path=build \
+            --epub-cover-image=book_cover_design_dark_navy_electric_blue_backgr.png \
+            --output=build/AI_Governance_in_Practice_v0.2_REVIEW.epub
+      - name: Run EPUBCheck
+        working-directory: books/ai-governance-in-practice/04-production/epub/build
+        run: |
+          set -euo pipefail
+          java -jar /tmp/epubcheck-5.4.0/epubcheck.jar AI_Governance_in_Practice_v0.2_REVIEW.epub 2>&1 | tee epubcheck-v0.2.txt
+      - name: Verify complete book content and navigation
+        working-directory: books/ai-governance-in-practice/04-production/epub
+        run: |
+          python scripts/validate_epub_v02.py build/AI_Governance_in_Practice_v0.2_REVIEW.epub --report build/structural-qa-v0.2.json
+          python scripts/tests/test_validate_epub_v02.py build/AI_Governance_in_Practice_v0.2_REVIEW.epub
+      - name: Upload validated review proof
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-governance-in-practice-epub-v0.2-review
+          if-no-files-found: error
+          path: |
+            books/ai-governance-in-practice/04-production/epub/build/AI_Governance_in_Practice_v0.2_REVIEW.epub
+            books/ai-governance-in-practice/04-production/epub/build/epubcheck-v0.2.txt
+            books/ai-governance-in-practice/04-production/epub/build/v0.2-manifest.txt
+            books/ai-governance-in-practice/04-production/epub/build/structural-qa-v0.2.json

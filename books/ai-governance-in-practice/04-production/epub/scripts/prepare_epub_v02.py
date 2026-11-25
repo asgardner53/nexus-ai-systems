@@ -1,0 +1,132 @@
+#!/usr/bin/env python3
+"""Prepare controlled EPUB v0.2 from the locked manuscript; never edit the source."""
+from pathlib import Path
+import hashlib, html, re, runpy, subprocess
+
+ROOT=Path(__file__).resolve().parents[3]
+EPUB=ROOT/"04-production/epub"
+SRC=ROOT/"02-manuscript/ai-governance-in-practice-unified-copyedit-v1.0.md"
+BUILD=EPUB/"build"
+IMAGES=BUILD/"images"
+COVER=EPUB/"book_cover_design_dark_navy_electric_blue_backgr.png"
+APPROVED_COVER_SHA256="95997bbfa293f22be8caef9ca6e45729eda96efe7701177f1dffc9976a31e9da"
+assert COVER.is_file(), f"Missing approved production cover: {COVER}"
+cover_bytes=COVER.read_bytes()
+actual_cover_sha256=hashlib.sha256(cover_bytes).hexdigest()
+png_dims="unknown"
+if cover_bytes[:8] == b"\x89PNG\r\n\x1a\n" and len(cover_bytes) >= 24:
+    png_dims=f"{int.from_bytes(cover_bytes[16:20],'big')}x{int.from_bytes(cover_bytes[20:24],'big')}"
+print(f"COVER_DIAGNOSTIC path={COVER.name} bytes={len(cover_bytes)} dimensions={png_dims} expected_sha256={APPROVED_COVER_SHA256} actual_sha256={actual_cover_sha256}")
+assert actual_cover_sha256==APPROVED_COVER_SHA256, f"Approved cover checksum mismatch: expected {APPROVED_COVER_SHA256}; actual {actual_cover_sha256}; bytes {len(cover_bytes)}; dimensions {png_dims}"
+assert SRC.is_file()
+source_bytes = SRC.read_bytes()
+source_blob_sha = hashlib.sha1(f"blob {len(source_bytes)}\0".encode() + source_bytes).hexdigest()
+assert source_blob_sha == "b06696d4e77f7bb4b5c3520fcc32e326936880d3", "Locked manuscript changed"
+source_text = source_bytes.decode("utf-8")
+assert source_text.startswith("# AI Governance in Practice\n")
+runpy.run_path(str(EPUB/"scripts/prepare_epub.py"),run_name="__main__")
+prepared=(BUILD/"manuscript-production.md").read_text(encoding="utf-8")
+assert prepared.count("](images/")==3, "Expected three original diagrams"
+text=prepared
+# Kindle Previewer QA: remove em/en-dash separator construction from Part/Chapter headings only.
+# Preserve all punctuation inside approved narrative prose.
+heading_separator_re = re.compile(r"(?m)^(# (?:Part [IVX]+|Chapter \d+)) [—–] (.+)$")
+heading_changes = []
+def normalise_heading(match):
+    # A callable preserves real captured text; escaped replacement strings
+    # previously emitted literal backreferences and deleted the headings.
+    replacement = f"{match.group(1)}: {match.group(2)}"
+    heading_changes.append((match.group(0), replacement))
+    return replacement
+text, heading_separators_removed = heading_separator_re.subn(normalise_heading, text)
+assert heading_separators_removed == 13, f"Expected 13 Part/Chapter heading separators; removed {heading_separators_removed}"
+assert len(re.findall(r"(?m)^# (?:Part [IVX]+|Chapter \d+): .+$", text)) == 13
+assert not re.search(r"(?m)^#{1,3} .*?[—–]", text), "Unreviewed dash construction in a major heading"
+assert not re.search(r"\\[12](?=:|\s|$)", text), "Literal replacement backreference in manuscript"
+visuals=[
+ ("V04-policy-to-control-gap","Policy-to-Control Gap",["Declared policy","Defined authority","Operating controls","Observable evidence"],"A policy is not an operating control until authority, execution and evidence connect.","The gap does not necessarily imply bad faith."),
+ ("V05-human-decision-responsibility","Human Decision Responsibility",["AI recommendation","Human examination","Authorised decision","Recorded rationale"],"Human involvement must include informed judgement and the ability to intervene.","That does not mean the decision is wrong. It does mean that a human sign-off is not, by itself, evidence of meaningful human control."),
+ ("V06-governance-in-the-workflow","Governance in the Workflow",["Work request","Authority check","Execution and escalation","Monitoring and record"],"Governance is embedded in the workflow, not detached from it.","Workflow and configuration can allocate decision rights without announcing that they are doing so."),
+ ("V07-capability-to-control","Capability-to-Control Relationship",["Understand the task","Challenge the output","Intervene effectively","Organisational support"],"Training alone does not establish operational capability.","Meaningful capability is therefore partly domain capability."),
+ ("V08-agent-action-control-points","Agent Action Control Points",["Identity and access","Permitted action scope","Approval or stop gate","Execution and review"],"AI-initiated actions require boundaries, evidence and recourse.","Yet nobody had made one conscious decision to authorise the complete consequence.")
+]
+# Locked SHA-256 fingerprints of the five author-approved SVG masters.
+# Abort production if any generated diagram drifts from its approved master.
+APPROVED_SVG_SHA256={
+    "V04-policy-to-control-gap":"69d80a08242ae793a721fcd911b4b4a195d973abd2397a795a7229957f643695",
+    "V05-human-decision-responsibility":"b2043f863b92afcf5cac64dbbcd9bc793d033a3344a9be70075b148fe6febdc6",
+    "V06-governance-in-the-workflow":"1ebfc3c112e03b28528406df77855c626e4c0da3d4c68448e353c9fb07198bbe",
+    "V07-capability-to-control":"69a861701a3d51c4d7b68b0ddd56102275b40570f6db276577fe9fd4d9dffe30",
+    "V08-agent-action-control-points":"af94fb781a9af4147bd42114643db8d242d6c76e5a10a901cceca6a3d44fdf86",
+}
+def svg_for(title,steps,caption):
+    parts=['<svg xmlns="http://www.w3.org/2000/svg" width="960" height="750" viewBox="0 0 960 750" role="img" aria-labelledby="title desc">',f'<title id="title">{html.escape(title)}</title>',f'<desc id="desc">{html.escape("; then ".join(steps)+". "+caption)}</desc>','<rect width="960" height="750" fill="#ffffff"/>',f'<text x="480" y="62" text-anchor="middle" fill="#173c59" font-family="Arial,sans-serif" font-size="38" font-weight="700">{html.escape(title)}</text>']
+    for i,step in enumerate(steps):
+        y=115+i*139
+        parts += [f'<rect x="130" y="{y}" width="700" height="104" rx="17" fill="#eef6f7" stroke="#236779" stroke-width="3"/>',f'<text x="480" y="{y+62}" text-anchor="middle" fill="#173c59" font-family="Arial,sans-serif" font-size="31" font-weight="600">{html.escape(step)}</text>']
+        if i<3:
+            parts += [f'<line x1="480" y1="{y+105}" x2="480" y2="{y+131}" stroke="#236779" stroke-width="5"/>',f'<path d="M470 {y+123} L480 {y+134} L490 {y+123}" fill="none" stroke="#236779" stroke-width="4"/>']
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+for basename,title,steps,caption,anchor in visuals:
+    assert text.count(anchor)==1, "Non-unique anchor: "+title
+    end=text.find("\n\n",text.index(anchor))
+    assert end>0, "Missing paragraph boundary: "+title
+    alt=title+". "+"; then ".join(steps)+". "+caption
+    fig=f"\n\n![{alt}](images/{basename}.png){{.core-visual}}"
+    text=text[:end]+fig+text[end:]
+    svg=IMAGES/(basename+".svg")
+    svg.write_text(svg_for(title,steps,caption),encoding="utf-8")
+    actual=hashlib.sha256(svg.read_bytes()).hexdigest()
+    assert actual==APPROVED_SVG_SHA256[basename], f"Approved artwork drift: {basename}: {actual}"
+    subprocess.run(["rsvg-convert","-w","1200",str(svg),"-o",str(IMAGES/(basename+".png"))],check=True)
+text,removed=re.subn(r"(?m)^---[ \t]*\n(?:\n)?","",text)
+assert removed>=10 and text.count("](images/")==8
+# Reverse the actual, recorded heading edits before comparing with the input.
+# Do not repeat the forward transformation in the expected result: that hid
+# the previous missing-heading defect.
+recovered=text
+for basename,*rest in visuals:
+    recovered=re.sub(r"\n\n!\[[^\n]*\]\(images/"+re.escape(basename)+r"\.png\)\{\.core-visual\}","",recovered,count=1)
+for original, replacement in heading_changes:
+    assert recovered.count("\n" + replacement + "\n") == 1, f"Heading lost or duplicated: {original}"
+    recovered = recovered.replace("\n" + replacement + "\n", "\n" + original + "\n", 1)
+expected=prepared
+expected=re.sub(r"(?m)^---[ \t]*\n(?:\n)?","",expected)
+assert recovered==expected, "Unexpected change to existing manuscript content"
+# Independently recover the locked source, including the three base visuals.
+recovered_source = recovered
+for basename in ("meaningful-accountability-test-v1.0", "delegated-authority-map-v1.0", "evolved-governance-chain-v1.0"):
+    recovered_source, count = re.subn(r"\n\n!\[[^\n]*\]\(images/" + re.escape(basename) + r"\.png\)\{\.core-visual\}", "", recovered_source)
+    assert count == 1, f"Original visual missing or duplicated: {basename}"
+title_block = "# AI Governance in Practice\n\n## Building the Operating System for Responsible, Accountable and Effective AI\n\n**Alec Gardner**\n\n---\n\n"
+assert source_text.startswith(title_block), "Unexpected source title block"
+source_body = re.sub(r"(?m)^---[ \t]*\n(?:\n)?", "", source_text[len(title_block):])
+assert recovered_source == source_body, "Production prose differs from the locked manuscript"
+# Add only author-approved end matter after manuscript-fidelity verification.
+bio_source=EPUB/"about-the-author-approved-v1.0.md"
+bio_record=bio_source.read_text(encoding="utf-8")
+bio_start=bio_record.index("## About the Author\n")
+bio_end=bio_record.index("\n## Approval and production note",bio_start)
+bio=bio_record[bio_start:bio_end].strip()
+assert bio.startswith("## About the Author\n") and "**Nexus BMG**" in bio
+assert text.count("## About the Author")==0, "About the Author already present"
+bio = bio.replace("## About the Author\n", "# About the Author\n", 1)
+text=text.rstrip()+"\n\n"+bio+"\n"
+assert text.endswith(bio+"\n") and text.count("# About the Author")==1
+(BUILD/"manuscript-production.md").write_text(text,encoding="utf-8")
+meta=(EPUB/"metadata.yaml").read_text(encoding="utf-8")
+assert "v0.1" in meta
+assert meta.count("\n---\n") == 1
+meta = meta.replace("v0.1","v0.2").replace("\n---\n", "\ntoc-title: Contents\n---\n")
+(BUILD/"metadata-v0.2.yaml").write_text(meta,encoding="utf-8")
+css=(EPUB/"epub-v0.2.css").read_text(encoding="utf-8")
+(BUILD/"epub-v0.2.css").write_text(css,encoding="utf-8")
+(BUILD/"v0.2-manifest.txt").write_text(
+    "SOURCE_GIT_BLOB_SHA="+source_blob_sha+"\n"+
+    "SOURCE_SHA256="+hashlib.sha256(SRC.read_bytes()).hexdigest()+"\n"+
+    f"NEW_VISUALS=5\nTOTAL_VISUALS=8\nSEPARATORS_REMOVED={removed}\nHEADING_SEPARATORS_REMOVED={heading_separators_removed}\n"+
+    "MANUSCRIPT_FIDELITY=PASS\nLOCKED_SOURCE_RECOVERY=PASS\nABOUT_AUTHOR=APPROVED_V1.0\n"+
+    "COVER_SHA256="+APPROVED_COVER_SHA256+"\nCOVER_STATUS=APPROVED_V1.0\n",encoding="utf-8")
+print("Prepared EPUB v0.2: eight visuals; removed",removed,"decorative separators;",heading_separators_removed,"heading separators; prose fidelity PASS with approved QA heading normalisation")
